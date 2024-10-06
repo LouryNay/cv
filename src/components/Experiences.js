@@ -1,26 +1,38 @@
-import React from 'react';
-import cvData from './../cv.xml';
+import React, { useEffect, useState } from 'react';
+import xml2js from 'xml2js';
+import xmlFile from '../cv.xml'; // Assurez-vous que le chemin est correct
 
-const Experiences = ({ language }) => {
-  const experiences = cvData.experiences.exp.map((exp, index) => (
-    <div key={index}>
-      <h3>{language === 'fr' ? exp.int.fr : exp.int.en}</h3>
-      <p>{exp.date}</p>
-      <p>{language === 'fr' ? exp.lieu.fr : exp.lieu.en}</p>
-      <ul>
-        {exp.desc.mission && exp.desc.mission.map((mission, i) => (
-          <li key={i}>{language === 'fr' ? mission.fr : mission.en}</li>
-        ))}
-      </ul>
-    </div>
-  ));
+const Experiences = () => {
+    const [data, setData] = useState(null);
 
-  return (
-    <div>
-      <h2>{language === 'fr' ? 'Expériences' : 'Experiences'}</h2>
-      {experiences}
-    </div>
-  );
+    useEffect(() => {
+        fetch(xmlFile)
+            .then(response => response.text())
+            .then(str => xml2js.parseStringPromise(str))
+            .then(result => setData(result.CV));
+    }, []);
+
+    if (!data) return <div>Loading...</div>;
+
+    return (
+        <div className="experiences">
+            <h2>Mes Expériences</h2>
+            <div className="timeline">
+                {data.experiences[0].experience.map((experience, index) => (
+                    <div key={index}>
+                        <h3>{experience.title[0]}</h3>
+                        <p>Compétences développées:</p>
+                        <ul>
+                            {experience.skills[0].skill.map((skill, i) => (
+                                <li key={i}>{skill}</li>
+                            ))}
+                        </ul>
+                        <p>{experience.description[0]}</p>
+                    </div>
+                ))}
+            </div>
+        </div>
+    );
 };
 
 export default Experiences;

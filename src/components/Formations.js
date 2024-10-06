@@ -1,27 +1,45 @@
-import React from 'react';
-import cvData from './../cv.xml';
+import React, { useEffect, useState } from 'react';
+import xml2js from 'xml2js';
+import xmlFile from '../cv.xml'; // Assurez-vous que le chemin est correct
 
-const Formations = ({ language }) => {
-  const formations = cvData.formation.diplome.map((diplome, index) => (
-    <div key={index}>
-      <h3>{language === 'fr' ? diplome.int.fr : diplome.int.en}</h3>
-      <p>{diplome.date}</p>
-      <p>{language === 'fr' ? diplome.lieu.fr : diplome.lieu.en}</p>
-      <p>{language === 'fr' ? diplome.parcours.fr : diplome.parcours.en}</p>
-      <ul>
-        {diplome.projets.projet && diplome.projets.projet.map((projet, i) => (
-          <li key={i}>{language === 'fr' ? projet.fr : projet.en}</li>
-        ))}
-      </ul>
-    </div>
-  ));
+const Formations = () => {
+    const [data, setData] = useState(null);
 
-  return (
-    <div>
-      <h2>{language === 'fr' ? 'Formations' : 'Education'}</h2>
-      {formations}
-    </div>
-  );
+    useEffect(() => {
+        fetch(xmlFile)
+            .then(response => response.text())
+            .then(str => xml2js.parseStringPromise(str))
+            .then(result => setData(result.CV));
+    }, []);
+
+    if (!data) return <div>Loading...</div>;
+
+    return (
+        <div className="formations">
+            <h2>Formations</h2>
+            <div className="timeline">
+                {data.formulations[0].formation.map((formation, index) => (
+                    <div key={index}>
+                        <h3>{formation.title[0]}</h3>
+                        <p>Compétences acquises:</p>
+                        <ul>
+                            {formation.skills[0].skill.map((skill, i) => (
+                                <li key={i}>{skill}</li>
+                            ))}
+                        </ul>
+                        <p>Projets:</p>
+                        <ul>
+                            {formation.projects[0].project.map((project, i) => (
+                                <li key={i}>
+                                    <strong>{project.name[0]}</strong>: {project.description[0]}
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                ))}
+            </div>
+        </div>
+    );
 };
 
 export default Formations;
