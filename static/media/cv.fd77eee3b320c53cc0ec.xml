@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CV>
+    <home>
+        <photo>URL_DE_VOTRE_PHOTO</photo>
+        <name>Votre Nom</name>
+        <title>Titre de votre CV</title>
+        <description>Une description courte de votre parcours.</description>
+        <timeline>
+            <experience>
+                <title>Nom de l'expérience</title>
+                <date>Date</date>
+                <description>Une courte description de l'expérience.</description>
+            </experience>
+            <formation>
+                <title>Nom de la formation</title>
+                <date>Date</date>
+                <description>Une courte description de la formation.</description>
+            </formation>
+        </timeline>
+        <competences>
+            <competence>
+                <category>Catégorie 1</category>
+                <description>Compétences de cette catégorie.</description>
+            </competence>
+            <competence>
+                <category>Catégorie 2</category>
+                <description>Compétences de cette catégorie.</description>
+            </competence>
+        </competences>
+    </home>
+    <formulations>
+        <formation>
+            <title>Nom de la formation</title>
+            <skills>
+                <skill>Compétence 1</skill>
+                <skill>Compétence 2</skill>
+            </skills>
+            <projects>
+                <project>
+                    <name>Nom du projet</name>
+                    <description>Description du projet.</description>
+                </project>
+            </projects>
+        </formation>
+    </formulations>
+    <experiences>
+        <experience>
+            <title>Nom de l'expérience</title>
+            <skills>
+                <skill>Compétence 1</skill>
+                <skill>Compétence 2</skill>
+            </skills>
+            <description>Influence sur mon parcours.</description>
+        </experience>
+    </experiences>
+    <competences>
+        <competence>
+            <name>Compétence 1</name>
+            <level>80</level> <!-- Pourcentage de compétence -->
+            <details>Développée à travers des projets personnels.</details>
+        </competence>
+    </competences>
+    <autres>
+        <description>Informations supplémentaires sur mon parcours et mes loisirs.</description>
+    </autres>
+</CV>
