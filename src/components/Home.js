@@ -70,7 +70,7 @@ const Home = ({ language }) => {
         // Extraire les autres compétences
         const categories = cvData.competences[0].categorie.map(categorie => {
             const skills = categorie.comp.map(comp => ({
-                name: comp.name[0][language][0],
+                name: comp.name[0][language],
                 level: comp.niv[0]
             })).sort((a, b) => b.level - a.level);
 
