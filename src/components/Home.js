@@ -8,15 +8,19 @@ const Home = ({ language }) => {
     const [competences, setCompetences] = useState([]);
 
     useEffect(() => {
-        fetch(xmlFile)
-            .then(response => response.text())
-            .then(str => xml2js.parseStringPromise(str))
-            .then(result => {
-                setData(result.cv);
-                extractAndSortTimelineItems(result.cv);
-                extractCompetences(result.cv);
-            });
-            console.log(result.cv);
+      fetch(xmlFile)
+      .then(response => response.text())
+      .then(str => xml2js.parseStringPromise(str))
+      .then(result => {
+        console.log('Parsed XML:', result);
+        if (result && result.cv) {
+          setData(result.cv);
+          extractAndSortTimelineItems(result.cv);
+          extractCompetences(result.cv);
+        }
+      })
+      .catch(error => console.error('Erreur lors du chargement du fichier XML:', error));
+    
     }, [language]);
 
     const extractAndSortTimelineItems = (cvData) => {
