@@ -357,16 +357,25 @@
             <fr>Outils de développement</fr>
           </ti>
           <comp>
-            <en>IDE: Visual Studio Code, Eclipse, IntelliJ, PyCharm, Android Studio, Visual Studio</en>
-            <fr>IDE : Visual Studio Code, Eclipse, IntelliJ, PyCharm, Android Studio, Visual Studio</fr>
+            <name>
+              <en>IDE: Visual Studio Code, Eclipse, IntelliJ, PyCharm, Android Studio, Visual Studio</en>
+              <fr>IDE : Visual Studio Code, Eclipse, IntelliJ, PyCharm, Android Studio, Visual Studio</fr>
+            </name>
+            <niv>100</niv>
           </comp>
           <comp>
-            <en>Version Control: Git, GitHub, GitLab</en>
-            <fr>Gestion de versions : Git, GitHub, GitLab</fr>
+            <name>
+              <en>Version Control: Git, GitHub, GitLab</en>
+              <fr>Gestion de versions : Git, GitHub, GitLab</fr>  
+            </name>
+            <niv>99</niv>
           </comp>
           <comp>
-            <en>Build Automation: Maven, Gradle, Webpack</en>
-            <fr>Automatisation et build : Maven, Gradle, Webpack</fr>
+            <name>
+              <en>Build Automation: Maven, Gradle, Webpack</en>
+              <fr>Automatisation et build : Maven, Gradle, Webpack</fr>
+            </name>
+            <niv>98</niv>
           </comp>
         </categorie>
       </competences>
