@@ -16,6 +16,7 @@ const Home = ({ language }) => {
                 extractAndSortTimelineItems(result.cv);
                 extractCompetences(result.cv);
             });
+            console.log(result.cv);
     }, [language]);
 
     const extractAndSortTimelineItems = (cvData) => {

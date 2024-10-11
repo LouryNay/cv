@@ -20,11 +20,12 @@ const App = () => {
             <div className="App">
                 <Banner changeLanguage={changeLanguage} />
                 <Routes>
-                    <Route path="/" element={<Home language={language} />} />
-                    <Route path="/competences" element={<Competences language={language} />} />
-                    <Route path="/formations" element={<Formations language={language} />} />
-                    <Route path="/experiences" element={<Experiences language={language} />} />
-                    <Route path="/autres" element={<Autres language={language} />} />
+                  <Route path="/" element={<Home language={language} />} />
+                  <Route path="*" element={<Home language={language} />} />
+                  <Route path="/competences" element={<Competences language={language} />} />
+                  <Route path="/formations" element={<Formations language={language} />} />
+                  <Route path="/experiences" element={<Experiences language={language} />} />
+                  <Route path="/autres" element={<Autres language={language} />} />
                 </Routes>
             </div>
         </Router>
