@@ -18,7 +18,7 @@ const Home = ({ language }) => {
 
         const experiences = cvData.experiences[0].exp.map(exp => ({
             type: 'experience',
-            title: exp.int[0],
+            title: exp.int[0][language][0],
             date: exp.date[0],
             lieu: exp.lieu[0][language][0],
             sortDate: parseDate(exp.date[0])
@@ -53,17 +53,32 @@ const Home = ({ language }) => {
 
         // Extraire les autres compétences
         const categories = cvData.competences[0].categorie.map(categorie => {
-            const skills = categorie.comp.map(comp => ({
-                name: comp.name[0][language][0],
-                level: comp.niv[0]
-            })).sort((a, b) => b.level - a.level);
-
-            return {
-                category: categorie.ti[0][language][0],
-                skills: skills,
-                link: `#${categorie.ti[0][language][0].toLowerCase().replace(/\s+/g, '-')}`
-            };
-        });
+          // Récupération et tri des compétences de la balise comp
+          const compSkills = (categorie.comp || [])
+              .map(comp => ({
+                  name: comp.name[0][language][0],
+                  level: comp.niv[0]
+              }))
+              .sort((a, b) => b.level - a.level); // Trier les compétences par niveau décroissant
+      
+          // Récupération et tri des cours de la balise cours
+          const coursSkills = (categorie.cours || [])
+              .map(cours => ({
+                  name: cours.name[0][language][0],
+                  level: cours.niv[0]
+              }))
+              .sort((a, b) => b.level - a.level); // Trier les cours par niveau décroissant
+      
+          // Concaténer les compétences et les cours, les compétences en premier
+          const skills = [...compSkills, ...coursSkills];
+      
+          return {
+              category: categorie.ti[0][language][0],
+              skills: skills,
+              link: `#${categorie.ti[0][language][0].toLowerCase().replace(/\s+/g, '-')}`
+          };
+      });
+      
 
         competencesData.push(...categories);
         setCompetences(competencesData);
