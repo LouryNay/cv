@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import xml2js from 'xml2js';
-import xmlFile from '../cv.xml';
+import xmlFile from './../cv.xml';
 
 const Home = ({ language }) => {
     const [data, setData] = useState(null);
