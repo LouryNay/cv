@@ -10,9 +10,9 @@ const Home = ({ language }) => {
     const extractAndSortTimelineItems = useCallback((cvData) => {
         const diplomas = cvData.formation[0].diplome.map(diplome => ({
             type: 'formation',
-            title: diplome.int[0][language],
+            title: diplome.int[0][language][0],
             date: diplome.date[0],
-            lieu: diplome.lieu[0][language],
+            lieu: diplome.lieu[0][language][0],
             sortDate: parseDate(diplome.date[0])
         }));
 
@@ -20,7 +20,7 @@ const Home = ({ language }) => {
             type: 'experience',
             title: exp.int[0],
             date: exp.date[0],
-            lieu: exp.lieu[0][language],
+            lieu: exp.lieu[0][language][0],
             sortDate: parseDate(exp.date[0])
         }));
 
@@ -42,8 +42,8 @@ const Home = ({ language }) => {
             category: language === 'fr' ? 'Langues' : 'Languages',
             skills: [
                 {
-                    name: lang.l[0][language],
-                    level: lang.niveau[0][language]
+                    name: lang.l[0][language][0],
+                    level: lang.niveau[0][language][0]
                 }
             ],
             link: '#languages'
@@ -54,14 +54,14 @@ const Home = ({ language }) => {
         // Extraire les autres compétences
         const categories = cvData.competences[0].categorie.map(categorie => {
             const skills = categorie.comp.map(comp => ({
-                name: comp.name[0][language],
+                name: comp.name[0][language][0],
                 level: comp.niv[0]
             })).sort((a, b) => b.level - a.level);
 
             return {
-                category: categorie.ti[0][language],
+                category: categorie.ti[0][language][0],
                 skills: skills,
-                link: `#${categorie.ti[0][language].toLowerCase().replace(/\s+/g, '-')}`
+                link: `#${categorie.ti[0][language][0].toLowerCase().replace(/\s+/g, '-')}`
             };
         });
 
@@ -94,8 +94,8 @@ const Home = ({ language }) => {
                 <div className="presentation-container">
                     <img className="profile-photo" src="" alt="Profile" />
                     <p className="nom">{data.profil[0].nom}</p>
-                    <p className="titre">{language === 'fr' ? data.profil[0].titre[0].fr : data.profil[0].titre[0].en}</p>
-                    <p className="presentation-description">{language === 'fr' ? data.profil[0].description[0].fr : data.profil[0].description[0].en}</p>
+                    <p className="titre">{language === 'fr' ? data.profil[0].titre[0].fr[0] : data.profil[0].titre[0].en[0]}</p>
+                    <p className="presentation-description">{language === 'fr' ? data.profil[0].description[0].fr[0] : data.profil[0].description[0].en[0]}</p>
                 </div>
             </section>
 
