@@ -34,7 +34,7 @@ const Home = ({ language }) => {
 
         const experiences = cvData.experiences[0].exp.map(exp => ({
             type: 'experience',
-            title: exp.title[0],
+            title: exp.int[0],
             date: exp.date[0],
             lieu: exp.lieu[0][language][0],
             sortDate: parseDate(exp.date[0])
