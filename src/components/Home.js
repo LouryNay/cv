@@ -93,7 +93,7 @@ const Home = ({ language }) => {
             <section className="presentation">
                 <div className="presentation-container">
                     <img className="profile-photo" src="" alt="Profile" />
-                    <p className="nom">{data.profil[0].nom[0]}</p>
+                    <p className="nom">{data.profil[0].nom}</p>
                     <p className="titre">{language === 'fr' ? data.profil[0].titre[0].fr[0] : data.profil[0].titre[0].en[0]}</p>
                     <p className="presentation-description">{language === 'fr' ? data.profil[0].description[0].fr[0] : data.profil[0].description[0].en[0]}</p>
                 </div>
