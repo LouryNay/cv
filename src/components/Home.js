@@ -10,9 +10,9 @@ const Home = ({ language }) => {
     const extractAndSortTimelineItems = useCallback((cvData) => {
         const diplomas = cvData.formation[0].diplome.map(diplome => ({
             type: 'formation',
-            title: diplome.int[0][language][0],
+            title: diplome.int[0][language],
             date: diplome.date[0],
-            lieu: diplome.lieu[0][language][0],
+            lieu: diplome.lieu[0][language],
             sortDate: parseDate(diplome.date[0])
         }));
 
@@ -20,7 +20,7 @@ const Home = ({ language }) => {
             type: 'experience',
             title: exp.int[0],
             date: exp.date[0],
-            lieu: exp.lieu[0][language][0],
+            lieu: exp.lieu[0][language],
             sortDate: parseDate(exp.date[0])
         }));
 
@@ -42,8 +42,8 @@ const Home = ({ language }) => {
             category: language === 'fr' ? 'Langues' : 'Languages',
             skills: [
                 {
-                    name: lang.l[0][language][0],
-                    level: lang.niveau[0][language][0]
+                    name: lang.l[0][language],
+                    level: lang.niveau[0][language]
                 }
             ],
             link: '#languages'
@@ -59,9 +59,9 @@ const Home = ({ language }) => {
             })).sort((a, b) => b.level - a.level);
 
             return {
-                category: categorie.ti[0][language][0],
+                category: categorie.ti[0][language],
                 skills: skills,
-                link: `#${categorie.ti[0][language][0].toLowerCase().replace(/\s+/g, '-')}`
+                link: `#${categorie.ti[0][language].toLowerCase().replace(/\s+/g, '-')}`
             };
         });
 
@@ -94,8 +94,8 @@ const Home = ({ language }) => {
                 <div className="presentation-container">
                     <img className="profile-photo" src="" alt="Profile" />
                     <p className="nom">{data.profil[0].nom}</p>
-                    <p className="titre">{language === 'fr' ? data.profil[0].titre[0].fr[0] : data.profil[0].titre[0].en[0]}</p>
-                    <p className="presentation-description">{language === 'fr' ? data.profil[0].description[0].fr[0] : data.profil[0].description[0].en[0]}</p>
+                    <p className="titre">{language === 'fr' ? data.profil[0].titre[0].fr : data.profil[0].titre[0].en}</p>
+                    <p className="presentation-description">{language === 'fr' ? data.profil[0].description[0].fr : data.profil[0].description[0].en}</p>
                 </div>
             </section>
 
