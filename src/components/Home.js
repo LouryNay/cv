@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useCallback } from 'react';
 import xml2js from 'xml2js';
 import xmlFile from './../cv.xml';
 
@@ -7,23 +7,7 @@ const Home = ({ language }) => {
     const [timelineItems, setTimelineItems] = useState([]);
     const [competences, setCompetences] = useState([]);
 
-    useEffect(() => {
-      fetch(xmlFile)
-      .then(response => response.text())
-      .then(str => xml2js.parseStringPromise(str))
-      .then(result => {
-        console.log('Parsed XML:', result);
-        if (result && result.cv) {
-          setData(result.cv);
-          extractAndSortTimelineItems(result.cv);
-          extractCompetences(result.cv);
-        }
-      })
-      .catch(error => console.error('Erreur lors du chargement du fichier XML:', error));
-    
-    }, [language]);
-
-    const extractAndSortTimelineItems = (cvData) => {
+    const extractAndSortTimelineItems = useCallback((cvData) => {
         const diplomas = cvData.formation[0].diplome.map(diplome => ({
             type: 'formation',
             title: diplome.int[0][language][0],
@@ -42,7 +26,7 @@ const Home = ({ language }) => {
 
         const allItems = [...diplomas, ...experiences].sort((a, b) => b.sortDate - a.sortDate);
         setTimelineItems(allItems);
-    };
+    }, [language]); // Ajoutez 'language' si cela change les résultats
 
     const parseDate = (dateStr) => {
         const [startDate] = dateStr.split(' - ');
@@ -50,7 +34,7 @@ const Home = ({ language }) => {
         return parseInt(year + month.padStart(2, '0'), 10);
     };
 
-    const extractCompetences = (cvData) => {
+    const extractCompetences = useCallback((cvData) => {
         const competencesData = [];
 
         // Extraire les langues
@@ -83,7 +67,23 @@ const Home = ({ language }) => {
 
         competencesData.push(...categories);
         setCompetences(competencesData);
-    };
+    }, [language]); // Ajoutez 'language' si cela change les résultats
+
+    useEffect(() => {
+        fetch(xmlFile)
+            .then(response => response.text())
+            .then(str => xml2js.parseStringPromise(str))
+            .then(result => {
+                console.log('Parsed XML:', result);
+                if (result && result.cv) {
+                    setData(result.cv);
+                    extractAndSortTimelineItems(result.cv);
+                    extractCompetences(result.cv);
+                }
+            })
+            .catch(error => console.error('Erreur lors du chargement du fichier XML:', error));
+
+    }, [language, extractAndSortTimelineItems, extractCompetences]); // Ajoutez les fonctions ici
 
     if (!data) return <div>Loading...</div>;
 
