@@ -1,13 +1,13 @@
 import React, { useEffect, useState, useCallback } from 'react';
-import xml2js from 'xml2js';
-import xmlFile from './../cv.xml';
 
-const Home = ({ language }) => {
-  const [data, setData] = useState(null);
+const Home = ({ language, cvData }) => {
   const [timelineItems, setTimelineItems] = useState([]);
   const [competences, setCompetences] = useState([]);
 
-  const extractAndSortTimelineItems = useCallback((cvData) => {
+  // Fonction pour extraire et trier les éléments de la frise chronologique
+  const extractAndSortTimelineItems = useCallback(() => {
+    if (!cvData) return;
+
     const diplomas = cvData.formation[0].diplome.map(diplome => ({
       type: 'formation',
       title: diplome.int[0][language][0],
@@ -26,7 +26,7 @@ const Home = ({ language }) => {
 
     const allItems = [...diplomas, ...experiences].sort((a, b) => a.sortDate - b.sortDate);
     setTimelineItems(allItems);
-  }, [language]); // Ajoutez 'language' si cela change les résultats
+  }, [language, cvData]);
 
   const parseDate = (dateStr) => {
     const [startDate] = dateStr.split(' - ');
@@ -34,7 +34,10 @@ const Home = ({ language }) => {
     return parseInt(year + month.padStart(2, '0'), 10);
   };
 
-  const extractCompetences = useCallback((cvData) => {
+  // Fonction pour extraire les compétences
+  const extractCompetences = useCallback(() => {
+    if (!cvData) return;
+
     const competencesData = [];
 
     // Extraire les langues
@@ -47,29 +50,25 @@ const Home = ({ language }) => {
       link: '#languages'
     };
 
-    // Ajouter les langues regroupées à la liste des compétences
+    // Ajouter les langues à la liste des compétences
     competencesData.push(langues);
-
 
     // Extraire les autres compétences
     const categories = cvData.competences[0].categorie.map(categorie => {
-      // Récupération et tri des compétences de la balise comp
       const compSkills = (categorie.comp || [])
         .map(comp => ({
           name: comp.name[0][language][0],
           level: comp.niv[0]
         }))
-        .sort((a, b) => b.level - a.level); // Trier les compétences par niveau décroissant
+        .sort((a, b) => b.level - a.level);
 
-      // Récupération et tri des cours de la balise cours
       const coursSkills = (categorie.cours || [])
         .map(cours => ({
           name: cours.name[0][language][0],
           level: cours.niv[0]
         }))
-        .sort((a, b) => b.level - a.level); // Trier les cours par niveau décroissant
+        .sort((a, b) => b.level - a.level);
 
-      // Concaténer les compétences et les cours, les compétences en premier
       const skills = [...compSkills, ...coursSkills];
 
       return {
@@ -79,28 +78,17 @@ const Home = ({ language }) => {
       };
     });
 
-
     competencesData.push(...categories);
     setCompetences(competencesData);
-  }, [language]); // Ajoutez 'language' si cela change les résultats
+  }, [language, cvData]);
 
+  // Utiliser les données de `cvData` pour extraire les informations lors du changement de langue ou des données
   useEffect(() => {
-    fetch(xmlFile)
-      .then(response => response.text())
-      .then(str => xml2js.parseStringPromise(str))
-      .then(result => {
-        console.log('Parsed XML:', result);
-        if (result && result.cv) {
-          setData(result.cv);
-          extractAndSortTimelineItems(result.cv);
-          extractCompetences(result.cv);
-        }
-      })
-      .catch(error => console.error('Erreur lors du chargement du fichier XML:', error));
+    extractAndSortTimelineItems();
+    extractCompetences();
+  }, [extractAndSortTimelineItems, extractCompetences]);
 
-  }, [language, extractAndSortTimelineItems, extractCompetences]); // Ajoutez les fonctions ici
-
-  if (!data) return <div>Loading...</div>;
+  if (!cvData) return <div>Loading...</div>;
 
   return (
     <div className="home">
@@ -108,9 +96,9 @@ const Home = ({ language }) => {
       <section className="presentation">
         <div className="presentation-container">
           <img className="profile-photo" src="" alt="Profile" />
-          <p className="nom">{data.profil[0].nom}</p>
-          <p className="titre">{language === 'fr' ? data.profil[0].titre[0].fr[0] : data.profil[0].titre[0].en[0]}</p>
-          <p className="presentation-description">{language === 'fr' ? data.profil[0].description[0].fr[0] : data.profil[0].description[0].en[0]}</p>
+          <p className="nom">{cvData.profil[0].nom}</p>
+          <p className="titre">{language === 'fr' ? cvData.profil[0].titre[0].fr[0] : cvData.profil[0].titre[0].en[0]}</p>
+          <p className="presentation-description">{language === 'fr' ? cvData.profil[0].description[0].fr[0] : cvData.profil[0].description[0].en[0]}</p>
         </div>
       </section>
 
