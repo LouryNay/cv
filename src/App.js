@@ -18,7 +18,7 @@ const App = () => {
     return (
         <Router>
             <div className="App">
-                <Banner changeLanguage={changeLanguage} />
+                <Banner language={language} changeLanguage={changeLanguage} />
                 <Routes>
                   <Route path="/" element={<Home language={language} />} />
                   <Route path="*" element={<Home language={language} />} />
