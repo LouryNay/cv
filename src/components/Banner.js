@@ -6,11 +6,11 @@ const Banner = ({ language, changeLanguage }) => {
     return (
         <div className="banner">
             <nav className="navbar">
-                <Link to="/" className="nav-link">{language === 'fr' ? 'Accueil' : 'Home'}</Link>
-                <Link to="/competences" className="nav-link">{language === 'fr' ? 'Compétences' : 'Skills'}</Link>
-                <Link to="/formations" className="nav-link">{language === 'fr' ? 'Formations' : 'Education'}</Link>
-                <Link to="/experiences" className="nav-link">{language === 'fr' ? 'Expériences' : 'Experiences'}</Link>
-                <Link to="/autres" className="nav-link">{language === 'fr' ? 'À propos de moi' : 'About me'}</Link>
+                <Link to="/cv" className="nav-link">{language === 'fr' ? 'Accueil' : 'Home'}</Link>
+                <Link to="/cv/competences" className="nav-link">{language === 'fr' ? 'Compétences' : 'Skills'}</Link>
+                <Link to="/cv/formations" className="nav-link">{language === 'fr' ? 'Formations' : 'Education'}</Link>
+                <Link to="/cv/experiences" className="nav-link">{language === 'fr' ? 'Expériences' : 'Experiences'}</Link>
+                <Link to="/cv/autres" className="nav-link">{language === 'fr' ? 'À propos de moi' : 'About me'}</Link>
             </nav>
             <div className="banner-buttons">
                 <button className="contact-button">Contact</button>
