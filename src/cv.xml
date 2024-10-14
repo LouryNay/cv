@@ -59,22 +59,44 @@
               <fr>Python</fr>
             </name>
             <niv>90</niv>
-            <pre>Python est mon langage de prédilection, avec une expertise et une polyvalence développée depuis mes 15 ans.</pre>            
+            <pre>
+              <fr>Python est mon langage de prédilection, avec une expertise et une polyvalence développée depuis mes 15 ans.</fr>
+              <en>Python is my language of choice, with expertise and versatility developed since I was 15.</en>
+            </pre>            
             <des>
-              <paragraph>
-                J'ai découvert Python à l'âge de 15 ans, ce qui en fait le langage dans lequel j'ai le plus d'expérience aujourd'hui. Mon premier projet marquant fut un <strong>jeu éducatif pour le baccalauréat</strong>, visant à aider les enfants à lire l'heure, avec plusieurs niveaux de difficulté. Ce projet a été mon introduction à la programmation et à la conception de projets.
-              </paragraph>
-              <paragraph>
-                <strong>Développement continu pendant la licence de psychologie :</strong> Durant ma licence, j'ai continué à approfondir mes compétences, principalement dans le <strong>graphisme et le développement d'interfaces utilisateurs</strong>, en utilisant Python pour créer des visuels SVG et des interfaces interactives. Cette période m’a permis d'affiner mon approche créative de la programmation.             </paragraph>
-              <paragraph>
-                <strong>Exploration avancée en intelligence artificielle au cours de mon master :</strong> Lors de mon master, j’ai exploré les <strong>domaines du machine learning et du deep learning</strong> avec des bibliothèques comme PyTorch, TensorFlow, et scikit-learn. Cette expérience m'a permis de manipuler des <strong>algorithmes complexes</strong> et de les appliquer à des projets concrets. Par exemple, j’ai réalisé un <strong>jeu de Hidoku</strong>, en intégrant des algorithmes de machine learning pour la résolution, et un <strong>projet de réentraînement de modèle de langage</strong> pour la classification, qui a enrichi ma compréhension du traitement du langage naturel.
-              </paragraph>
-              <paragraph>
-                <strong>Traitement d'image en stage de fin d'études :</strong> Durant mon <strong>stage de fin d'études</strong>, j'ai approfondi le <strong>traitement d'image avec OpenCV</strong>, ce qui m'a permis de renforcer mes compétences en vision par ordinateur et de les appliquer à des projets concrets.
-              </paragraph>
-              <paragraph>
-                <strong>Maîtrise des bibliothèques courantes et polyvalence en développement :</strong> Je suis familière avec la majorité des <strong>bibliothèques Python courantes</strong> telles que NumPy, pandas, et Flask. Bien que ma pratique en <strong>développement web</strong> soit plus légère, elle m'a permis de développer des applications avec <strong>interaction de bases de données</strong> et des interfaces simples avec Flask. Mon expertise reste majoritairement orientée vers le <strong>développement logiciel</strong>, mais je suis à l'aise pour adapter des solutions web selon les besoins.
-              </paragraph>
+              <fr>
+                <p>
+                  J'ai découvert Python à l'âge de 15 ans, ce qui en fait le langage dans lequel j'ai le plus d'expérience aujourd'hui. Mon premier projet marquant fut un *<strong>jeu éducatif pour le baccalauréat</strong>, visant à aider les enfants à lire l'heure, avec plusieurs niveaux de difficulté. Ce projet a été mon introduction à la programmation et à la conception de projets.
+                </p>
+                <p>
+                  *<strong>Développement continu pendant la licence de psychologie :</strong> Durant ma licence, j'ai continué à approfondir mes compétences, principalement dans le *<strong>graphisme et le développement d'interfaces utilisateurs</strong>, en utilisant Python pour créer des visuels SVG et des interfaces interactives. Cette période m’a permis d'affiner mon approche créative de la programmation.             </p>
+                <p>
+                  *<strong>Exploration avancée en intelligence artificielle au cours de mon master :</strong> Lors de mon master, j’ai exploré les *<strong>domaines du machine learning et du deep learning</strong> avec des bibliothèques comme PyTorch, TensorFlow, et scikit-learn. Cette expérience m'a permis de manipuler des *<strong>algorithmes complexes</strong> et de les appliquer à des projets concrets. Par exemple, j’ai réalisé un *<strong>jeu de Hidoku</strong>, en intégrant des algorithmes de machine learning pour la résolution, et un *<strong>projet de réentraînement de modèle de langage</strong> pour la classification, qui a enrichi ma compréhension du traitement du langage naturel.
+                </p>
+                <p>
+                  *<strong>Traitement d'image en stage de fin d'études :</strong> Durant mon *<strong>stage de fin d'études</strong>, j'ai approfondi le *<strong>traitement d'image avec OpenCV</strong>, ce qui m'a permis de renforcer mes compétences en vision par ordinateur et de les appliquer à des projets concrets.
+                </p>
+                <p>
+                  *<strong>Maîtrise des bibliothèques courantes et polyvalence en développement :</strong> Je suis familière avec la majorité des *<strong>bibliothèques Python courantes</strong> telles que NumPy, pandas, et Flask. Bien que ma pratique en *<strong>développement web</strong> soit plus légère, elle m'a permis de développer des applications avec *<strong>interaction de bases de données</strong> et des interfaces simples avec Flask. Mon expertise reste majoritairement orientée vers le *<strong>développement logiciel</strong>, mais je suis à l'aise pour adapter des solutions web selon les besoins.
+                </p>
+              </fr>
+              <en>
+                <p>
+                  I discovered Python at the age of 15, making it the language in which I have the most experience today. My first significant project was an *<strong>educational game for the baccalaureate</strong>, aimed at helping children learn to read time, with multiple levels of difficulty. This project was my introduction to programming and project design.
+                </p>
+                <p>
+                  *<strong>Continuous development during my psychology degree:</strong> During my degree, I continued to deepen my skills, primarily in *<strong>graphics and user interface development</strong>, using Python to create SVG visuals and interactive interfaces. This period allowed me to refine my creative approach to programming.
+                </p>
+                <p>
+                  *<strong>Advanced exploration in artificial intelligence during my master’s degree:</strong> During my master's, I explored the *<strong>fields of machine learning and deep learning</strong> with libraries such as PyTorch, TensorFlow, and scikit-learn. This experience enabled me to work with *<strong>complex algorithms</strong> and apply them to real-world projects. For instance, I developed a *<strong>Hidoku game</strong>, integrating machine learning algorithms for its resolution, and a *<strong>language model retraining project</strong> for classification, which enhanced my understanding of natural language processing.
+                </p>
+                <p>
+                  *<strong>Image processing during my final internship:</strong> During my *<strong>final internship</strong>, I deepened my knowledge of *<strong>image processing with OpenCV</strong>, which allowed me to strengthen my skills in computer vision and apply them to concrete projects.
+                </p>
+                <p>
+                  *<strong>Mastery of common libraries and versatility in development:</strong> I am familiar with most *<strong>common Python libraries</strong> such as NumPy, pandas, and Flask. While my experience in *<strong>web development</strong> is lighter, it has enabled me to develop applications with *<strong>database interaction</strong> and simple interfaces using Flask. My expertise remains primarily oriented towards *<strong>software development</strong>, but I am comfortable adapting web solutions as needed.
+                </p>                
+              </en>
             </des>
           </comp>
           <comp>
@@ -83,17 +105,33 @@
               <fr>Java</fr>
             </name>
             <niv>80</niv>
-            <pre>Java est le langage que j'ai le plus utilisé durant mon master et qui m'a permis de maîtriser la programmation orientée objet.</pre>
+            <pre>
+              <fr>Java est le langage que j'ai le plus utilisé durant mon master et qui m'a permis de maîtriser la programmation orientée objet.</fr>
+              <en>Java is the language I used the most during my master's, which allowed me to master object-oriented programming.</en>
+            </pre>
             <des>
-              <paragraph>
-                <strong>Apprentissage des concepts fondamentaux et avancés de Java :</strong> J'ai découvert Java dès le début de mon master, ce qui m'a permis de <strong>maîtriser les concepts fondamentaux de la programmation orientée objet</strong>. Les cours de master ont approfondi ma compréhension des <strong>flux de données, des design patterns</strong>, ainsi que de la <strong>gestion de l'asynchrone</strong>. Ces compétences ont été essentielles pour construire des applications robustes et maintenir un code structuré et performant.
-              </paragraph>
-              <paragraph>
-                <strong>Projets significatifs en Java :</strong> Durant mon master, j'ai eu l'occasion de mener plusieurs projets concrets, tels qu'une <strong>bataille navale multijoueur en local</strong>, un <strong>serveur de messagerie en Java</strong>, et une <strong>reproduction du jeu Zelda 64</strong>. Ces projets ont non seulement renforcé mes compétences techniques, mais m'ont également permis de développer des solutions complexes et de travailler sur différents types d'architectures.
-              </paragraph>
-              <paragraph>
-                <strong>Expérience et renforcement des compétences en Java  :</strong> À travers des projets personnels et durant mon stage, j'ai approfondi mes connaissances à travers le <strong>développement d'applications Android</strong>. Cela m'a permis de me familiariser avec les <strong>bibliothèques courantes en java</strong> et d'acquérir une expertise plus poussée dans la <strong>gestion de l'asynchrone</strong>, particulièrement dans le contexte des applications mobiles. Mes compétences en Java s'orientent principalement vers le <strong>deéveloppemnt logiciel et d'applications mobiles</strong>.
-              </paragraph>
+              <fr>
+                <p>
+                  *<strong>Apprentissage des concepts fondamentaux et avancés de Java :</strong> J'ai découvert Java dès le début de mon master, ce qui m'a permis de *<strong>maîtriser les concepts fondamentaux de la programmation orientée objet</strong>. Les cours de master ont approfondi ma compréhension des *<strong>flux de données, des design patterns</strong>, ainsi que de la *<strong>gestion de l'asynchrone</strong>. Ces compétences ont été essentielles pour construire des applications robustes et maintenir un code structuré et performant.
+                </p>
+                <p>
+                  *<strong>Projets significatifs en Java :</strong> Durant mon master, j'ai eu l'occasion de mener plusieurs projets concrets, tels qu'une *<strong>bataille navale multijoueur en local</strong>, un *<strong>serveur de messagerie en Java</strong>, et une *<strong>reproduction du jeu Zelda 64</strong>. Ces projets ont non seulement renforcé mes compétences techniques, mais m'ont également permis de développer des solutions complexes et de travailler sur différents types d'architectures.
+                </p>
+                <p>
+                  *<strong>Expérience et renforcement des compétences en Java  :</strong> À travers des projets personnels et durant mon stage, j'ai approfondi mes connaissances à travers le *<strong>développement d'applications Android</strong>. Cela m'a permis de me familiariser avec les *<strong>bibliothèques courantes en java</strong> et d'acquérir une expertise plus poussée dans la *<strong>gestion de l'asynchrone</strong>, particulièrement dans le contexte des applications mobiles. Mes compétences en Java s'orientent principalement vers le *<strong>deéveloppemnt logiciel et d'applications mobiles</strong>.
+                </p>
+              </fr>
+              <en>
+                <p>
+                  *<strong>Learning fundamental and advanced Java concepts:</strong> I discovered Java at the beginning of my master's, which allowed me to *<strong>master the fundamental concepts of object-oriented programming</strong>. The master's courses deepened my understanding of *<strong>data streams, design patterns</strong>, and *<strong>asynchronous management</strong>. These skills were essential for building robust applications and maintaining structured and efficient code.
+                </p>
+                <p>
+                  *<strong>Significant projects in Java:</strong> During my master's, I had the opportunity to lead several concrete projects, such as a *<strong>local multiplayer battleship game</strong>, a *<strong>Java messaging server</strong>, and a *<strong>recreation of the game Zelda 64</strong>. These projects not only strengthened my technical skills but also allowed me to develop complex solutions and work on different types of architectures.
+                </p>
+                <p>
+                  *<strong>Experience and skills enhancement in Java:</strong> Through personal projects and during my internship, I deepened my knowledge by *<strong>developing Android applications</strong>. This allowed me to become familiar with *<strong>common Java libraries</strong> and gain deeper expertise in *<strong>asynchronous management</strong>, particularly in the context of mobile applications. My skills in Java are mainly oriented towards *<strong>software and mobile application development</strong>.
+                </p>
+              </en>
             </des>
           </comp>
           <comp>
@@ -102,8 +140,90 @@
               <fr>Kotlin</fr>
             </name>
             <niv>95</niv>
-            <pre></pre>
-            <des></des>
+            <pre>
+              <fr>Kotlin est un langage que j'ai découvert en apprenant la programmation mobile, et que j'ai beaucoup pratiqué durant mon stage de fin d'études.</fr>
+              <en>Kotlin is a language I discovered while learning mobile programming, and I extensively practiced it during my final internship.</en>
+            </pre>
+            <des>
+              <fr>
+                <p>
+                  *<strong>Découverte et apprentissage personnel de Kotlin :</strong> J'ai découvert Kotlin en dehors de mes cours, en apprenant la *<strong>programmation mobile</strong>. Sa syntaxe proche de Java m'a permis de rapidement le maîtriser, et de développer divers projets personnels. Cela m'a aidé à acquérir une solide compréhension de la *<strong>structure et de la syntaxe</strong> de ce langage.
+                </p>
+                <p>
+                  *<strong>Expérience approfondie en stage de fin d'études :</strong> Kotlin a été le langage le plus utilisé durant mon *<strong>stage de fin d'études</strong>, que ce soit pour le développement de *<strong>logiciels robotiques</strong> ou d'*<strong>applications mobiles</strong>. J'ai travaillé avec des *<strong>bibliothèques variées</strong>, par exemple, pour la gestion de données, le traitement asynchrone ou l'intégration de modèles d'intelligence artificielle. Cette expérience m'a permis de consolider mes compétences en *<strong>développement d'applications Android</strong> et de créer des solutions robustes pour des besoins spécifiques.
+                </p>
+                <p>
+                  *<strong>Projets personnels :</strong> J'ai développé plusieurs *<strong>applications mobiles</strong> pendant mon temps libre 
+                  <ul>
+                    <li>
+                      *<strong>Application d'organisation de révision :</strong> Cette application aide à optimiser les révisions en programmant des sessions de révision basées sur la *<strong>méthode de révision espacée</strong>. L'utilisateur entre ses cours et l'application ajuste le planning en fonction des progrès et du temps estimé. Un *<strong>système de gamification</strong> motive l'utilisateur avec des niveaux et des médailles en fonction de la régularité des révisions.
+                    </li>
+                    <li>
+                      *<strong>Application de gestion de projet :</strong> Une application permettant de gérer ses projets en définissant le *<strong>temps alloué</strong> par jour ou par semaine. Les utilisateurs peuvent entrer leurs projets, leurs *<strong>deadlines</strong>, le niveau d'importance, ainsi que les *<strong>tâches à accomplir</strong> et leur estimation de temps. L'application ajuste automatiquement le programme de travail en fonction des *<strong>progrès réalisés</strong> et des créneaux de disponibilité.
+                    </li>
+                  </ul>
+                </p>
+                <p>
+                  *<strong>Projets réalisés en stage :</strong> Au cours de mon stage, j'ai travaillé sur divers projets combinant *<strong>Kotlin</strong> et la *<strong>robotique sociale</strong>                  
+                  <ul>
+                    <li>
+                      *<strong>Logiciel de quizz de culture générale pour robot :</strong> J'ai développé un quizz interactif où les *<strong>questions et indices</strong> sont générés par OpenAI, et le robot guide les utilisateurs avec des indices en cas de mauvaise réponse. Le score final est annoncé avec des félicitations personnalisées du robot, rendant le quizz dynamique et engageant.
+                    </li>
+                    <li>
+                      *<strong>Animation d'événements :</strong> J'ai implémenté des solutions d'*<strong>agent d'accueil robotique</strong>, où le robot utilise OpenAI allié au RAG (retrieval augmented generation) pour répondre aux questions sur l'entreprise et le programme de l'événement. Ces interactions ont été utilisées lors de démonstrations publiques pour présenter le potentiel de la robotique sociale.
+                    </li>
+                    <li>
+                      *<strong>Application mobile synchronisée avec le robot :</strong> Développement d'une interface graphique pour accompagner les jeux du robot, comme un *<strong>quizz à choix multiples</strong> ou un *<strong>jeu du chaud-froid</strong>. L'application est synchronisée avec les actions du robot, permettant une interaction fluide et immersive pour les utilisateurs.
+                    </li>
+                    <li>
+                      *<strong>Manipulation de l'audio et personnalisation de la voix du robot :</strong> J'ai travaillé sur la *<strong>modification de la synthèse vocale</strong> du robot pour intégrer des voix personnalisées et des ajustements en temps réel, enrichissant ainsi l'expérience utilisateur.
+                    </li>
+                    <li>
+                      *<strong>Remplissage de formulaires à travers une conversation naturelle :</strong> J'ai réalisé un projet permettant de *<strong>remplir des formulaires</strong> en conversant avec le robot. Ce projet impliquait la création d'une *<strong>interface web</strong> pour définir les formulaires, la génération de réponses possibles avec OpenAI, et la *<strong>prise de photo d'identité</strong> via la caméra du robot.
+                    </li>
+                  </ul>
+                </p>
+              </fr>
+              <en>
+                <p>
+                  *<strong>Discovery and self-learning of Kotlin:</strong> I discovered Kotlin outside of my formal studies while learning *<strong>mobile programming</strong>. Its syntax, which is similar to Java, allowed me to quickly master it and develop various personal projects. This helped me gain a solid understanding of the language's *<strong>structure and syntax</strong>.
+                </p>
+                <p>
+                  *<strong>In-depth experience during my end-of-study internship:</strong> Kotlin was the language I used the most during my *<strong>end-of-study internship</strong>, both for developing *<strong>robotics software</strong> and *<strong>mobile applications</strong>. I worked with *<strong>various libraries</strong>, including those for data management, asynchronous processing, and AI model integration. This experience helped me strengthen my skills in *<strong>Android application development</strong> and create robust solutions for specific needs.
+                </p>
+                <p>
+                  *<strong>Personal Projects:</strong> I developed several *<strong>mobile applications</strong> in my free time:
+                  <ul>
+                    <li>
+                      *<strong>Revision organization app:</strong> This app helps optimize study sessions using the *<strong>spaced repetition method</strong>. Users input their courses, and the app adjusts the schedule based on progress and estimated time. A *<strong>gamification system</strong> motivates users with levels and badges based on their consistency in studying.
+                    </li>
+                    <li>
+                      *<strong>Project management app:</strong> An app designed to manage projects by defining the *<strong>time allocated</strong> per day or week. Users can input their projects, *<strong>deadlines</strong>, priority levels, and *<strong>tasks to complete</strong> along with time estimates. The app automatically adjusts the work schedule based on *<strong>progress made</strong> and available time slots.
+                    </li>
+                  </ul>
+                </p>
+                <p>
+                  *<strong>Projects completed during my internship:</strong> During my internship, I worked on various projects combining *<strong>Kotlin</strong> and *<strong>social robotics</strong>:
+                  <ul>
+                    <li>
+                      *<strong>General knowledge quiz software for robots:</strong> I developed an interactive quiz where *<strong>questions and hints</strong> were generated by OpenAI, and the robot guided users with hints in case of incorrect answers. The final score was announced with personalized congratulations from the robot, making the quiz dynamic and engaging.
+                    </li>
+                    <li>
+                      *<strong>Event animation:</strong> I implemented *<strong>robotic reception agent solutions</strong>, where the robot used OpenAI combined with RAG (retrieval-augmented generation) to answer questions about the company and the event program. These interactions were used in public demonstrations to showcase the potential of social robotics.
+                    </li>
+                    <li>
+                      *<strong>Mobile app synchronized with the robot:</strong> Developed a graphical interface to accompany the robot's games, such as a *<strong>multiple-choice quiz</strong> or a *<strong>hot-and-cold game</strong>. The app was synchronized with the robot’s actions, allowing for a seamless and immersive interaction for users.
+                    </li>
+                    <li>
+                      *<strong>Audio manipulation and custom robot voice:</strong> I worked on *<strong>modifying the robot’s speech synthesis</strong> to integrate custom voices and real-time adjustments, enhancing the user experience.
+                    </li>
+                    <li>
+                      *<strong>Form filling through natural conversation:</strong> I worked on a project that allowed *<strong>form filling</strong> through conversations with the robot. This involved creating a *<strong>web interface</strong> for form setup, generating possible responses using OpenAI, and *<strong>taking ID photos</strong> through the robot's camera.
+                    </li>
+                  </ul>
+                </p>
+              </en>              
+            </des>
           </comp>
           <comp>
             <name>
@@ -195,8 +315,8 @@
           </comp>
           <cours>
             <name>
-              <en>ReactJS</en>
-              <fr>ReactJS</fr>
+              <en>React JS</en>
+              <fr>React JS</fr>
             </name>
             <niv>65</niv>
             <pre></pre>
