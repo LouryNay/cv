@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import xml2js from 'xml2js';
 import xmlFile from './cv.xml';
-import { HashRouter  as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Banner from './components/Banner';
 import Home from './components/Home';
 import Competences from './components/Competences';
@@ -31,22 +31,23 @@ const App = () => {
             .catch(error => console.error('Erreur lors du chargement du fichier XML:', error));
     }, []);
 
+    // Si les données du CV ne sont pas encore chargées, afficher le message de chargement
     if (!cvData) return <div>Loading...</div>;
 
     return (
-      <Router basename="/cv/">
-        <div className="App">
-          <Banner language={language} changeLanguage={changeLanguage} />
-          <Routes>
-            <Route path="/" element={<Home language={language} cvData={cvData} />} />
-            <Route path="/competences" element={<Competences language={language} cvData={cvData} />} />
-            <Route path="/formations" element={<Formations />} />
-            <Route path="/experiences" element={<Experiences />} />
-            <Route path="/autres" element={<Autres />} />
-          </Routes>
-        </div>
-      </Router>
+        <Router basename="/cv/">
+            <div className="App">
+                <Banner language={language} changeLanguage={changeLanguage} />
+                <Routes>
+                    <Route path="/" element={<Home language={language} cvData={cvData} />} />
+                    <Route path="/competences" element={<Competences language={language} cvData={cvData} />} />
+                    <Route path="/formations" element={<Formations language={language} cvData={cvData} />} />
+                    <Route path="/experiences" element={<Experiences language={language} cvData={cvData} />} />
+                    <Route path="/autres" element={<Autres language={language} cvData={cvData} />} />
+                </Routes>
+            </div>
+        </Router>
     );
-  };
-  
+};
+
 export default App;
