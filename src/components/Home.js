@@ -140,7 +140,7 @@ const Home = ({ language, cvData }) => {
                 ))}
               </ul>
               {/* Mettez à jour ce lien */}
-              <a href={`/competences${comp.link}`} className="details-button">
+              <a href={`#/competences${comp.link}`} className="details-button">
                 {language === 'fr' ? 'Plus de détails' : 'More details'}
               </a>
             </div>
