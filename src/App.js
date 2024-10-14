@@ -38,7 +38,7 @@ const App = () => {
         <div className="App">
           <Banner language={language} changeLanguage={changeLanguage} />
           <Routes>
-            <Route path="/" element={<Home language={language} cvData={cvData} />} />
+            <Route path="/cv" element={<Home language={language} cvData={cvData} />} />
             <Route path="/competences" element={<Competences />} />
             <Route path="/formations" element={<Formations />} />
             <Route path="/experiences" element={<Experiences />} />
