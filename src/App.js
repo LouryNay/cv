@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import xml2js from 'xml2js';
 import xmlFile from './cv.xml';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Banner from './components/Banner';
 import Home from './components/Home';
 import Competences from './components/Competences';
 import Formations from './components/Formations';
 import Experiences from './components/Experiences';
 import Autres from './components/Autres';
-import Banner from './components/Banner';
 import './App.css';
 
 const App = () => {
@@ -35,18 +35,18 @@ const App = () => {
 
     return (
       <Router basename="/cv">
-            <div className="App">
-                <Banner language={language} changeLanguage={changeLanguage} />
-                <Routes>
-                    <Route path="/" element={<Home language={language} cvData={cvData} />} />
-                    <Route path="/competences" element={<Competences language={language} cvData={cvData} />} />
-                    <Route path="/formations" element={<Formations language={language} cvData={cvData} />} />
-                    <Route path="/experiences" element={<Experiences language={language} cvData={cvData} />} />
-                    <Route path="/autres" element={<Autres language={language} cvData={cvData} />} />
-                </Routes>
-            </div>
-        </Router>
+        <div className="App">
+          <Banner language={language} changeLanguage={changeLanguage} />
+          <Routes>
+            <Route path="/" element={<Home language={language} cvData={cvData} />} />
+            <Route path="/competences" element={<Competences language={language} cvData={cvData} />} />
+            <Route path="/formations" element={<Formations />} />
+            <Route path="/experiences" element={<Experiences />} />
+            <Route path="/autres" element={<Autres />} />
+          </Routes>
+        </div>
+      </Router>
     );
-};
-
+  };
+  
 export default App;
