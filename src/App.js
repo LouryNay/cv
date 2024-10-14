@@ -34,15 +34,15 @@ const App = () => {
     if (!cvData) return <div>Loading...</div>;
 
     return (
-        <Router>
+      <Router basename="/cv">
             <div className="App">
                 <Banner language={language} changeLanguage={changeLanguage} />
                 <Routes>
-                    <Route path="/cv" element={<Home language={language} cvData={cvData} />} />
-                    <Route path="/cv/competences" element={<Competences language={language} cvData={cvData} />} />
-                    <Route path="/cv/formations" element={<Formations language={language} cvData={cvData} />} />
-                    <Route path="/cv/experiences" element={<Experiences language={language} cvData={cvData} />} />
-                    <Route path="/cv/autres" element={<Autres language={language} cvData={cvData} />} />
+                    <Route path="/" element={<Home language={language} cvData={cvData} />} />
+                    <Route path="/competences" element={<Competences language={language} cvData={cvData} />} />
+                    <Route path="/formations" element={<Formations language={language} cvData={cvData} />} />
+                    <Route path="/experiences" element={<Experiences language={language} cvData={cvData} />} />
+                    <Route path="/autres" element={<Autres language={language} cvData={cvData} />} />
                 </Routes>
             </div>
         </Router>
