@@ -35,7 +35,7 @@ const App = () => {
     if (!cvData) return <div>Loading...</div>;
 
     return (
-        <Router basename="/cv/">
+        <Router basename="/cv">
             <div className="App">
                 <Banner language={language} changeLanguage={changeLanguage} />
                 <Routes>
