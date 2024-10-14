@@ -4,6 +4,15 @@ const Home = ({ language, cvData }) => {
   const [timelineItems, setTimelineItems] = useState([]);
   const [competences, setCompetences] = useState([]);
 
+  const normalizeString = (str) => {
+    return str
+      .normalize('NFD') // Décompose les caractères accentués
+      .replace(/[\u0300-\u036f]/g, '') // Enlève les diacritiques
+      .toLowerCase() // Met tout en minuscules
+      .replace(/\s+/g, '-') // Remplace les espaces par des tirets
+      .replace(/[^\w-]/g, ''); // Supprime les caractères non alphanumériques sauf les tirets
+  };  
+
   // Fonction pour extraire et trier les éléments de la frise chronologique
   const extractAndSortTimelineItems = useCallback(() => {
     if (!cvData) return;
@@ -74,7 +83,8 @@ const Home = ({ language, cvData }) => {
       return {
         category: categorie.ti[0][language][0],
         skills: skills,
-        link: `#${categorie.ti[0][language][0].toLowerCase().replace(/\s+/g, '-')}`
+        link: `#${normalizeString(categorie.ti[0][language][0])}`
+
       };
     });
 
@@ -129,13 +139,15 @@ const Home = ({ language, cvData }) => {
                   <li key={idx}>{skill.name}</li>
                 ))}
               </ul>
-              <a href={comp.link} className="details-button">
+              {/* Mettez à jour ce lien */}
+              <a href={`#/competences${comp.link}`} className="details-button">
                 {language === 'fr' ? 'Plus de détails' : 'More details'}
               </a>
             </div>
           ))}
         </div>
       </section>
+
     </div>
   );
 };
