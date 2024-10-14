@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cv>
+    <profil>
+        <nom>Mélina Berthier</nom>
+        <titre>
+            <fr>Développeuse Full Stack Junior</fr>
+            <en>Junior Full Stack Developer</en>
+        </titre>
+        <description>
+            <fr>Développeuse passionnée par les technologies web</fr>
+            <en>Développeuse passionnée par les technologies web</en>
+        </description>
+    </profil>
+
+    <langues>
+        <lang>
+          <l>
+            <en>French</en>
+            <fr>Français</fr>
+          </l>
+          <niveau>
+            <en>Native</en>
+            <fr>Maternelle</fr>
+          </niveau>
+        </lang>
+    
+        <lang>
+          <l>
+            <en>English</en>
+            <fr>Anglais</fr>
+          </l>
+          <niveau>
+            <en>Fluent</en>
+            <fr>C2</fr>
+          </niveau>
+        </lang>
+    
+        <lang>
+          <l>
+            <en>Spanish</en>
+            <fr>Espagnol</fr>
+          </l>
+          <niveau>
+            <en>Intermediate</en>
+            <fr>B2</fr>
+          </niveau>
+        </lang>
+      </langues>
+    
+      <competences>
+        <categorie>
+          <ti>
+            <en>Programming Languages</en>
+            <fr>Langages de programmation</fr>
+          </ti>
+          <comp>
+            <name>
+              <en>Python</en>
+              <fr>Python</fr>
+            </name>
+            <niv>90</niv>
+            <pre>
+              <fr>Python est mon langage de prédilection, avec une expertise et une polyvalence développée depuis mes 15 ans.</fr>
+              <en>Python is my language of choice, with expertise and versatility developed since I was 15.</en>
+            </pre>            
+            <des>
+              <fr>
+                <p>
+                  J'ai découvert Python à l'âge de 15 ans, ce qui en fait le langage dans lequel j'ai le plus d'expérience aujourd'hui. Mon premier projet marquant fut un *<strong>jeu éducatif pour le baccalauréat</strong>, visant à aider les enfants à lire l'heure, avec plusieurs niveaux de difficulté. Ce projet a été mon introduction à la programmation et à la conception de projets.
+                </p>
+                <p>
+                  *<strong>Développement continu pendant la licence de psychologie :</strong> Durant ma licence, j'ai continué à approfondir mes compétences, principalement dans le *<strong>graphisme et le développement d'interfaces utilisateurs</strong>, en utilisant Python pour créer des visuels SVG et des interfaces interactives. Cette période m’a permis d'affiner mon approche créative de la programmation.             </p>
+                <p>
+                  *<strong>Exploration avancée en intelligence artificielle au cours de mon master :</strong> Lors de mon master, j’ai exploré les *<strong>domaines du machine learning et du deep learning</strong> avec des bibliothèques comme PyTorch, TensorFlow, et scikit-learn. Cette expérience m'a permis de manipuler des *<strong>algorithmes complexes</strong> et de les appliquer à des projets concrets. Par exemple, j’ai réalisé un *<strong>jeu de Hidoku</strong>, en intégrant des algorithmes de machine learning pour la résolution, et un *<strong>projet de réentraînement de modèle de langage</strong> pour la classification, qui a enrichi ma compréhension du traitement du langage naturel.
+                </p>
+                <p>
+                  *<strong>Traitement d'image en stage de fin d'études :</strong> Durant mon *<strong>stage de fin d'études</strong>, j'ai approfondi le *<strong>traitement d'image avec OpenCV</strong>, ce qui m'a permis de renforcer mes compétences en vision par ordinateur et de les appliquer à des projets concrets.
+                </p>
+                <p>
+                  *<strong>Maîtrise des bibliothèques courantes et polyvalence en développement :</strong> Je suis familière avec la majorité des *<strong>bibliothèques Python courantes</strong> telles que NumPy, pandas, et Flask. Bien que ma pratique en *<strong>développement web</strong> soit plus légère, elle m'a permis de développer des applications avec *<strong>interaction de bases de données</strong> et des interfaces simples avec Flask. Mon expertise reste majoritairement orientée vers le *<strong>développement logiciel</strong>, mais je suis à l'aise pour adapter des solutions web selon les besoins.
+                </p>
+              </fr>
+              <en>
+                <p>
+                  I discovered Python at the age of 15, making it the language in which I have the most experience today. My first significant project was an *<strong>educational game for the baccalaureate</strong>, aimed at helping children learn to read time, with multiple levels of difficulty. This project was my introduction to programming and project design.
+                </p>
+                <p>
+                  *<strong>Continuous development during my psychology degree:</strong> During my degree, I continued to deepen my skills, primarily in *<strong>graphics and user interface development</strong>, using Python to create SVG visuals and interactive interfaces. This period allowed me to refine my creative approach to programming.
+                </p>
+                <p>
+                  *<strong>Advanced exploration in artificial intelligence during my master’s degree:</strong> During my master's, I explored the *<strong>fields of machine learning and deep learning</strong> with libraries such as PyTorch, TensorFlow, and scikit-learn. This experience enabled me to work with *<strong>complex algorithms</strong> and apply them to real-world projects. For instance, I developed a *<strong>Hidoku game</strong>, integrating machine learning algorithms for its resolution, and a *<strong>language model retraining project</strong> for classification, which enhanced my understanding of natural language processing.
+                </p>
+                <p>
+                  *<strong>Image processing during my final internship:</strong> During my *<strong>final internship</strong>, I deepened my knowledge of *<strong>image processing with OpenCV</strong>, which allowed me to strengthen my skills in computer vision and apply them to concrete projects.
+                </p>
+                <p>
+                  *<strong>Mastery of common libraries and versatility in development:</strong> I am familiar with most *<strong>common Python libraries</strong> such as NumPy, pandas, and Flask. While my experience in *<strong>web development</strong> is lighter, it has enabled me to develop applications with *<strong>database interaction</strong> and simple interfaces using Flask. My expertise remains primarily oriented towards *<strong>software development</strong>, but I am comfortable adapting web solutions as needed.
+                </p>                
+              </en>
+            </des>
+          </comp>
+          <comp>
+            <name>
+              <en>Java</en>
+              <fr>Java</fr>
+            </name>
+            <niv>80</niv>
+            <pre>
+              <fr>Java est le langage que j'ai le plus utilisé durant mon master et qui m'a permis de maîtriser la programmation orientée objet.</fr>
+              <en>Java is the language I used the most during my master's, which allowed me to master object-oriented programming.</en>
+            </pre>
+            <des>
+              <fr>
+                <p>
+                  *<strong>Apprentissage des concepts fondamentaux et avancés de Java :</strong> J'ai découvert Java dès le début de mon master, ce qui m'a permis de *<strong>maîtriser les concepts fondamentaux de la programmation orientée objet</strong>. Les cours de master ont approfondi ma compréhension des *<strong>flux de données, des design patterns</strong>, ainsi que de la *<strong>gestion de l'asynchrone</strong>. Ces compétences ont été essentielles pour construire des applications robustes et maintenir un code structuré et performant.
+                </p>
+                <p>
+                  *<strong>Projets significatifs en Java :</strong> Durant mon master, j'ai eu l'occasion de mener plusieurs projets concrets, tels qu'une *<strong>bataille navale multijoueur en local</strong>, un *<strong>serveur de messagerie en Java</strong>, et une *<strong>reproduction du jeu Zelda 64</strong>. Ces projets ont non seulement renforcé mes compétences techniques, mais m'ont également permis de développer des solutions complexes et de travailler sur différents types d'architectures.
+                </p>
+                <p>
+                  *<strong>Expérience et renforcement des compétences en Java  :</strong> À travers des projets personnels et durant mon stage, j'ai approfondi mes connaissances à travers le *<strong>développement d'applications Android</strong>. Cela m'a permis de me familiariser avec les *<strong>bibliothèques courantes en java</strong> et d'acquérir une expertise plus poussée dans la *<strong>gestion de l'asynchrone</strong>, particulièrement dans le contexte des applications mobiles. Mes compétences en Java s'orientent principalement vers le *<strong>deéveloppemnt logiciel et d'applications mobiles</strong>.
+                </p>
+              </fr>
+              <en>
+                <p>
+                  *<strong>Learning fundamental and advanced Java concepts:</strong> I discovered Java at the beginning of my master's, which allowed me to *<strong>master the fundamental concepts of object-oriented programming</strong>. The master's courses deepened my understanding of *<strong>data streams, design patterns</strong>, and *<strong>asynchronous management</strong>. These skills were essential for building robust applications and maintaining structured and efficient code.
+                </p>
+                <p>
+                  *<strong>Significant projects in Java:</strong> During my master's, I had the opportunity to lead several concrete projects, such as a *<strong>local multiplayer battleship game</strong>, a *<strong>Java messaging server</strong>, and a *<strong>recreation of the game Zelda 64</strong>. These projects not only strengthened my technical skills but also allowed me to develop complex solutions and work on different types of architectures.
+                </p>
+                <p>
+                  *<strong>Experience and skills enhancement in Java:</strong> Through personal projects and during my internship, I deepened my knowledge by *<strong>developing Android applications</strong>. This allowed me to become familiar with *<strong>common Java libraries</strong> and gain deeper expertise in *<strong>asynchronous management</strong>, particularly in the context of mobile applications. My skills in Java are mainly oriented towards *<strong>software and mobile application development</strong>.
+                </p>
+              </en>
+            </des>
+          </comp>
+          <comp>
+            <name>
+              <en>Kotlin</en>
+              <fr>Kotlin</fr>
+            </name>
+            <niv>95</niv>
+            <pre>
+              <fr>Kotlin est un langage que j'ai découvert en apprenant la programmation mobile, et que j'ai beaucoup pratiqué durant mon stage de fin d'études.</fr>
+              <en>Kotlin is a language I discovered while learning mobile programming, and I extensively practiced it during my final internship.</en>
+            </pre>
+            <des>
+              <fr>
+                <p>
+                  *<strong>Découverte et apprentissage personnel de Kotlin :</strong> J'ai découvert Kotlin en dehors de mes cours, en apprenant la *<strong>programmation mobile</strong>. Sa syntaxe proche de Java m'a permis de rapidement le maîtriser, et de développer divers projets personnels. Cela m'a aidé à acquérir une solide compréhension de la *<strong>structure et de la syntaxe</strong> de ce langage.
+                </p>
+                <p>
+                  *<strong>Expérience approfondie en stage de fin d'études :</strong> Kotlin a été le langage le plus utilisé durant mon *<strong>stage de fin d'études</strong>, que ce soit pour le développement de *<strong>logiciels robotiques</strong> ou d'*<strong>applications mobiles</strong>. J'ai travaillé avec des *<strong>bibliothèques variées</strong>, par exemple, pour la gestion de données, le traitement asynchrone ou l'intégration de modèles d'intelligence artificielle. Cette expérience m'a permis de consolider mes compétences en *<strong>développement d'applications Android</strong> et de créer des solutions robustes pour des besoins spécifiques.
+                </p>
+                <p>
+                  *<strong>Projets personnels :</strong> J'ai développé plusieurs *<strong>applications mobiles</strong> pendant mon temps libre 
+                  <ul>
+                    <li>
+                      *<strong>Application d'organisation de révision :</strong> Cette application aide à optimiser les révisions en programmant des sessions de révision basées sur la *<strong>méthode de révision espacée</strong>. L'utilisateur entre ses cours et l'application ajuste le planning en fonction des progrès et du temps estimé. Un *<strong>système de gamification</strong> motive l'utilisateur avec des niveaux et des médailles en fonction de la régularité des révisions.
+                    </li>
+                    <li>
+                      *<strong>Application de gestion de projet :</strong> Une application permettant de gérer ses projets en définissant le *<strong>temps alloué</strong> par jour ou par semaine. Les utilisateurs peuvent entrer leurs projets, leurs *<strong>deadlines</strong>, le niveau d'importance, ainsi que les *<strong>tâches à accomplir</strong> et leur estimation de temps. L'application ajuste automatiquement le programme de travail en fonction des *<strong>progrès réalisés</strong> et des créneaux de disponibilité.
+                    </li>
+                  </ul>
+                </p>
+                <p>
+                  *<strong>Projets réalisés en stage :</strong> Au cours de mon stage, j'ai travaillé sur divers projets combinant *<strong>Kotlin</strong> et la *<strong>robotique sociale</strong>                  
+                  <ul>
+                    <li>
+                      *<strong>Logiciel de quizz de culture générale pour robot :</strong> J'ai développé un quizz interactif où les *<strong>questions et indices</strong> sont générés par OpenAI, et le robot guide les utilisateurs avec des indices en cas de mauvaise réponse. Le score final est annoncé avec des félicitations personnalisées du robot, rendant le quizz dynamique et engageant.
+                    </li>
+                    <li>
+                      *<strong>Animation d'événements :</strong> J'ai implémenté des solutions d'*<strong>agent d'accueil robotique</strong>, où le robot utilise OpenAI allié au RAG (retrieval augmented generation) pour répondre aux questions sur l'entreprise et le programme de l'événement. Ces interactions ont été utilisées lors de démonstrations publiques pour présenter le potentiel de la robotique sociale.
+                    </li>
+                    <li>
+                      *<strong>Application mobile synchronisée avec le robot :</strong> Développement d'une interface graphique pour accompagner les jeux du robot, comme un *<strong>quizz à choix multiples</strong> ou un *<strong>jeu du chaud-froid</strong>. L'application est synchronisée avec les actions du robot, permettant une interaction fluide et immersive pour les utilisateurs.
+                    </li>
+                    <li>
+                      *<strong>Manipulation de l'audio et personnalisation de la voix du robot :</strong> J'ai travaillé sur la *<strong>modification de la synthèse vocale</strong> du robot pour intégrer des voix personnalisées et des ajustements en temps réel, enrichissant ainsi l'expérience utilisateur.
+                    </li>
+                    <li>
+                      *<strong>Remplissage de formulaires à travers une conversation naturelle :</strong> J'ai réalisé un projet permettant de *<strong>remplir des formulaires</strong> en conversant avec le robot. Ce projet impliquait la création d'une *<strong>interface web</strong> pour définir les formulaires, la génération de réponses possibles avec OpenAI, et la *<strong>prise de photo d'identité</strong> via la caméra du robot.
+                    </li>
+                  </ul>
+                </p>
+              </fr>
+              <en>
+                <p>
+                  *<strong>Discovery and self-learning of Kotlin:</strong> I discovered Kotlin outside of my formal studies while learning *<strong>mobile programming</strong>. Its syntax, which is similar to Java, allowed me to quickly master it and develop various personal projects. This helped me gain a solid understanding of the language's *<strong>structure and syntax</strong>.
+                </p>
+                <p>
+                  *<strong>In-depth experience during my end-of-study internship:</strong> Kotlin was the language I used the most during my *<strong>end-of-study internship</strong>, both for developing *<strong>robotics software</strong> and *<strong>mobile applications</strong>. I worked with *<strong>various libraries</strong>, including those for data management, asynchronous processing, and AI model integration. This experience helped me strengthen my skills in *<strong>Android application development</strong> and create robust solutions for specific needs.
+                </p>
+                <p>
+                  *<strong>Personal Projects:</strong> I developed several *<strong>mobile applications</strong> in my free time:
+                  <ul>
+                    <li>
+                      *<strong>Revision organization app:</strong> This app helps optimize study sessions using the *<strong>spaced repetition method</strong>. Users input their courses, and the app adjusts the schedule based on progress and estimated time. A *<strong>gamification system</strong> motivates users with levels and badges based on their consistency in studying.
+                    </li>
+                    <li>
+                      *<strong>Project management app:</strong> An app designed to manage projects by defining the *<strong>time allocated</strong> per day or week. Users can input their projects, *<strong>deadlines</strong>, priority levels, and *<strong>tasks to complete</strong> along with time estimates. The app automatically adjusts the work schedule based on *<strong>progress made</strong> and available time slots.
+                    </li>
+                  </ul>
+                </p>
+                <p>
+                  *<strong>Projects completed during my internship:</strong> During my internship, I worked on various projects combining *<strong>Kotlin</strong> and *<strong>social robotics</strong>:
+                  <ul>
+                    <li>
+                      *<strong>General knowledge quiz software for robots:</strong> I developed an interactive quiz where *<strong>questions and hints</strong> were generated by OpenAI, and the robot guided users with hints in case of incorrect answers. The final score was announced with personalized congratulations from the robot, making the quiz dynamic and engaging.
+                    </li>
+                    <li>
+                      *<strong>Event animation:</strong> I implemented *<strong>robotic reception agent solutions</strong>, where the robot used OpenAI combined with RAG (retrieval-augmented generation) to answer questions about the company and the event program. These interactions were used in public demonstrations to showcase the potential of social robotics.
+                    </li>
+                    <li>
+                      *<strong>Mobile app synchronized with the robot:</strong> Developed a graphical interface to accompany the robot's games, such as a *<strong>multiple-choice quiz</strong> or a *<strong>hot-and-cold game</strong>. The app was synchronized with the robot’s actions, allowing for a seamless and immersive interaction for users.
+                    </li>
+                    <li>
+                      *<strong>Audio manipulation and custom robot voice:</strong> I worked on *<strong>modifying the robot’s speech synthesis</strong> to integrate custom voices and real-time adjustments, enhancing the user experience.
+                    </li>
+                    <li>
+                      *<strong>Form filling through natural conversation:</strong> I worked on a project that allowed *<strong>form filling</strong> through conversations with the robot. This involved creating a *<strong>web interface</strong> for form setup, generating possible responses using OpenAI, and *<strong>taking ID photos</strong> through the robot's camera.
+                    </li>
+                  </ul>
+                </p>
+              </en>              
+            </des>
+          </comp>
+          <comp>
+            <name>
+              <en>C#</en>
+              <fr>C#</fr>
+            </name>
+            <niv>68</niv>
+            <pre></pre>
+            <des></des>
+          </comp>
+          <comp>
+            <name>
+              <en>PHP</en>
+              <fr>PHP</fr>
+            </name>
+            <niv>52</niv>
+            <pre></pre>
+            <des></des>
+          </comp>
+          <comp>
+            <name>
+              <en>C</en>
+              <fr>C</fr>
+            </name>
+            <niv>45</niv>
+            <pre></pre>
+            <des></des>
+          </comp>
+        </categorie>
+    
+        <categorie>
+          <ti>
+            <en>Web Development</en>
+            <fr>Développement web</fr>
+          </ti>
+          <comp>
+            <name>
+              <en>HTML</en>
+              <fr>HTML</fr>
+            </name>
+            <niv>90</niv>
+            <pre></pre>
+            <des></des>
+          </comp>
+          <comp>
+            <name>
+              <en>CSS</en>
+              <fr>CSS</fr>
+            </name>
+            <niv>90</niv>
+            <pre></pre>
+            <des></des>
+          </comp>
+          <comp>
+            <name>
+              <en>JavaScript</en>
+              <fr>JavaScript</fr>
+            </name>
+            <niv>85</niv>
+            <pre></pre>
+            <des></des>
+          </comp>
+          <comp>
+            <name>
+              <en>NodeJS</en>
+              <fr>NodeJS</fr>
+            </name>
+            <niv>80</niv>
+            <pre></pre>
+            <des></des>
+          </comp>
+          <comp>
+            <name>
+              <en>.NET</en>
+              <fr>.NET</fr>
+            </name>
+            <niv>70</niv>
+            <pre></pre>
+            <des></des>
+          </comp>
+          <comp>
+            <name>
+              <en>Laravel</en>
+              <fr>Laravel</fr>
+            </name>
+            <niv>40</niv>
+            <pre></pre>
+            <des></des>
+          </comp>
+          <cours>
+            <name>
+              <en>React JS</en>
+              <fr>React JS</fr>
+            </name>
+            <niv>65</niv>
+            <pre></pre>
+            <des></des>
+          </cours>
+          <cours>
+            <name>
+              <en>Angular</en>
+              <fr>Angular</fr>
+            </name>
+            <niv>30</niv>
+            <pre></pre>
+            <des></des>
+          </cours>
+        </categorie>
+    
+        <categorie>
+          <ti>
+            <en>Mobile Development</en>
+            <fr>Développement mobile</fr>
+          </ti>
+          <comp>
+            <name>
+              <en>Android: Java and Kotlin</en>
+              <fr>Android: Java et Kotlin</fr>
+            </name>
+            <niv>85</niv>
+            <pre></pre>
+            <des></des>
+          </comp>
+          <cours>
+            <name>
+              <en>React Native</en>
+              <fr>React Native</fr>
+            </name>
+            <niv>40</niv>
+            <pre></pre>
+            <des></des>
+          </cours>
+          <cours>
+            <name>
+              <en>Flutter</en>
+              <fr>Flutter</fr>
+            </name>
+            <niv>30</niv>
+            <pre></pre>
+            <des></des>
+          </cours>
+        </categorie>
+    
+        <categorie>
+          <ti>
+            <en>Artificial Intelligence</en>
+            <fr>Intelligence artificielle</fr>
+          </ti>
+          <comp>
+            <name>
+              <en>Machine Learning: common algorithms and heuristics</en>
+              <fr>Machine Learning : algorithmes et heuristiques courants</fr>
+            </name>
+            <niv>85</niv>
+            <pre></pre>
+            <des></des>
+          </comp>
+          <comp>
+            <name>
+              <en>NLP and Deep Learning: PyTorch, NumPy, TensorFlow, Hugging Face</en>
+              <fr>NLP et Deep Learning : PyTorch, NumPy, TensorFlow, Hugging Face</fr>
+            </name>
+            <niv>67</niv>
+            <pre></pre>
+            <des></des>
+          </comp>
+          <comp>
+            <name>
+              <en>Image processing: OpenCV</en>
+              <fr>Traitement d'images : OpenCV</fr>
+            </name>
+            <niv>60</niv>
+            <pre></pre>
+            <des></des>
+          </comp>
+        </categorie>
+    
+        <categorie>
+          <ti>
+            <en>Data</en>
+            <fr>Données</fr>
+          </ti>
+          <comp>
+            <name>
+              <en>SQL Queries</en>
+              <fr>Requêtes SQL</fr>
+            </name>
+            <niv>95</niv>
+            <pre></pre>
+            <des></des>
+          </comp>
+          <comp>
+            <name>
+              <en>MySQL</en>
+              <fr>MySQL</fr>
+            </name>
+            <niv>77</niv>
+            <pre></pre>
+            <des></des>
+          </comp>
+          <comp>
+            <name>
+              <en>PostgreSQL</en>
+              <fr>PostgreSQL</fr>
+            </name>
+            <niv>85</niv>
+            <pre></pre>
+            <des></des>
+          </comp>
+          <comp>
+            <name>
+              <en>MongoDB</en>
+              <fr>MongoDB</fr>
+            </name>
+            <niv>70</niv>
+            <pre></pre>
+            <des></des>
+          </comp>
+          <comp>
+            <name>
+              <en>SQLServer</en>
+              <fr>SQLServer</fr>
+            </name>
+            <niv>50</niv>
+            <pre></pre>
+            <des></des>
+          </comp>
+          <comp>
+            <name>
+              <en>XML</en>
+              <fr>XML</fr>
+            </name>
+            <niv>87</niv>
+            <pre></pre>
+            <des></des>
+          </comp>
+          <comp>
+            <name>
+              <en>JSON</en>
+              <fr>JSON</fr>
+            </name>
+            <niv>80</niv>
+            <pre></pre>
+            <des></des>
+          </comp>
+        </categorie>
+    
+        <categorie>
+          <ti>
+            <en>Development Tools</en>
+            <fr>Outils de développement</fr>
+          </ti>
+          <comp>
+            <name>
+              <en>IDE: Visual Studio Code, Eclipse, IntelliJ, PyCharm, Android Studio, Visual Studio</en>
+              <fr>IDE : Visual Studio Code, Eclipse, IntelliJ, PyCharm, Android Studio, Visual Studio</fr>
+            </name>
+            <niv>100</niv>
+          </comp>
+          <comp>
+            <name>
+              <en>Version Control: Git, GitHub, GitLab</en>
+              <fr>Gestion de versions : Git, GitHub, GitLab</fr>  
+            </name>
+            <niv>99</niv>
+          </comp>
+          <comp>
+            <name>
+              <en>Build Automation: Maven, Gradle, Webpack</en>
+              <fr>Automatisation et build : Maven, Gradle, Webpack</fr>
+            </name>
+            <niv>98</niv>
+          </comp>
+        </categorie>
+      </competences>
+    
+      <experiences>
+        <exp>
+          <int>
+            <en>Final-year Internship - Social Robotics Developer</en>
+            <fr>Stage de fin d'études - Développeuse en Robotique Sociale</fr>
+          </int>
+          <date>02/2024 - 08/2024</date>
+          <lieu>
+            <en>Inno'Lab, Atos, Échirolles</en>
+            <fr>Inno'Lab, Atos, Échirolles</fr>
+          </lieu>
+          <desc>
+            <mission>
+              <en>Development of Android applications in Kotlin and Java for robotic interfaces.</en>
+              <fr>Développement d'applications Android en Kotlin et Java pour des interfaces robotiques.</fr>
+            </mission>
+            <mission>
+              <en>Creation of interactive web interfaces using JavaScript, CSS, and HTML.</en>
+              <fr>Création d'interfaces web interactives avec JavaScript, CSS et HTML.</fr>
+            </mission>
+            <mission>
+              <en>Using Kotlin and Java for robotic software development.</en>
+              <fr>Utilisation de Kotlin et Java pour le développement de logiciels robotiques.</fr>
+            </mission>
+            <mission>
+              <en>Integration of LLMs (Large Language Models) to improve response detection.</en>
+              <fr>Intégration de LLMs (Large Language Models) pour l'amélioration de la détection de réponses.</fr>
+            </mission>
+            <mission>
+              <en>Writing and executing unit and integration tests.</en>
+              <fr>Rédaction et exécution de tests unitaires et tests d'intégration.</fr>
+            </mission>
+            <mission>
+              <en>Collaboration with multidisciplinary teams to enhance human-robot interaction.</en>
+              <fr>Collaboration avec des équipes pluridisciplinaires pour améliorer les interactions homme-robot.</fr>
+            </mission>
+          </desc>
+        </exp>
+    
+        <exp>
+          <int>
+            <en>Psychology Internship in Hospital</en>
+            <fr>Stage de Psychologie en Centre Hospitalier</fr>
+          </int>
+          <date>10/2021 - 11/2021</date>
+          <lieu>
+            <en>Chagny Hospital</en>
+            <fr>Centre Hospitalier de Chagny</fr>
+          </lieu>
+          <desc>
+            <mission>
+              <en>Observation of clinical and psychological consultations.</en>
+              <fr>Observation des consultations cliniques et psychologiques.</fr>
+            </mission>
+            <mission>
+              <en>Assisting in neuropsychological testing and cognitive remediation.</en>
+              <fr>Assistance dans la réalisation de tests neuropsychologiques et la remédiation cognitive.</fr>
+            </mission>
+            <mission>
+              <en>Interdisciplinary collaboration for patient care and support.</en>
+              <fr>Collaboration interdisciplinaire pour la prise en charge et le soutien des patients.</fr>
+            </mission>
+          </desc>
+        </exp>
+      </experiences>
+    
+
+      <formation>
+        <diplome>
+          <int>
+            <en>Master's in Applied Mathematics and Computer Science for Human and Social Sciences</en>
+            <fr>Master Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales</fr>
+          </int>
+          <date>09/2022 - 08/2024</date>
+          <lieu>
+            <en>Université Grenoble Alpes, Grenoble</en>
+            <fr>Université Grenoble Alpes, Grenoble</fr>
+          </lieu>
+          <parcours>
+            <en>Dual specialization: Computer Science and Social Sciences</en>
+            <fr>Parcours double compétence : Informatique et sciences sociales</fr>
+          </parcours>
+          <competences>
+            <en>Acquired skills: Programming (Java, HTML, PHP, CSS, JavaScript, C#, .NET, Laravel, NodeJS), Algorithms, Databases, Project Management, Artificial Intelligence, Human-Computer Interaction (HCI) Design</en>
+            <fr>Compétences acquises : Programmation (Java, HTML, PHP, CSS, JavaScript, C#, .NET, Laravel, NodeJS), Algorithmique, Bases de données, Gestion de projet, Intelligence Artificielle, Conception d'Interfaces Homme-Machine (IHM)</fr>
+          </competences>
+          <projets>
+            <projet>
+              <en>Hidoku game with solving algorithm: Development of a puzzle game in Python using machine learning algorithms to generate and solve puzzles.</en>
+              <fr>Jeu de hidoku avec algorithme de résolution : Développement d'un jeu de réflexion en Python utilisant des algorithmes de machine learning pour générer et résoudre des puzzles.</fr>
+            </projet>
+            <projet>
+              <en>Service exchange website: Design and development of a website allowing users to exchange services, using C# and .NET.</en>
+              <fr>Site web de troc de services : Conception et développement d'un site web permettant aux utilisateurs de troquer des services, en utilisant C# et .NET.</fr>
+            </projet>
+            <projet>
+              <en>Zelda game (Nintendo 64 replica): Reproduction of a classic game, using Java.</en>
+              <fr>Jeu Zelda (copie de Zelda Nintendo 64) : Reproduction d'un jeu classique, en utilisant Java.</fr>
+            </projet>
+            <projet>
+              <en>Multiplatform online checkers game (PC and mobile): Development of a checkers game accessible on both PC and mobile, using CSS, HTML, JavaScript, and NodeJS.</en>
+              <fr>Jeu de dames en ligne multiplateforme (PC et mobile) : Développement d'un jeu de dames accessible à la fois sur PC et mobile, utilisant CSS, HTML, JavaScript et NodeJS.</fr>
+            </projet>
+            <projet>
+              <en>Language model retraining for classification: Use of Python, PyTorch, and TensorFlow to improve a natural language processing model.</en>
+              <fr>Réentrainement de modèle de langage pour classification : Utilisation de Python, PyTorch et TensorFlow pour améliorer un modèle de traitement du langage naturel.</fr>
+            </projet>
+          </projets>
+        </diplome>
+      
+        <diplome>
+          <int>
+            <en>Bachelor's in Psychology</en>
+            <fr>Licence de Psychologie</fr>
+          </int>
+          <date>09/2019 - 06/2022</date>
+          <lieu>
+            <en>Université de Bourgogne, Dijon</en>
+            <fr>Université de Bourgogne, Dijon</fr>
+          </lieu>
+          <parcours>
+            <en>Specializations: Cognitive Psychology, Clinical Psychology, and Neuropsychology</en>
+            <fr>Spécialités : Psychologie cognitive, clinique et neuropsychologie</fr>
+          </parcours>
+          <competences>
+            <en>Relevant courses: Cognitive Psychology, Cognitive Ergonomics, and Experimental Psychology.</en>
+            <fr>Éléments pertinents : Cours de psychologie cognitive, ergonomie cognitive, et psychologie expérimentale.</fr>
+          </competences>
+        </diplome>
+      
+        <diplome>
+          <int>
+            <en>Scientific Baccalaureate with a Specialization in Computer Science and Digital Sciences</en>
+            <fr>Baccalauréat Scientifique Spécialité Informatique et Sciences du Numérique</fr>
+          </int>
+          <date>09/2018 - 07/2019</date>
+          <lieu>
+            <en>Lycée Nicéphore Nièpce, Chalon-sur-Saône</en>
+            <fr>Lycée Nicéphore Nièpce, Chalon-sur-Saône</fr>
+          </lieu>
+          <competences>
+            <en>Relevant elements: Learning Python and Arduino</en>
+            <fr>Éléments pertinents : Apprentissage de Python et Arduino</fr>
+          </competences>
+          <projet>
+            <en>Project: Educational game to learn how to read time</en>
+            <fr>Projet réalisé : Jeu éducatif pour apprendre à lire l'heure</fr>
+          </projet>
+        </diplome>
+      </formation>
+      
+    
+      
+    <loisirs>
+        <loi>
+            <en>Music</en>
+            <fr>Musique</fr>
+        </loi>
+        <loi>
+            <en>Sewing and Crochet</en>
+            <fr>Couture et Crochet</fr>
+        </loi>
+        <loi>
+            <en>Reading and Writing</en>
+            <fr>Lecture et Ecriture</fr>
+        </loi>
+        <loi>
+            <en>Drawing</en>
+            <fr>Dessin</fr>
+        </loi>
+        <loi>
+            <en>Baking</en>
+            <fr>Patisserie</fr>
+        </loi>
+        <loi>
+            <en>Video games</en>
+            <fr>Jeux vidéos</fr>
+        </loi>
+    </loisirs>
+
+
+    <contact>
+        <mail>melina.berthier@outlook.fr</mail>
+        <phone>06 33 56 17 09</phone>
+    </contact>
+</cv>
