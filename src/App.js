@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import xml2js from 'xml2js';
 import xmlFile from './cv.xml';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter  as Router, Route, Routes } from 'react-router-dom';
 import Banner from './components/Banner';
 import Home from './components/Home';
 import Competences from './components/Competences';
@@ -34,12 +34,12 @@ const App = () => {
     if (!cvData) return <div>Loading...</div>;
 
     return (
-      <Router basename="/cv/">
+      <Router>
         <div className="App">
           <Banner language={language} changeLanguage={changeLanguage} />
           <Routes>
             <Route path="/" element={<Home language={language} cvData={cvData} />} />
-            <Route path="/competences" element={<Competences language={language} cvData={cvData} />} />
+            <Route path="/competences" element={<Competences />} />
             <Route path="/formations" element={<Formations />} />
             <Route path="/experiences" element={<Experiences />} />
             <Route path="/autres" element={<Autres />} />
