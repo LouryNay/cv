@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import xml2js from 'xml2js';
 import xmlFile from './cv.xml';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter  as Router, Route, Routes } from 'react-router-dom';
 import Banner from './components/Banner';
 import Home from './components/Home';
 import Competences from './components/Competences';
