@@ -1,19 +1,40 @@
 import React, { useEffect, useState, useCallback } from 'react';
+import './Home.css'; // Fichier CSS pour styliser la page d'accueil
 
 const Home = ({ language, cvData }) => {
   const [timelineItems, setTimelineItems] = useState([]);
   const [competences, setCompetences] = useState([]);
+  const [currentOffset, setCurrentOffset] = useState(0);
+  const visibleItems = 4; // Nombre de catégories à afficher par page
+
+  const nextCompetence = () => {
+    // Déplace vers la droite, sans dépasser la longueur totale
+    if (currentOffset < competences.length - visibleItems) {
+      setCurrentOffset((prevOffset) => prevOffset + 1);
+    }
+  };
+
+  const prevCompetence = () => {
+    // Déplace vers la gauche, sans tomber en dessous de zéro
+    if (currentOffset > 0) {
+      setCurrentOffset((prevOffset) => prevOffset - 1);
+    }
+  };
+
+  const getTransformValue = () => {
+    // Calcule le décalage pour centrer correctement les éléments visibles
+    return `translateX(-${currentOffset * (220 + 40)}px)`;
+  };
 
   const normalizeString = (str) => {
     return str
-      .normalize('NFD') // Décompose les caractères accentués
-      .replace(/[\u0300-\u036f]/g, '') // Enlève les diacritiques
-      .toLowerCase() // Met tout en minuscules
-      .replace(/\s+/g, '-') // Remplace les espaces par des tirets
-      .replace(/[^\w-]/g, ''); // Supprime les caractères non alphanumériques sauf les tirets
-  };  
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLowerCase()
+      .replace(/\s+/g, '-')
+      .replace(/[^\w-]/g, '');
+  };
 
-  // Fonction pour extraire et trier les éléments de la frise chronologique
   const extractAndSortTimelineItems = useCallback(() => {
     if (!cvData) return;
 
@@ -43,13 +64,10 @@ const Home = ({ language, cvData }) => {
     return parseInt(year + month.padStart(2, '0'), 10);
   };
 
-  // Fonction pour extraire les compétences
   const extractCompetences = useCallback(() => {
     if (!cvData) return;
 
     const competencesData = [];
-
-    // Extraire les langues
     const langues = {
       category: language === 'fr' ? 'Langues' : 'Languages',
       skills: cvData.langues[0].lang.map(lang => ({
@@ -58,11 +76,8 @@ const Home = ({ language, cvData }) => {
       })),
       link: '#languages'
     };
-
-    // Ajouter les langues à la liste des compétences
     competencesData.push(langues);
 
-    // Extraire les autres compétences
     const categories = cvData.competences[0].categorie.map(categorie => {
       const compSkills = (categorie.comp || [])
         .map(comp => ({
@@ -84,7 +99,6 @@ const Home = ({ language, cvData }) => {
         category: categorie.ti[0][language][0],
         skills: skills,
         link: `#${normalizeString(categorie.ti[0][language][0])}`
-
       };
     });
 
@@ -92,7 +106,6 @@ const Home = ({ language, cvData }) => {
     setCompetences(competencesData);
   }, [language, cvData]);
 
-  // Utiliser les données de `cvData` pour extraire les informations lors du changement de langue ou des données
   useEffect(() => {
     extractAndSortTimelineItems();
     extractCompetences();
@@ -102,9 +115,8 @@ const Home = ({ language, cvData }) => {
 
   return (
     <div className="home">
-      {/* Section Présentation */}
       <section className="presentation">
-        <div className="presentation-container">
+        <div className="presentation-container" id="presentation-container">
           <img className="profile-photo" src="" alt="Profile" />
           <p className="nom">{cvData.profil[0].nom}</p>
           <p className="titre">{language === 'fr' ? cvData.profil[0].titre[0].fr[0] : cvData.profil[0].titre[0].en[0]}</p>
@@ -112,42 +124,58 @@ const Home = ({ language, cvData }) => {
         </div>
       </section>
 
-      {/* Section Frise Chronologique */}
-      <section className="timeline">
-        <h3>{language === 'fr' ? 'Frise Chronologique' : 'Timeline'}</h3>
-        <div className="timeline-content">
+      <section className="timeline" id="timeline">
+        <div className="arrow-timeline">
+          <svg className="arrow" viewBox="0 0 44 100">
+            <polygon points="1,20 1,80 40,80, 40,20 1,20"
+              style={{ fill: 'rgba(212, 160, 23, 0.15)', stroke: '#D4A017', strokeWidth: 0.7 }} />
+          </svg>
           {timelineItems.map((item, index) => (
-            <div className="timeline-item" key={index}>
-              <h4>
-                {item.title} ({item.date})
-              </h4>
-              <p>{item.lieu}</p>
+            <div className={`section ${item.type === 'formation' ? 'timeline-formation' : 'timeline-experience'}`} key={index}>
+              <div className="content">
+                <h4 className="timeline-item-title">
+                  {item.title}<br></br>({item.date})
+                </h4>
+                <p className="timeline-item-lieu">{item.lieu}</p>
+                <button className="details-button">Détails</button>
+              </div>
             </div>
           ))}
+          <svg className="arrow" viewBox="0 0 44 100">
+            <polygon points="1,20 1,80, 8,80 8, 99 39,50 8,1 8,20 1,20"
+              style={{ fill: 'rgba(212, 160, 23, 0.15)', stroke: '#D4A017', strokeWidth: 0.7 }} />
+          </svg>
         </div>
       </section>
 
-      {/* Section Compétences */}
-      <section className="competence-carousel">
-        <h3>{language === 'fr' ? 'Compétences' : 'Skills'}</h3>
-        <div className="competence-content">
-          {competences.map((comp, index) => (
-            <div className="competence-item" key={index}>
-              <h4>{comp.category}</h4>
-              <ul>
-                {comp.skills.map((skill, idx) => (
-                  <li key={idx}>{skill.name}</li>
-                ))}
-              </ul>
-              {/* Mettez à jour ce lien */}
-              <a href={`#${comp.link}`} className="details-button">
-                {language === 'fr' ? 'Plus de détails' : 'More details'}
-              </a>
-            </div>
-          ))}
-        </div>
-      </section>
 
+      <section className="competence-carousel" id="competence-carousel">
+        <button className="carousel-button left" onClick={prevCompetence}>
+          &lt;
+        </button>
+        <div className="competence-container">
+          <div className="competence-content" style={{ transform: getTransformValue() }}>
+            {competences.map((competence, index) => (
+              <div className="competence-item" key={index}>
+                <h4 className="competence-category">{competence.category}</h4>
+                <ul className="competence-list">
+                  {competence.skills.map((skill, idx) => (
+                    <li key={idx} className="competence-skill">
+                      {skill.name}
+                    </li>
+                  ))}
+                </ul>
+                <a href={competence.link} className="details-button">
+                  {language === 'fr' ? 'Plus de détails' : 'More details'}
+                </a>
+              </div>
+            ))}
+          </div>
+        </div>
+        <button className="carousel-button right" onClick={nextCompetence}>
+          &gt;
+        </button>
+      </section>
     </div>
   );
 };

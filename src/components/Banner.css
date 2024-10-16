@@ -1,0 +1,88 @@
+/* Banner.css */
+
+/* Style de la bannière */
+.banner {
+    background-color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #006C79;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: rgba(0, 108, 121, 0.15);
+    border-radius: 5px;
+}
+
+.nav-link.active {
+    background-color: rgba(0, 108, 121, 0.15);
+    border-radius: 5px;
+}
+
+.banner-buttons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.contact-button,
+.download-button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.contact-button {
+    background-color: #006C79;
+    color: #FFFFFF;
+}
+
+.contact-button:hover {
+    background-color: #005B69;
+}
+
+.download-button {
+    background-color: #D4A017;
+    color: #006C79;
+}
+
+.download-button:hover {
+    background-color: #B58D15;
+    color: #FFFFFF;
+}
+
+.language-selector {
+    display: flex;
+    gap: 10px;
+}
+
+.language-selector button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background: none;
+    border: none;
+    color: #006C79;
+    cursor: pointer;
+}
+
+.language-selector button:hover {
+    text-decoration: underline;
+}
