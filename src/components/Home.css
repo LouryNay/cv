@@ -128,7 +128,7 @@
 /* Section Compétences */
 .competence-content {
     display: flex;
-    gap: 25px;
+    gap: 20px;
     transition: transform 0.5s ease;
     width: calc(100% - 100px); /* Laisse de l'espace pour les boutons de navigation */
     align-self: center;
@@ -138,14 +138,15 @@
     position: relative;
     background-color: white;
     border-radius: 25px;
-    padding: 20px;
+    padding-block:10px ;
+    padding-inline: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 200px; /* Largeur fixe pour les encadrés */
     text-align: center;
     flex: 0 0 auto; /* Empêche les items de se redimensionner */
     display: flex; /* Utilisation du flexbox */
     flex-direction: column; /* Aligne les enfants en colonne */
-    justify-content: space-evenly; /* Espace entre les éléments pour le bouton */
+    justify-content: space-around; /* Espace entre les éléments pour le bouton */
   }
   
   .competence-carousel {
@@ -168,32 +169,32 @@
   }
   
   .details-button {
-    position: relative;
-    background-color: #D4A017; /* Bouton doré */
+    position: relative; /* Place le bouton en relatif */
+    margin-top: auto; /* Pousse le bouton vers le bas sans chevaucher les autres éléments */
+    margin-bottom: 5px;
+    background-color: #D4A017;
     color: #FFFFFF;
     border: none;
     border-radius: 25px;
-    padding: 5px 15px; /* Ajuste le padding pour créer de l'espace autour du texte */
+    padding: 5px 15px;
     text-decoration: none;
     font-size: 12px;
-    font-weight: 400;
-    justify-self:end;
-    display: inline-block; /* Permet au bouton de s'ajuster à la taille du texte */
+    display: inline-block;
     font-family: 'Poppins', sans-serif;
   }
   
   .competence-category {
-    position: relativ;
+    position: relative;
     margin-top: 10px;
     font-family: 'Poppins', serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 650;
     color: #D4A017; /* Texte doré */
     margin-bottom: 10px;
   }
   
   .competence-list {
-    height: 60%;
+    height: 65%;
     list-style: none;
     flex: 0 0 auto; /* Empêche les items de se redimensionner */
     display: flex; /* Utilisation du flexbox */
@@ -206,7 +207,7 @@
   .competence-skill {
     font-family: 'Poppins', sans-serif;
     font-weight: 420;
-    font-size: 14px;
+    font-size: 12px;
     color: #006C79;
     margin-bottom: 10px;
   }
