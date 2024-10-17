@@ -3,7 +3,7 @@
 /* Style de la bannière */
 .banner {
     background-color: #FFFFFF;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,8 +16,8 @@
 
 .nav-link {
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    color: #006C79;
+    font-weight: 500;
+    color: #3CA99A;
     text-decoration: none;
     padding: 5px 10px;
     transition: background-color 0.3s ease;
@@ -51,21 +51,21 @@
 }
 
 .contact-button {
-    background-color: #006C79;
+    background-color: #3CA99A;
     color: #FFFFFF;
 }
 
 .contact-button:hover {
-    background-color: #005B69;
+    background-color: #2a8075;
 }
 
 .download-button {
-    background-color: #D4A017;
-    color: #006C79;
+    background-color: #E8A87C;
+    color: #FFFFFF;
 }
 
 .download-button:hover {
-    background-color: #B58D15;
+    background-color: #E27D60;
     color: #FFFFFF;
 }
 
@@ -79,7 +79,7 @@
     font-weight: 400;
     background: none;
     border: none;
-    color: #006C79;
+    color: #3CA99A;
     cursor: pointer;
 }
 

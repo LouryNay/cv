@@ -128,7 +128,7 @@ const Home = ({ language, cvData }) => {
         <div className="arrow-timeline">
           <svg className="arrow" viewBox="0 0 44 100">
             <polygon points="1,20 1,80 40,80, 40,20 1,20"
-              style={{ fill: 'rgba(212, 160, 23, 0.15)', stroke: '#D4A017', strokeWidth: 0.7 }} />
+              style={{ fill: 'rgba(250,250,250)', stroke: '#3CA99A', strokeWidth: 0.7 }} />
           </svg>
           {timelineItems.map((item, index) => (
             <div className={`section ${item.type === 'formation' ? 'timeline-formation' : 'timeline-experience'}`} key={index}>
@@ -143,7 +143,7 @@ const Home = ({ language, cvData }) => {
           ))}
           <svg className="arrow" viewBox="0 0 44 100">
             <polygon points="1,20 1,80, 8,80 8, 99 39,50 8,1 8,20 1,20"
-              style={{ fill: 'rgba(212, 160, 23, 0.15)', stroke: '#D4A017', strokeWidth: 0.7 }} />
+              style={{ fill: 'rgba(250,250,250)', stroke: '#3CA99A', strokeWidth: 0.7 }} />
           </svg>
         </div>
       </section>
