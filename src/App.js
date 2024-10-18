@@ -40,8 +40,8 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home language={language} cvData={cvData} />} />
             <Route path="/competences" element={<Competences language={language} cvData={cvData} />} />
-            <Route path="/formations" element={<Formations />} />
-            <Route path="/experiences" element={<Experiences />} />
+            <Route path="/formations" element={<Formations language={language} cvData={cvData}/>} />
+            <Route path="/experiences" element={<Experiences language={language} cvData={cvData}/>} />
             <Route path="/autres" element={<Autres />} />
           </Routes>
         </div>
