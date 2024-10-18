@@ -537,6 +537,9 @@
               <fr>Collaboration avec des équipes pluridisciplinaires pour améliorer les interactions homme-robot.</fr>
             </mission>
           </desc>
+          <projets>
+            
+          </projets>
         </exp>
     
         <exp>
@@ -644,10 +647,12 @@
             <en>Relevant elements: Learning Python and Arduino</en>
             <fr>Éléments pertinents : Apprentissage de Python et Arduino</fr>
           </competences>
-          <projet>
-            <en>Project: Educational game to learn how to read time</en>
-            <fr>Projet réalisé : Jeu éducatif pour apprendre à lire l'heure</fr>
-          </projet>
+          <projets>
+            <projet>
+              <en>Educational game to learn how to read time</en>
+              <fr>Jeu éducatif pour apprendre à lire l'heure</fr>
+            </projet>
+          </projets>
         </diplome>
       </formation>
       
@@ -679,6 +684,13 @@
             <fr>Jeux vidéos</fr>
         </loi>
     </loisirs>
+
+    <propos>
+      <pres></pres>
+      <parcours></parcours>
+      <loisir></loisir>
+      <projets></projets>
+    </propos>
 
 
     <contact>
