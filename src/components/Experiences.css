@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Poppins:wght@400;500;700&family=Yeseva+One&display=swap');
+
+.experiences {
+    margin-top: 0;
+    padding-top: 7%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #00093E;
+    height: fit-content;
+    width: 100%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    /* Affiche chaque élément en colonne */
+    align-items: center;
+    /* Centre chaque élément horizontalement */
+}
+
+.expe{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 1%;
+}
+
+.experience-item{
+    margin-bottom: 3%;
+    border: solid #FFF34B 5px;
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-inline: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-title{
+    font-family: 'Share Tech Mono', monospace;
+    color: #FFF34B;
+    font-size: 1.5em;
+    margin-bottom: 1%;
+}
+
+.experience-date{
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    font-family: 'Share Tech Mono', monospace;
+    color: #FFFFFF;
+    font-size: 1.1em;
+}
+
+.experience-lieu{
+    margin-top: 2%;
+    color: #FFF34B;
+}
+
+.experience-details{
+    font-size: 1em;
+    margin-block: 2%;
+    padding-inline: 3%;
+    padding-block: 2%;
+    background-color: #1B255B;
+    border-radius: 15px;
+    /* Masque tout ce qui déborde */
+    transition: max-height 1.5s ease, opacity 1s ease, padding-block 1s ease;
+}
+
+.experience-details li{
+    margin-bottom: 1%;
+}
+
+.experience-details strong {
+    font-weight: 520;
+}
+
+.job li{
+    margin-bottom: 1%;
+}

@@ -1,35 +1,37 @@
-/* Banner.css */
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Poppins:wght@400;500;700&family=Yeseva+One&display=swap');
 
-/* Style de la bannière */
 .banner {
-    background-color: #FFFFFF;
-    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(255, 255, 255, 0); /* Transparence au départ */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Transition pour un effet fluide */
+    z-index: 1000;
 }
 
+/* Styles existants pour le contenu */
 .navbar {
     display: flex;
     gap: 20px;
 }
 
 .nav-link {
+    align-self: center;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    color: #3CA99A;
+    font-size: 1rem;
+    color: #FFFFFF;
     text-decoration: none;
     padding: 5px 10px;
     transition: background-color 0.3s ease;
 }
 
 .nav-link:hover {
-    background-color: rgba(0, 108, 121, 0.15);
-    border-radius: 5px;
-}
-
-.nav-link.active {
-    background-color: rgba(0, 108, 121, 0.15);
+    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
 }
 
@@ -39,39 +41,10 @@
     align-items: center;
 }
 
-.contact-button,
-.download-button {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.contact-button {
-    background-color: #3CA99A;
-    color: #FFFFFF;
-}
-
-.contact-button:hover {
-    background-color: #2a8075;
-}
-
-.download-button {
-    background-color: #E8A87C;
-    color: #FFFFFF;
-}
-
-.download-button:hover {
-    background-color: #E27D60;
-    color: #FFFFFF;
-}
-
 .language-selector {
     display: flex;
     gap: 10px;
+    padding-right: 40px;
 }
 
 .language-selector button {
@@ -79,10 +52,26 @@
     font-weight: 400;
     background: none;
     border: none;
-    color: #3CA99A;
+    color: #FFFFFF;
     cursor: pointer;
 }
 
 .language-selector button:hover {
     text-decoration: underline;
+}
+
+.download-button{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    background: none;
+    padding: 5px 10px;
+    border: solid #FFF34B 3px;
+    color: #FFFFFF;
+}
+
+.download-button:hover{
+    background-color: #FFF34B;
+    cursor: pointer;
+    color: #00093E;
 }

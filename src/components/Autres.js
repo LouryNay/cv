@@ -1,23 +1,77 @@
-import React, { useEffect, useState } from 'react';
-import xml2js from 'xml2js';
-import xmlFile from '../cv.xml'; // Assurez-vous que le chemin est correct
+import React, { useState, useEffect, useCallback } from 'react';
+import './Autres.css';
 
-const Autres = () => {
-    const [data, setData] = useState(null);
+const Autres = ({ cvData, language }) => {
+    const [presentation, setPresentation] = useState({
+        pres: [],
+        parcours: [],
+        projets: [],
+        loisirs: []
+    });
+
+    const extractPresentation = useCallback(() => {
+        if (!cvData) return;
+
+        const presentationData = cvData.propos[0];
+
+        const presentation = {
+            pres: presentationData.pres?.[0]?.[language]?.[0]?.paragraph?.map((p) => ({
+                text: p || ""
+            })) || [],
+            parcours: presentationData.parcours?.[0]?.[language]?.[0]?.paragraph?.map((p) => ({
+                text: p || ""
+            })) || [],
+            projets: presentationData.projets?.[0]?.[language]?.[0]?.paragraph?.map((p) => ({
+                text: p || ""
+            })) || [],
+            loisirs: presentationData.loisir?.[0]?.[language]?.[0]?.paragraph?.map((p) => ({
+                text: p || ""
+            })) || [],
+        };
+
+        setPresentation(presentation);
+    }, [language, cvData]);
+
 
     useEffect(() => {
-        fetch(xmlFile)
-            .then(response => response.text())
-            .then(str => xml2js.parseStringPromise(str))
-            .then(result => setData(result.CV));
-    }, []);
+        extractPresentation();
+    }, [extractPresentation]);
 
-    if (!data) return <div>Loading...</div>;
+
+    if (!cvData) return <div>Loading...</div>;
 
     return (
         <div className="autres">
-            <h2>Autres Informations</h2>
-            <p>{data.autres[0].description[0]}</p>
+            <div className="presentation">
+                <div className="presentation-content">
+                    {presentation.pres.map((item, i) => (
+                        <p key={i}>{item.text}</p>))}
+                </div>
+            </div>
+
+            <div className="parcours">
+                <h2>{language === 'fr' ? 'Mon Parcours' : 'My Background'}</h2>
+                <div className="para">
+                    {presentation.parcours.map((item, i) => (
+                        <p key={i}>{item.text}</p>))}
+                </div>
+            </div>
+
+            <div className="projets">
+                <h2>{language === 'fr' ? 'Mes Projets' : 'My Projects'}</h2>
+                <div className="para">
+                    {presentation.projets.map((item, i) => (
+                        <p key={i}>{item.text}</p>))}
+                </div>
+            </div>
+
+            <div className="loisirs">
+                <h2>{language === 'fr' ? 'Mes Loisirs' : 'My Hobbies'}</h2>
+                <div className="para">
+                    {presentation.loisirs.map((item, i) => (
+                        <p key={i}>{item.text}</p>))}
+                </div>
+            </div>
         </div>
     );
 };

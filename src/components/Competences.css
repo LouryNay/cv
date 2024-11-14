@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Poppins:wght@400;500;700&family=Yeseva+One&display=swap');
+
+.competences {
+    margin-top: 0;
+    padding-top: 5%;
+    font-family: 'Poppins', sans-serif;
+    background-color: #00093E;
+    height: fit-content;
+    width: 100%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    /* Affiche chaque élément en colonne */
+    align-items: center;
+    /* Centre chaque élément horizontalement */
+}
+
+.competence-category {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-bottom: 1%;
+}
+
+.competence-category h4 {
+    font-family: 'Share Tech Mono', monospace;
+    color: #FFF34B;
+    font-size: 1.5em;
+    margin-bottom: 1%;
+}
+
+.competence-category .progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: #1B255B;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 1%;
+}
+
+.competence-category .progress-fill {
+    height: 100%;
+    background-color: #FFF34B;
+}
+
+.competence-category .skill-header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 1.25em;
+    font-weight: 500;
+}
+
+.competence-category .skill-name-level {
+    display: flex;
+    justify-content: space-between;
+    /* Aligne le nom à gauche et le niveau à droite */
+    width: 100%;
+    margin-bottom: 0.5%;
+}
+
+.competence-category .skill-name {
+    margin-bottom: 0%;
+}
+
+.competence-category .skill-level{
+    margin-bottom: 0%;
+}
+
+.competence-category ul {
+    width: 100%;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.competence-category li {
+    list-style-type: none;
+    text-indent: 0%;
+    margin-inline: 0%;
+    margin-bottom: 3%;
+    border: solid #FFF34B 5px;
+    color: #FFFFFF;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-inline: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.toggle-details-button {
+    justify-self: center;
+    align-self: center;
+    border: none;
+    background-color: #FFF34B;
+    color: #00093E;
+    border-radius: 25%;
+    padding-block: 0.5%;
+    padding-inline: 1%;
+}
+
+.toggle-details-button:hover {
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+.pre {
+    font-size: 1.1em;
+}
+
+/* Initialement caché avec une hauteur maximale de 0 */
+.des {
+    font-size: 1em;
+    margin-block: 1%;
+    max-height: 0;
+    /* État initial, caché */
+    opacity: 0;
+    /* Caché au début */
+    padding-inline: 3%;
+    padding-block: 0;
+    background-color: #1B255B;
+    border-radius: 15px;
+    overflow: hidden;
+    /* Masque tout ce qui déborde */
+    transition: max-height 1.5s ease, opacity 1s ease, padding-block 1s ease;
+    /* Ajout de la transition pour padding */
+}
+
+/* État développé, on augmente la hauteur max et l'opacité */
+.des.expanded {
+    max-height: 500px;
+    /* Ajustez selon la taille de votre contenu */
+    opacity: 1;
+    /* Rendre l'élément visible */
+    padding-block: 10px;
+    /* Vous pouvez ajuster la valeur pour créer de l'espace à l'intérieur */
+}
+
+.des strong {
+    font-weight: 520;
+}
+
+.competence-category .liste-skill {
+    margin-top: 0;
+    font-size: 1.1em;
+}

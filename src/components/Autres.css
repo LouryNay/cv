@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Poppins:wght@400;500;700&family=Yeseva+One&display=swap');
+
+.autres {
+    margin-top: 0;
+    padding-top: 7%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    background-color: #00093E;
+    height: fit-content;
+    width: 100%;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    /* Affiche chaque élément en colonne */
+    align-items: center;
+    /* Centre chaque élément horizontalement */
+    padding-bottom: 5%;
+}
+
+.autres .presentation,
+.autres .parcours,
+.autres .projets,
+.autres .loisirs {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.autres .parcours,
+.autres .projets,
+.autres .loisirs {
+    margin-top: 5%;
+}
+
+.autres h2{
+    font-family: 'Share Tech Mono', monospace;
+    color: #FFF34B;
+    font-size: 1.7em;
+    align-self: flex-start;
+    margin-bottom: 2%;
+}
+
+.autres .presentation-content {
+    font-family: 'Poppins', sans-serif;
+    border: solid #FFF34B 5px;
+    color: #FFFFFF;
+    padding-block: 20px;
+    padding-inline: 40px;
+}
+
+.autres .para{
+    padding-inline: 3%;
+    padding-block: 1%;
+    background-color: #182153;
+    border-radius: 15px;
+}
+
+.autres .para p{
+    text-indent: 5%;
+}

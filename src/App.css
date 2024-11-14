@@ -1,0 +1,14 @@
+/* Pour les navigateurs compatibles avec ::-webkit-scrollbar */
+::-webkit-scrollbar {
+    display: none; /* Masque la barre de défilement */
+}
+
+/* Assure que le défilement est toujours activé même sans barre visible */
+body {
+    overflow: auto;
+    scrollbar-width: none; /* Masque la barre de défilement pour Firefox */
+}
+
+.App{
+    background-color: #00093E;
+}

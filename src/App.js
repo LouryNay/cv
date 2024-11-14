@@ -7,7 +7,9 @@ import Home from './components/Home';
 import Competences from './components/Competences';
 import Formations from './components/Formations';
 import Experiences from './components/Experiences';
+import Projets from './components/Projets';
 import Autres from './components/Autres';
+import Contact from './components/Contact';
 import './App.css';
 
 const App = () => {
@@ -42,8 +44,10 @@ const App = () => {
             <Route path="/competences" element={<Competences language={language} cvData={cvData} />} />
             <Route path="/formations" element={<Formations language={language} cvData={cvData}/>} />
             <Route path="/experiences" element={<Experiences language={language} cvData={cvData}/>} />
-            <Route path="/autres" element={<Autres />} />
+            <Route path="/projets" element={<Projets language={language} cvData={cvData}/>}/>
+            <Route path="/autres" element={<Autres language={language} cvData={cvData}/>} />
           </Routes>
+          <Contact language={language} cvData={cvData}/>
         </div>
       </Router>
     );

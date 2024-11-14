@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Poppins:wght@400;500;700&family=Yeseva+One&display=swap');
+
+
+.contact{
+    width: 100%;
+    padding: 0;
+    margin-inline: 0;
+    margin-bottom: 0;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    background-color: #1B255B;
+    align-content: center;
+}
+
+.contact-container{
+    width: 90%;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    /* Trois colonnes égales */
+    gap: 5%;
+}
+
+.contact h3{
+    padding-top: 0;
+    font-family: 'Share Tech Mono', monospace;
+    color: #FFF34B;
+    font-size: 1.7em;
+    padding-bottom: 0%;
+    margin-bottom: 2%;
+}
+
+.contact p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-info{
+    margin-top: 0%;
+    padding-top: 0;
+    align-self: flex-start;
+    justify-self: center;
+}
+
+.contact-info p{
+    margin-top: 0%;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.contact-text{
+    width: 100%;
+    font-size: 1em;
+    margin-left: 0%;
+    align-self: center;
+    color: #FFFFFF;
+}
