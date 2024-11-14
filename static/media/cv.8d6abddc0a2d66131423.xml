@@ -1,0 +1,2256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cv>
+  <profil>
+    <nom>Mélina Berthier</nom>
+    <liste>
+      <choix>
+        <fr>Développeuse Full Stack</fr>
+        <en>Full Stack Developer</en>
+      </choix>
+      <choix>
+        <fr>Développeuse Mobile</fr>
+        <en>Mobile Developer</en>
+      </choix>
+      <choix>
+        <fr>Développeuse Web</fr>
+        <en>Web Developer</en>
+      </choix>
+      <choix>
+        <fr>Analyste Développeuse</fr>
+        <en>Developer Analyst</en>
+      </choix>
+      <choix>
+        <fr>Développeuse Informatique</fr>
+        <en>Software Developer</en>
+      </choix>
+    </liste>
+    <titre>
+      <fr>Développeuse Informatique | Spécialiste UX et Ergonomie</fr>
+      <en>Software Developer | UX and Ergonomics Specialist</en>
+    </titre>
+    <description>
+      <fr>
+        <paragraph>Jeune diplômée d’un master en informatique appliquée aux sciences sociales, je
+          suis à la recherche de mon premier CDI en tant que développeuse full stack. Mon parcours
+          pluridisciplinaire, alliant compétences techniques et sciences humaines, me permet
+          d’apporter une approche centrée sur l’utilisateur dans le développement de solutions
+          logicielles. Mon objectif actuel est de renforcer mes compétences en développement afin
+          d’évoluer vers un poste à la fois technique et fonctionnel.</paragraph>
+        <paragraph> Avec une licence en psychologie et des formations en ergonomie et IHM (Interface
+          Homme-Machine), je suis particulièrement sensible aux besoins des utilisateurs et à
+          l'expérience utilisateur (UX). Je recherche un poste qui me permette d'acquérir un large
+          éventail de compétences en développement full stack, tout en me donnant l'opportunité de
+          contribuer à la création de solutions innovantes et accessibles.</paragraph>
+      </fr>
+      <en>
+        <paragraph>Recent graduate with a Master’s degree in Computer Science applied to Social
+          Sciences, I am seeking my first full-time position as a full stack developer. My
+          multidisciplinary background, combining technical skills and social sciences, enables me
+          to bring a user-centered approach to software development. My current goal is to
+          strengthen my development skills in order to evolve into a role that combines both
+          technical and functional aspects.</paragraph>
+        <paragraph>With a Bachelor’s degree in Psychology and training in ergonomics and
+          Human-Computer Interaction (HCI), I have a strong sensitivity to user needs and user
+          experience (UX). I am looking for a position that allows me to gain a broad range of full
+          stack development skills while contributing to the creation of innovative and accessible
+          solutions.</paragraph>
+      </en>
+    </description>
+  </profil>
+
+  <langues>
+    <lang>
+      <l>
+        <en>French</en>
+        <fr>Français</fr>
+      </l>
+      <niveau>
+        <en>Native</en>
+        <fr>Maternelle</fr>
+      </niveau>
+    </lang>
+
+    <lang>
+      <l>
+        <en>English</en>
+        <fr>Anglais</fr>
+      </l>
+      <niveau>
+        <en>Fluent</en>
+        <fr>C2</fr>
+      </niveau>
+    </lang>
+
+    <lang>
+      <l>
+        <en>Spanish</en>
+        <fr>Espagnol</fr>
+      </l>
+      <niveau>
+        <en>Intermediate</en>
+        <fr>B2</fr>
+      </niveau>
+    </lang>
+  </langues>
+
+  <competences>
+
+    <categorie>
+      <ti>
+        <en>Programming Languages</en>
+        <fr>Langages de programmation</fr>
+      </ti>
+
+      <comp>
+        <name>
+          <en>Python</en>
+          <fr>Python</fr>
+        </name>
+        <niv>90</niv>
+        <pre>
+          <fr>Python est mon langage de prédilection, avec une expertise et une polyvalence développées depuis mes 15 ans.</fr>
+          <en>Python is my language of choice, with expertise and versatility developed since I was 15.</en>
+        </pre>
+        <des>
+          <fr>
+            <p>Depuis mes débuts avec un *<strong>jeu éducatif</strong> pour le baccalauréat, Python
+              est devenu le langage où j'ai le plus d'expérience. J'ai pu approfondir mes
+              compétences en *<strong>développement graphique</strong> et *<strong>interfaces
+              utilisateurs</strong> pendant mon temps libre durant ma licence, puis en *<strong>intelligence
+              artificielle</strong> (machine learning et deep learning) durant mon master. Cette
+              expertise m’a permis de travailler sur des projets concrets dans des domaines variés
+              comme la *<strong>vision
+                par ordinateur</strong> en stage de fin d'études et la manipulation de *<strong>bibliothèques
+              courantes</strong> telles que NumPy, pandas, et Flask.</p>
+            <p>Mon expérience s'étend également à la *<strong>programmation web</strong>, notamment
+              avec Flask, bien que mon focus reste orienté vers le développement logiciel.</p>
+          </fr>
+          <en>
+            <p>Starting with an *<strong>educational game</strong> for my baccalaureate, Python has
+              become the language in which I have the most experience. I have honed my skills in *<strong>graphic
+              development</strong> and *<strong>user interfaces</strong> in my free time during my
+              psychology degree, and furthered my knowledge in *<strong>artificial intelligence</strong>
+              (machine learning and deep learning) during my master’s. This expertise allowed me to
+              work on practical projects across various fields, including *<strong>computer vision</strong>
+              during my final internship and the manipulation of *<strong>common libraries</strong>
+              such as NumPy, pandas, and Flask.</p>
+            <p>My experience also includes *<strong>web programming</strong> with Flask, though my
+              main focus remains on software development.</p>
+          </en>
+        </des>
+      </comp>
+
+      <comp>
+        <name>
+          <en>Java</en>
+          <fr>Java</fr>
+        </name>
+        <niv>80</niv>
+        <pre>
+          <fr>Java est le langage que j'ai le plus utilisé durant mon master et qui m'a permis de maîtriser la programmation orientée objet.</fr>
+          <en>Java is the language I used the most during my master's, which allowed me to master object-oriented programming.</en>
+        </pre>
+        <des>
+          <fr>
+            <p>*<strong>Apprentissage des concepts fondamentaux et avancés de Java :</strong> J'ai
+              découvert Java dès le début de mon master, ce qui m'a permis de *<strong>maîtriser les
+              concepts fondamentaux de la programmation orientée objet</strong>. Les cours de master
+              ont approfondi ma compréhension des *<strong>flux de données, des design patterns</strong>,
+              ainsi que de la *<strong>gestion de l'asynchrone</strong>. Ces compétences ont été
+              essentielles pour construire des applications robustes et maintenir un code structuré
+              et performant.</p>
+            <p>*<strong>Projets significatifs en Java :</strong> Durant mon master, j'ai eu
+              l'occasion de mener plusieurs projets concrets, tels qu'une *<strong>bataille navale
+              multijoueur en local</strong>, un *<strong>serveur de messagerie en Java</strong>, et
+              une *<strong>reproduction du jeu Zelda 64</strong>. Ces projets ont non seulement
+              renforcé mes compétences techniques, mais m'ont également permis de développer des
+              solutions complexes et de travailler sur différents types d'architectures.</p>
+            <p>*<strong>Expérience et renforcement des compétences en Java :</strong> À travers des
+              projets personnels et durant mon stage, j'ai approfondi mes connaissances à travers le
+              *<strong>développement d'applications Android</strong>. Cela m'a permis de me
+              familiariser avec les *<strong>bibliothèques courantes en Java</strong> et d'acquérir
+              une expertise plus poussée dans la *<strong>gestion de l'asynchrone</strong>,
+              particulièrement dans le contexte des applications mobiles. Mes compétences en Java
+              s'orientent principalement vers le *<strong>développement logiciel et d'applications
+              mobiles</strong>.</p>
+          </fr>
+          <en>
+            <p>*<strong>Learning fundamental and advanced Java concepts:</strong> I discovered Java
+              at the beginning of my master's, which allowed me to *<strong>master the fundamental
+              concepts of object-oriented programming</strong>. The master's courses deepened my
+              understanding of *<strong>data streams, design patterns</strong>, and *<strong>asynchronous
+              management</strong>. These skills were essential for building robust applications and
+              maintaining structured and efficient code.</p>
+            <p>*<strong>Significant projects in Java:</strong> During my master's, I had the
+              opportunity to lead several concrete projects, such as a *<strong>local multiplayer
+              battleship game</strong>, a *<strong>Java messaging server</strong>, and a *<strong>recreation
+              of the game Zelda 64</strong>. These projects not only strengthened my technical
+              skills but also allowed me to develop complex solutions and work on different types of
+              architectures.</p>
+            <p>*<strong>Experience and skills enhancement in Java:</strong> Through personal
+              projects and during my internship, I deepened my knowledge by *<strong>developing
+              Android applications</strong>. This allowed me to become familiar with *<strong>common
+              Java libraries</strong> and gain deeper expertise in *<strong>asynchronous management</strong>,
+              particularly in the context of mobile applications. My skills in Java are mainly
+              oriented towards *<strong>software and mobile application development</strong>.</p>
+          </en>
+        </des>
+      </comp>
+
+      <comp>
+        <name>
+          <en>Kotlin</en>
+          <fr>Kotlin</fr>
+        </name>
+        <niv>95</niv>
+        <pre>
+          <fr>Kotlin est un langage que j'ai découvert en apprenant la programmation mobile, et que j'ai beaucoup pratiqué durant mon stage de fin d'études.</fr>
+          <en>Kotlin is a language I discovered while learning mobile programming, and I extensively practiced it during my final internship.</en>
+        </pre>
+        <des>
+          <fr>
+            <p>*<strong>Découverte et auto-formation en Kotlin :</strong> J'ai commencé à apprendre
+              Kotlin de manière autonome, en me concentrant sur la programmation mobile, ce qui m'a
+              permis de renforcer mes compétences en *<strong>structure et syntaxe du langage</strong>
+              .</p>
+            <p>*<strong>Expérience intensive en stage :</strong> Pendant mon stage de fin d'études,
+              j'ai principalement travaillé avec Kotlin pour développer des *<strong>applications
+              Android</strong> et des *<strong>logiciels robotiques</strong>. Cette expérience m'a
+              permis de maîtriser des concepts avancés comme la gestion asynchrone, la manipulation
+              de données et l'intégration de modèles d'IA.</p>
+            <p>*<strong>Projets personnels :</strong> J'ai créé plusieurs *<strong>applications
+              mobiles</strong> axées sur l'organisation et la gestion de projets, ce qui m'a permis
+              de perfectionner mes compétences en Kotlin et de travailler sur des concepts comme la
+              *<strong>
+                gamification</strong> et l'optimisation du *<strong>planning</strong>.</p>
+            <p>*<strong>Projets de stage en robotique :</strong> J'ai développé des solutions pour
+              des robots sociaux, incluant l' *<strong>animation d'événements</strong> et des *<strong>quizz
+              interactifs</strong>, utilisant l'IA pour rendre les interactions plus engageantes.</p>
+          </fr>
+          <en>
+            <p>*<strong>Discovery and self-learning in Kotlin:</strong> I began learning Kotlin
+              independently, focusing on mobile programming, which helped me strengthen my
+              understanding of the language's *<strong>structure and syntax</strong>.</p>
+            <p>*<strong>Extensive experience during internship:</strong> In my final internship, I
+              primarily used Kotlin to develop *<strong>Android applications</strong> and *<strong>robotic
+              software</strong>. This experience allowed me to master advanced concepts such as
+              asynchronous processing, data manipulation, and AI model integration.</p>
+            <p>*<strong>Personal projects:</strong> I created various *<strong>mobile applications</strong>
+              focused on organization and project management, which helped me refine my skills in
+              Kotlin while working on concepts like *<strong>gamification</strong> and *<strong>schedule
+              optimization</strong>.</p>
+            <p>*<strong>Internship projects in robotics:</strong> I developed solutions for social
+              robots, including *<strong>event animation</strong> and *<strong>interactive quizzes</strong>,
+              leveraging AI to make interactions more engaging.</p>
+          </en>
+        </des>
+      </comp>
+
+      <comp>
+        <name>
+          <en>C#</en>
+          <fr>C#</fr>
+        </name>
+        <niv>63</niv>
+        <pre>
+          <fr>C# est un langage que j'ai appris lors de mon master 2, à travers des projets académiques et des travaux pratiques.</fr>
+          <en>C# is a language I learned in my second year of a master's program, mainly through academic projects and practical work.</en>
+        </pre>
+        <des>
+          <fr>
+            <p>Mon expérience avec C# s'est consolidée grâce à divers projets académiques, notamment
+              la création d'un *<strong>site de troc de services</strong>, qui m'a permis
+              d'appliquer mes connaissances en *<strong>développement web</strong> et en *<strong>interfaces
+              utilisateurs</strong>. Ce projet m'a également aidé à renforcer mes compétences en *<strong>structures
+              complexes</strong> et en *<strong>gestion des utilisateurs</strong>.</p>
+            <p>Par ailleurs, mes travaux pratiques m'ont offert une solide base en *<strong>structures
+              de données</strong> et en manipulation de *<strong>classes et interfaces</strong>.
+              Bien que je n'aie pas encore acquis d'*<strong>expérience professionnelle</strong>
+              significative avec C#, ces expériences m'ont permis d'acquérir une bonne compréhension
+              de l'écosystème de ce langage.</p>
+          </fr>
+          <en>
+            <p>My experience with C# has been solidified through various academic projects,
+              including the development of an *<strong>online service exchange website</strong>,
+              which allowed me to apply my knowledge in *<strong>web development</strong> and *<strong>user
+              interfaces</strong>. This project also helped strengthen my skills in *<strong>complex
+              structures</strong> and *<strong>user management</strong>.</p>
+            <p>Additionally, my practical assignments provided me with a strong foundation in *<strong>data
+              structures</strong> and the manipulation of *<strong>classes and interfaces</strong>.
+              While I have not yet gained significant *<strong>professional experience</strong> with
+              C#, these experiences have allowed me to develop a good understanding of the ecosystem
+              of this language.</p>
+          </en>
+        </des>
+      </comp>
+
+      <comp>
+        <name>
+          <en>PHP</en>
+          <fr>PHP</fr>
+        </name>
+        <niv>40</niv>
+        <pre>
+          <fr>PHP est un langage que j'ai commencé à apprendre pendant mon deuxième semestre de master 1, bien que mon expérience soit limitée à quelques mois.</fr>
+          <en>PHP is a language I started learning during my second semester of my master's program, although my experience is limited to a few months.</en>
+        </pre>
+        <des>
+          <fr>
+            <p>Mon expérience avec PHP est principalement issue d'un projet de *<strong>site de
+              restaurants</strong>, qui m'a permis de mettre en pratique mes connaissances
+              fondamentales du langage et d'explorer des aspects du *<strong>développement web</strong>.
+              Ce projet a renforcé ma compréhension de la logique côté serveur et de la gestion des
+              données.</p>
+            <p>En complément, mes cours théoriques ont fourni une base solide, même si mon
+              développement pratique reste encore limité.</p>
+          </fr>
+          <en>
+            <p>My experience with PHP mainly comes from a *<strong>restaurant website</strong>
+              project, which allowed me to apply my foundational knowledge of the language and
+              explore aspects of *<strong>web development</strong>. This project enhanced my
+              understanding of server-side logic and data management.</p>
+            <p>Additionally, my theoretical courses provided a solid foundation, although my
+              practical development remains limited.</p>
+          </en>
+        </des>
+      </comp>
+
+      <comp>
+        <name>
+          <en>C</en>
+          <fr>C</fr>
+        </name>
+        <niv>32</niv>
+        <pre>
+          <fr>C est un langage dont j'ai des connaissances basiques. Je l'utilise régulièrement pour l'écriture de scripts.</fr>
+          <en>C is a language in which I have basic knowledge. I regularly use it for writing scripts.</en>
+        </pre>
+      </comp>
+    </categorie>
+
+    <categorie>
+      <ti>
+        <en>Web Development</en>
+        <fr>Développement web</fr>
+      </ti>
+      <comp>
+        <name>
+          <en>HTML</en>
+          <fr>HTML</fr>
+        </name>
+        <niv>90</niv>
+        <pre>
+          <fr>J'ai appris HTML dès le début de mon master et l'ai pratiqué tout au long de celui-ci, que ce soit dans des projets scolaires, personnels ou pour des interfaces lors de mon stage.</fr>
+          <en>I learned HTML at the beginning of my master's program and practiced it throughout, whether in school projects, personal projects, or for interfaces during my internship.</en>
+        </pre>
+      </comp>
+
+      <comp>
+        <name>
+          <en>CSS</en>
+          <fr>CSS</fr>
+        </name>
+        <niv>90</niv>
+        <pre>
+          <en>I learned CSS at the beginning of my master's program an used it regularly since then.</en>
+          <fr>J'ai appris CSS au début de mon master et l'utilise régulièrement depuis.</fr>
+        </pre>
+        <des>
+          <en>
+            <p>I have used CSS in various *<strong>academic, personal projects, and during my
+              internship</strong>. The most notable projects include replicating a website based on
+              images for my end-of-year exam in master 1, as well as creating this CV site. During
+              my internship, I worked on interface design using CSS, particularly for social robot
+              animation projects. </p>
+          </en>
+          <fr>
+            <p>J'ai utilisé CSS dans de nombreux *<strong>projets scolaires, personnels, et pendant
+              mon stage</strong>. Les projets les plus significatifs incluent la reproduction d'un
+              site web à partir d'images pour un examen de fin d'année en master 1, ainsi que la
+              création de ce site de CV. Mon stage m'a permis de concevoir des interfaces avec CSS,
+              notamment pour des projets d'animation avec un robot social. </p>
+          </fr>
+        </des>
+      </comp>
+      <comp>
+        <name>
+          <en>JavaScript</en>
+          <fr>JavaScript</fr>
+        </name>
+        <niv>85</niv>
+        <pre>
+          <fr>JavaScript est le langage que j'ai utilisé le plus souvent dans des projets web.</fr>
+          <en>JavaScript is the language I have used most frequently in web projects.</en>
+      </pre>
+        <des>
+          <fr>
+            <p>*<strong>Utilisation fréquente dans les projets web :</strong> JavaScript est le
+              langage que j'ai le plus utilisé dans mes projets, me permettant d'acquérir une solide
+              expérience en développement web, en manipulant le DOM et en créant des interactions
+              dynamiques.</p>
+            <p>*<strong>Projet complexe :</strong> Le projet le plus complexe que j'ai réalisé est
+              un <strong>jeu de dames multiplateformes</strong>. Ce projet m'a permis de mettre en
+              pratique mes compétences en <strong>programmation orientée objet</strong> et en <strong>gestion
+              des événements</strong>, tout en optimisant l'expérience utilisateur sur différentes
+              plateformes.</p>
+          </fr>
+          <en>
+            <p>*<strong>Frequent use in web projects:</strong> JavaScript is the language I have
+              used most often in my projects, allowing me to gain solid experience in web
+              development by manipulating the DOM and creating dynamic interactions.</p>
+            <p>*<strong>Complex project:</strong> The most complex project I completed is a <strong>cross-platform
+              checkers game</strong>. This project allowed me to apply my skills in <strong>object-oriented
+              programming</strong> and <strong>event handling</strong>, while optimizing the user
+              experience across different platforms.</p>
+          </en>
+        </des>
+      </comp>
+      <comp>
+        <name>
+          <en>NodeJS</en>
+          <fr>NodeJS</fr>
+        </name>
+        <niv>75</niv>
+        <pre>
+          <fr>J'ai appris Node.js en cours de programmation web et ne l'ai utilisé que dans un contexte scolaire pour le moment.</fr>
+          <en>I learned Node.js in web development courses and have only used it in an academic context for now.</en>
+      </pre>
+      </comp>
+
+      <comp>
+        <name>
+          <en>.NET</en>
+          <fr>.NET</fr>
+        </name>
+        <niv>60</niv>
+        <pre>
+    <fr>J'ai acquis de l'expérience avec ASP.NET, ADO.NET et Entity Framework, principalement dans un contexte académique.</fr>
+    <en>I have gained experience with ASP.NET, ADO.NET, and Entity Framework, primarily in an academic setting.</en>
+  </pre>
+        <des>
+          <fr>
+            <p>Mon projet le plus significatif a été un *<strong>site de troc de services</strong>,
+              qui m'a permis de développer des compétences pratiques en *<strong>développement
+              d'applications web</strong>. Ce projet a renforcé ma compréhension des *<strong>structures
+              de données</strong>, de la gestion des utilisateurs et des *<strong>interactions avec
+              des bases de données</strong> grâce à ADO.NET et Entity Framework.</p>
+            <p>Cette expérience m'a également permis de me familiariser avec l'écosystème .NET et
+              d'acquérir une bonne maîtrise des principes de *<strong>programmation orientée objet</strong>
+              .</p>
+          </fr>
+          <en>
+            <p>My most significant project was a *<strong>service exchange website</strong>, which
+              allowed me to develop practical skills in *<strong>web application development</strong>.
+              This project enhanced my understanding of *<strong>data structures</strong>, user
+              management, and *<strong>database interactions</strong> using ADO.NET and Entity
+              Framework.</p>
+            <p>This experience also familiarized me with the .NET ecosystem and helped me gain a
+              solid grasp of *<strong>object-oriented programming</strong> principles.</p>
+          </en>
+        </des>
+      </comp>
+
+      <comp>
+        <name>
+          <en>Laravel</en>
+          <fr>Laravel</fr>
+        </name>
+        <niv>40</niv>
+        <pre>
+          <fr>J'ai acquis des connaissances de base en Laravel, que j'ai principalement utilisées dans un cadre académique.</fr>
+          <en>I have gained basic knowledge of Laravel, which I have mainly used in an academic setting.</en>
+        </pre>
+        <des>
+          <fr>
+            <p>Mon expérience avec Laravel a été principalement dans le cadre d'un *<strong>projet
+                de site de restaurants</strong>, ce qui m'a permis de développer mes compétences en
+              *<strong>développement
+                d'applications web</strong> et de me familiariser avec les *<strong>principes de
+              structure MVC</strong>. J'ai pu approfondir mes connaissances en *<strong>gestion de
+              bases de données</strong> et en *<strong>authentification des utilisateurs</strong>.</p>
+          </fr>
+          <en>
+            <p>My experience with Laravel was primarily through a *<strong>restaurant website
+                project</strong>, which allowed me to develop my skills in *<strong>web application
+              development</strong> and familiarize myself with *<strong>MVC structure principles</strong>.
+              I was able to deepen my knowledge in *<strong>database management</strong> and *<strong>user
+              authentication</strong>.</p>
+          </en>
+        </des>
+      </comp>
+
+      <cours>
+        <name>
+          <en>React JS</en>
+          <fr>React JS</fr>
+        </name>
+        <niv>70</niv>
+        <pre>
+          <fr>Je suis actuellement en train d'améliorer mes compétences en React JS, que j'ai utilisées brièvement lors de mon stage pour développer une interface web.</fr>
+          <en>I am currently working on improving my skills in React JS, which I briefly used during my internship to develop a web interface.</en>
+        </pre>
+      </cours>
+
+      <cours>
+        <name>
+          <en>Angular</en>
+          <fr>Angular</fr>
+        </name>
+        <niv>30</niv>
+        <pre>
+          <fr>En cours d'apprentissage d'Angular. J'ai étudié la documentation et commencé mon premier projet.</fr>
+          <en>Currently learning Angular. I have studied the documentation and started my first project.</en>
+        </pre>
+      </cours>
+    </categorie>
+
+    <categorie>
+      <ti>
+        <en>Mobile Development</en>
+        <fr>Développement mobile</fr>
+      </ti>
+
+      <comp>
+        <name>
+          <en>Android: Java and Kotlin</en>
+          <fr>Android : Java et Kotlin</fr>
+        </name>
+        <niv>85</niv>
+        <pre>
+          <fr>Je possède une solide maîtrise du développement d'applications Android, utilisant à la fois Java et Kotlin.</fr>
+          <en>I have a strong mastery of Android application development, utilizing both Java and Kotlin.</en>
+        </pre>
+        <des>
+          <fr>
+            <p>Mon expérience avec Android m'a permis de travailler sur plusieurs *<strong>applications
+              mobiles</strong>, où j'ai développé des compétences en *<strong>design d'interfaces
+              utilisateurs</strong>, en *<strong>intégration de bases de données</strong> et en *<strong>gestion
+              des API</strong>. J'ai également acquis une bonne compréhension des *<strong>principes
+              de la programmation orientée objet</strong> et des *<strong>meilleures pratiques de
+              développement Android</strong>.</p>
+          </fr>
+          <en>
+            <p>My experience with Android has allowed me to work on several *<strong>mobile
+              applications</strong>, where I developed skills in *<strong>user interface design</strong>,
+              *<strong>database integration</strong>, and *<strong>API management</strong>. I also
+              gained a good understanding of *<strong>object-oriented programming principles</strong>
+              and *<strong>best practices in Android development</strong>.</p>
+          </en>
+        </des>
+      </comp>
+
+
+      <cours>
+        <name>
+          <en>React Native</en>
+          <fr>React Native</fr>
+        </name>
+        <niv>40</niv>
+        <pre>
+          <fr>En cours d'apprentissage de React Native. J'ai étudié la documentation et commencé à pratiquer avec des projets d'applications simples.</fr>
+          <en>Currently learning React Native. I have studied the documentation and started practicing with simple application projects.</en>
+        </pre>
+      </cours>
+
+      <cours>
+        <name>
+          <en>Flutter</en>
+          <fr>Flutter</fr>
+        </name>
+        <niv>30</niv>
+        <pre>
+          <fr>En cours d'apprentissage de Flutter. J'ai étudié la documentation et commencé mon premier projet.</fr>
+          <en>Currently learning Flutter. I have studied the documentation and started my first project.</en>
+        </pre>
+      </cours>
+    </categorie>
+
+    <categorie>
+      <ti>
+        <en>Artificial Intelligence</en>
+        <fr>Intelligence artificielle</fr>
+      </ti>
+
+      <comp>
+        <name>
+          <en>Machine Learning</en>
+          <fr>Machine Learning</fr>
+        </name>
+        <niv>85</niv>
+        <pre>
+          <fr>Je maîtrise les étapes de préparation et de traitement de données pour entraîner des modèles, ainsi que les bases théoriques et pratiques de la classification et de la génération de modèles.</fr>
+          <en>I have a strong understanding of data preparation and processing for training models, as well as theoretical and practical foundations in classification and model generation.</en>
+        </pre>
+        <des>
+          <fr>
+            <p>*<strong>Projet de classification :</strong> J'ai réalisé un projet académique de
+              classification de commentaires en catégories <em>neutre</em>, <em>positif</em> et <em>
+              négatif</em>, ce qui m'a permis d'appliquer les techniques d'entraînement et de
+              validation de modèles supervisés.</p>
+          </fr>
+          <en>
+            <p>*<strong>Classification project:</strong> I completed an academic project classifying
+              comments into <em>neutral</em>, <em>positive</em>, and <em>negative</em> categories,
+              allowing me to apply supervised model training and validation techniques.</p>
+          </en>
+        </des>
+      </comp>
+
+      <comp>
+        <name>
+          <en>Heuristic Searches and CSP</en>
+          <fr>Recherches heuristiques et CSP</fr>
+        </name>
+        <niv>84</niv>
+        <pre>
+          <fr>Je possède une solide compréhension des recherches heuristiques et des problèmes de satisfaction de contraintes, que j'ai appliquées dans des projets académiques.</fr>
+          <en>I have a solid understanding of heuristic searches and constraint satisfaction problems, which I applied in academic projects.</en>
+        </pre>
+        <des>
+          <fr>
+            <p>*<strong>Projet de génération et résolution de Hidoku :</strong> J'ai utilisé les
+              heuristiques <em>BFS, DFS, A*</em> et d'autres pour générer et résoudre des grilles de
+              Hidoku, en comparant les performances selon les méthodes employées.</p>
+          </fr>
+          <en>
+            <p>*<strong>Hidoku generation and solving project:</strong> I used <em>BFS, DFS, A*</em>
+              heuristics and others to generate and solve Hidoku puzzles, comparing performance
+              across methods used.</p>
+          </en>
+        </des>
+      </comp>
+
+      <comp>
+        <name>
+          <en>NLP and Deep Learning</en>
+          <fr>NLP et Deep Learning</fr>
+        </name>
+        <niv>67</niv>
+        <pre>
+          <fr>J'ai intégré des modèles de traitement de langage naturel et de génération de texte pour des tâches de vérification et de réponse, notamment dans un contexte de stage.</fr>
+          <en>I have integrated natural language processing and text generation models for verification and response tasks, particularly in an internship setting.</en>
+        </pre>
+        <des>
+          <fr>
+            <p>*<strong>Intégration de modèles en stage :</strong> J'ai intégré des modèles comme
+              ChatGPT pour vérifier des réponses et générer des dialogues adaptés au contexte,
+              utilisant notamment le RAG pour la gestion de connaissances.</p>
+          </fr>
+          <en>
+            <p>*<strong>Model integration during internship:</strong> I integrated models like
+              ChatGPT to verify answers and generate contextually adapted dialogues, including the
+              use of RAG for knowledge management.</p>
+          </en>
+        </des>
+      </comp>
+
+      <comp>
+        <name>
+          <en>Image processing</en>
+          <fr>Traitement d'images</fr>
+        </name>
+        <niv>60</niv>
+        <pre>
+          <fr>Je maîtrise les bases du traitement d'images avec des modèles d'apprentissage profond et de vision par ordinateur.</fr>
+          <en>I have a foundational understanding of image processing using deep learning and computer vision models.</en>
+        </pre>
+        <des>
+          <fr>
+            <p>*<strong>Projet de reconnaissance faciale :</strong> Durant mon stage, j'ai appliqué
+              des modèles pour détecter le visage et le positionnement d'un utilisateur afin de
+              prendre des photos d'identité, à partir d'un flux vidéo.</p>
+            <p>*<strong>Projet académique :</strong> Dans le cadre de mes études, j'ai intégré le
+              modèle YoloV5 pour la détection d'objets.</p>
+          </fr>
+          <en>
+            <p>*<strong>Facial recognition project:</strong> During my internship, I applied models
+              to detect users' faces and positioning to take identity photos from a video stream.</p>
+            <p>*<strong>Academic project:</strong> As part of my studies, I integrated the YoloV5
+              model for object detection.</p>
+          </en>
+        </des>
+      </comp>
+    </categorie>
+
+
+    <categorie>
+      <ti>
+        <en>Data</en>
+        <fr>Données</fr>
+      </ti>
+
+      <comp>
+        <name>
+          <en>SQL Queries</en>
+          <fr>Requêtes SQL</fr>
+        </name>
+        <niv>95</niv>
+        <pre>
+          <fr>Maîtrise avancée des requêtes SQL, y compris des requêtes complexes, des procédures stockées et des triggers.</fr>
+          <en>Advanced expertise in SQL queries, including complex queries, stored procedures, and triggers.</en>
+        </pre>
+        <des>
+          <fr>
+            <p>*<strong>Expérience académique :</strong> Utilisation de requêtes SQL pour la gestion
+              et la manipulation de données dans plusieurs projets académiques.</p>
+          </fr>
+          <en>
+            <p>*<strong>Academic experience:</strong> Utilized SQL queries for data management and
+              manipulation in multiple academic projects.</p>
+          </en>
+        </des>
+      </comp>
+
+      <comp>
+        <name>
+          <en>SQLite</en>
+          <fr>SQLite</fr>
+        </name>
+        <niv>95</niv>
+        <pre>
+          <fr>Utilisation fréquente de SQLite pour le stockage de données dans des projets académiques et personnels nécessitant une base de données légère.</fr>
+          <en>Frequent use of SQLite for data storage in academic and personal projects requiring a lightweight database.</en>
+        </pre>
+      </comp>
+
+      <comp>
+        <name>
+          <en>MySQL</en>
+          <fr>MySQL</fr>
+        </name>
+        <niv>77</niv>
+        <pre>
+          <fr>Bonne connaissance de MySQL, principalement dans le cadre de projets académiques impliquant des bases de données relationnelles.</fr>
+          <en>Good knowledge of MySQL, primarily within academic projects involving relational databases.</en>
+        </pre>
+      </comp>
+
+      <comp>
+        <name>
+          <en>PostgreSQL</en>
+          <fr>PostgreSQL</fr>
+        </name>
+        <niv>85</niv>
+        <pre>
+          <fr>Expérience avec PostgreSQL pour des projets académiques impliquant la gestion de grandes bases de données.</fr>
+          <en>Experience with PostgreSQL for academic projects involving large database management.</en>
+        </pre>
+      </comp>
+
+      <comp>
+        <name>
+          <en>MongoDB</en>
+          <fr>MongoDB</fr>
+        </name>
+        <niv>70</niv>
+        <pre>
+          <fr>Bonne connaissance de MongoDB, principalement utilisé dans des projets académiques en tant que base de données NoSQL.</fr>
+          <en>Good knowledge of MongoDB, mainly used in academic projects as a NoSQL database.</en>
+        </pre>
+      </comp>
+
+      <comp>
+        <name>
+          <en>SQLServer</en>
+          <fr>SQLServer</fr>
+        </name>
+        <niv>50</niv>
+        <pre>
+          <fr>Familiarité avec SQLServer, acquise lors de projets académiques pour la gestion de données relationnelles.</fr>
+          <en>Familiarity with SQLServer, gained during academic projects for relational data management.</en>
+        </pre>
+      </comp>
+
+      <comp>
+        <name>
+          <en>XML, XSLT</en>
+          <fr>XML, XSLT</fr>
+        </name>
+        <niv>87</niv>
+        <pre>
+          <fr>Bonne maîtrise d'XML et XSLT, acquise dans un cours spécialisé et dans des projets académiques.</fr>
+          <en>Good command of XML and XSLT, acquired in a specialized course and academic projects.</en>
+        </pre>
+        <des>
+          <fr>
+            <p>*<strong>Cours académique :</strong> Création de fichiers XML et utilisation de
+              feuilles XSLT pour les transformations.</p>
+          </fr>
+          <en>
+            <p>*<strong>Academic course:</strong> Created XML files and used XSLT for
+              transformations.</p>
+          </en>
+        </des>
+      </comp>
+
+      <comp>
+        <name>
+          <en>JSON</en>
+          <fr>JSON</fr>
+        </name>
+        <niv>90</niv>
+        <pre>
+          <fr>Utilisation intensive de JSON dans les projets web académiques, personnels et durant mon stage.</fr>
+          <en>Extensive use of JSON in academic, personal, and internship web projects.</en>
+        </pre>
+      </comp>
+
+      <comp>
+        <name>
+          <en>Business Intelligence</en>
+          <fr>Informatique décisionnelle</fr>
+        </name>
+        <niv>50</niv>
+        <pre>
+          <fr>Connaissance de la création d'entrepôts de données et de tableaux de bord pour la visualisation de données.</fr>
+          <en>Knowledge in creating data warehouses and dashboards for data visualization.</en>
+        </pre>
+        <des>
+          <fr>
+            <p>*<strong>Projet de tableau de bord :</strong> Création d'un tableau de bord avec
+              iCcube pour visualiser les données sous différentes formes.</p>
+          </fr>
+          <en>
+            <p>*<strong>Dashboard project:</strong> Created a dashboard with iCcube to visualize
+              data in various formats.</p>
+          </en>
+        </des>
+      </comp>
+    </categorie>
+
+
+    <categorie>
+      <ti>
+        <en>Development Tools</en>
+        <fr>Outils de développement</fr>
+      </ti>
+      <comp>
+        <name>
+          <en>IDE</en>
+          <fr>IDE</fr>
+        </name>
+        <liste>
+          <l>Visual Studio Code</l>
+          <l>Eclipse</l>
+          <l>IntelliJ</l>
+          <l>PyCharm</l>
+          <l>Android Studio</l>
+          <l>Visual Studio</l>
+        </liste>
+        <niv></niv>
+      </comp>
+      <comp>
+        <name>
+          <en>Version Control</en>
+          <fr>Gestion de versions</fr>
+        </name>
+        <liste>
+          <l>Git</l>
+          <l>GitHub</l>
+          <l>GitLab</l>
+        </liste>
+        <niv></niv>
+      </comp>
+      <comp>
+        <name>
+          <en>Build Automation</en>
+          <fr>Automatisation et build</fr>
+        </name>
+        <liste>
+          <l>Maven</l>
+          <l>Gradle</l>
+          <l>Webpack</l>
+        </liste>
+        <niv></niv>
+      </comp>
+      <comp>
+        <name>
+          <en>Unit Testing</en>
+          <fr>Tests unitaires</fr>
+        </name>
+        <liste>
+          <l>JUnit</l>
+          <l>PyTest</l>
+        </liste>
+        <niv></niv>
+      </comp>
+    </categorie>
+
+    <categorie>
+      <ti>
+        <en>Project Management</en>
+        <fr>Gestion de projet</fr>
+      </ti>
+      <comp>
+        <name>
+          <en>UML</en>
+          <fr>UML</fr>
+        </name>
+        <niv></niv>
+      </comp>
+      <comp>
+        <name>
+          <en>Gantt, Pert</en>
+          <fr>Gantt, Pert</fr>
+        </name>
+        <niv></niv>
+      </comp>
+      <comp>
+        <name>
+          <en>Specification Writing</en>
+          <fr>Rédaction des spécifications</fr>
+        </name>
+        <niv></niv>
+      </comp>
+      <comp>
+        <name>
+          <en>Project Management Methodologies</en>
+          <fr>Méthodologies de gestion de projet</fr>
+        </name>
+        <niv></niv>
+        <pre>
+          <fr>Expérience en gestion de projet avec une spécialisation dans les méthodes agiles, notamment SCRUM, appliquée dans un contexte académique.</fr>
+          <en>Experience in project management with a focus on Agile methodologies, specifically SCRUM, applied in an academic setting.</en>
+        </pre>
+      </comp>
+    </categorie>
+
+    <categorie>
+      <ti>
+        <en>Design and Prototyping</en>
+        <fr>Design et Prototypage</fr>
+      </ti>
+      <comp>
+        <name>
+          <en>Figma</en>
+          <fr>Figma</fr>
+        </name>
+        <niv></niv>
+        <pre>
+          <fr>Utilisation régulière de Figma pour la création de maquettes et prototypes d'interfaces.</fr>
+          <en>Regular use of Figma for creating interface models and prototypes.</en>
+        </pre>
+      </comp>
+      <comp>
+        <name>
+          <en>Photoshop</en>
+          <fr>Photoshop</fr>
+        </name>
+        <niv></niv>
+        <pre>
+          <fr>Maîtrise de Photoshop acquise de manière autonome, incluant des compétences en retouche photo avancée, en création graphique, et en dessin numérique.</fr>
+          <en>Self-taught mastery of Photoshop, including skills in advanced photo retouching, graphic creation, and digital drawing.</en>
+        </pre>
+      </comp>
+      <comp>
+        <name>
+          <en>SVG</en>
+          <fr>SVG</fr>
+        </name>
+        <niv></niv>
+        <pre>
+          <fr>Maîtrise du dessin fixe en SVG, avec des connaissances de base en animation.</fr>
+          <en>Proficiency in static SVG drawing, with foundational knowledge in animation.</en>
+        </pre>
+      </comp>
+    </categorie>
+
+    <categorie>
+      <ti>
+        <en>Networks and Security</en>
+        <fr>Réseaux et Sécurité</fr>
+      </ti>
+      <comp>
+        <name>
+          <en>Cybersecurity</en>
+          <fr>Sécurité informatique</fr>
+        </name>
+        <niv>50</niv>
+        <pre>
+          <fr>Connaissances de base en cybersécurité, y compris les techniques de protection contre les attaques fréquentes et la prévention.</fr>
+          <en>Basic knowledge of cybersecurity, including techniques for protecting against common attacks and prevention.</en>
+        </pre>
+        <des>
+          <fr>Étude des principales menaces de sécurité et des méthodes pour sécuriser les
+            informations sensibles, comme l'utilisation de clés privées et publiques.</fr>
+          <en>Study of the main security threats and methods to secure sensitive information, such
+            as the use of private and public keys.</en>
+        </des>
+      </comp>
+      <comp>
+        <name>
+          <en>Network Protocols</en>
+          <fr>Protocoles réseaux</fr>
+        </name>
+        <niv>60</niv>
+        <pre>
+          <fr>Connaissance des protocoles de communication, notamment HTTP.</fr>
+          <en>Knowledge of communication protocols, including HTTP.</en>
+        </pre>
+        <des>
+          <fr>Exploration des différents protocoles utilisés pour le transfert de données sur les
+            réseaux et leurs rôles dans la communication.</fr>
+          <en>Exploration of the different protocols used for data transfer over networks and their
+            roles in communication.</en>
+        </des>
+      </comp>
+      <comp>
+        <name>
+          <en>Network Architecture</en>
+          <fr>Architecture réseau</fr>
+        </name>
+        <niv>40</niv>
+        <pre>
+          <fr>Création d'architectures réseau simples, incluant des éléments tels que routeurs, postes, firewalls, et points d'accès.</fr>
+          <en>Creation of simple network architectures, including elements such as routers, workstations, firewalls, and access points.</en>
+        </pre>
+        <des>
+          <fr>Conception de réseaux basiques, en tenant compte des choix de câblage, des méthodes
+            de routage et de la capacité nécessaire.</fr>
+          <en>Design of basic networks, considering cabling choices, routing methods and necessary
+            capacity.</en>
+        </des>
+      </comp>
+    </categorie>
+
+
+  </competences>
+
+  <experiences>
+    <exp>
+      <int>
+        <en>Final-year Internship, Social Robotics Developer</en>
+        <fr>Stage de fin d'études, Développeuse en Robotique Sociale</fr>
+      </int>
+      <date>02/2024 - 08/2024</date>
+      <lieu>
+        <en>Inno'Lab, Atos, Échirolles</en>
+        <fr>Inno'Lab, Atos, Échirolles</fr>
+      </lieu>
+      <desc>
+        <mission>
+          <en>Development of Android applications in Kotlin and Java for robotic interfaces.</en>
+          <fr>Développement d'applications Android en Kotlin et Java pour des interfaces robotiques.</fr>
+        </mission>
+        <mission>
+          <en>Creation of interactive web interfaces using JavaScript, CSS, and HTML.</en>
+          <fr>Création d'interfaces web interactives avec JavaScript, CSS et HTML.</fr>
+        </mission>
+        <mission>
+          <en>Using Kotlin and Java for robotic software development.</en>
+          <fr>Utilisation de Kotlin et Java pour le développement de logiciels robotiques.</fr>
+        </mission>
+        <mission>
+          <en>Integration of LLMs (Large Language Models) to improve response detection.</en>
+          <fr>Intégration de LLMs (Large Language Models) pour l'amélioration de la détection de
+            réponses.</fr>
+        </mission>
+        <mission>
+          <en>Writing and executing unit and integration tests.</en>
+          <fr>Rédaction et exécution de tests unitaires et tests d'intégration.</fr>
+        </mission>
+        <mission>
+          <en>Collaboration with multidisciplinary teams to enhance human-robot interaction.</en>
+          <fr>Collaboration avec des équipes pluridisciplinaires pour améliorer les interactions
+            homme-robot.</fr>
+        </mission>
+      </desc>
+      <projets>
+
+      </projets>
+    </exp>
+
+    <exp>
+      <int>
+        <en>Psychology Internship in Hospital</en>
+        <fr>Stage de Psychologie en Centre Hospitalier</fr>
+      </int>
+      <date>10/2021 - 11/2021</date>
+      <lieu>
+        <en>Chagny Hospital</en>
+        <fr>Centre Hospitalier de Chagny</fr>
+      </lieu>
+      <desc>
+        <mission>
+          <en>Observation of clinical and psychological consultations.</en>
+          <fr>Observation des consultations cliniques et psychologiques.</fr>
+        </mission>
+        <mission>
+          <en>Assisting in neuropsychological testing and cognitive remediation.</en>
+          <fr>Assistance dans la réalisation de tests neuropsychologiques et la remédiation
+            cognitive.</fr>
+        </mission>
+        <mission>
+          <en>Interdisciplinary collaboration for patient care and support.</en>
+          <fr>Collaboration interdisciplinaire pour la prise en charge et le soutien des patients.</fr>
+        </mission>
+      </desc>
+    </exp>
+
+    <exp>
+      <int>
+        <en>Student jobs</en>
+        <fr>Jobs étudiant</fr>
+      </int>
+      <date>07/2019 - 09/2023</date>
+      <liste>
+        <l>
+          <fr>Serveuse en restauration</fr>
+          <en>Waitress</en>
+        </l>
+        <l>
+          <fr>Garde d'enfants</fr>
+          <en>Babysitting</en>
+        </l>
+        <l>
+          <fr>Professeure particulier de musique</fr>
+          <en>Private music teacher</en>
+        </l>
+        <l>
+          <fr>Aide au devoir</fr>
+          <en>Homework Help</en>
+        </l>
+      </liste>
+      <desc>
+      </desc>
+    </exp>
+  </experiences>
+
+
+  <formation>
+    <diplome>
+      <int>
+        <en>Master's in Applied Mathematics and Computer Science for Human and Social Sciences</en>
+        <fr>Master Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales</fr>
+      </int>
+      <date>09/2022 - 08/2024</date>
+      <lieu>
+        <en>Université Grenoble Alpes, Grenoble</en>
+        <fr>Université Grenoble Alpes, Grenoble</fr>
+      </lieu>
+      <parcours>
+        <en>Dual specialization: Computer Science and Social Sciences</en>
+        <fr>Parcours double compétence : Informatique et sciences sociales</fr>
+      </parcours>
+      <competences>
+        <en>Acquired skills: Programming (Java, HTML, PHP, CSS, JavaScript, C#, .NET, Laravel,
+          NodeJS), Algorithms, Databases, Project Management, Artificial Intelligence,
+          Human-Computer Interaction (HCI) Design</en>
+        <fr>Compétences acquises : Programmation (Java, HTML, PHP, CSS, JavaScript, C#, .NET,
+          Laravel, NodeJS), Algorithmique, Bases de données, Gestion de projet, Intelligence
+          Artificielle, Conception d'Interfaces Homme-Machine (IHM)</fr>
+      </competences>
+      <projets>
+        <projet>
+          <en>Hidoku game with solving algorithm: Development of a puzzle game in Python using
+            machine learning algorithms to generate and solve puzzles.</en>
+          <fr>Jeu de hidoku avec algorithme de résolution : Développement d'un jeu de réflexion en
+            Python utilisant des algorithmes de machine learning pour générer et résoudre des
+            puzzles.</fr>
+        </projet>
+        <projet>
+          <en>Service exchange website: Design and development of a website allowing users to
+            exchange services, using C# and .NET.</en>
+          <fr>Site web de troc de services : Conception et développement d'un site web permettant
+            aux utilisateurs de troquer des services, en utilisant C# et .NET.</fr>
+        </projet>
+        <projet>
+          <en>Zelda game (Nintendo 64 replica): Reproduction of a classic game, using Java.</en>
+          <fr>Jeu Zelda (copie de Zelda Nintendo 64) : Reproduction d'un jeu classique, en utilisant
+            Java.</fr>
+        </projet>
+        <projet>
+          <en>Multiplatform online checkers game (PC and mobile): Development of a checkers game
+            accessible on both PC and mobile, using CSS, HTML, JavaScript, and NodeJS.</en>
+          <fr>Jeu de dames en ligne multiplateforme (PC et mobile) : Développement d'un jeu de dames
+            accessible à la fois sur PC et mobile, utilisant CSS, HTML, JavaScript et NodeJS.</fr>
+        </projet>
+        <projet>
+          <en>Language model retraining for classification: Use of Python, PyTorch, and TensorFlow
+            to improve a natural language processing model.</en>
+          <fr>Réentrainement de modèle de langage pour classification : Utilisation de Python,
+            PyTorch et TensorFlow pour améliorer un modèle de traitement du langage naturel.</fr>
+        </projet>
+      </projets>
+    </diplome>
+
+    <diplome>
+      <int>
+        <en>Bachelor's in Psychology</en>
+        <fr>Licence de Psychologie</fr>
+      </int>
+      <date>09/2019 - 06/2022</date>
+      <lieu>
+        <en>Université de Bourgogne, Dijon</en>
+        <fr>Université de Bourgogne, Dijon</fr>
+      </lieu>
+      <parcours>
+        <en>Specializations: Cognitive Psychology, Clinical Psychology, and Neuropsychology</en>
+        <fr>Spécialités : Psychologie cognitive, clinique et neuropsychologie</fr>
+      </parcours>
+      <competences>
+        <en>Relevant courses: Cognitive Psychology, Cognitive Ergonomics, and Experimental
+          Psychology.</en>
+        <fr>Éléments pertinents : Cours de psychologie cognitive, ergonomie cognitive, et
+          psychologie expérimentale.</fr>
+      </competences>
+    </diplome>
+
+    <diplome>
+      <int>
+        <en>Scientific Baccalaureate with a Specialization in Computer Science and Digital Sciences</en>
+        <fr>Baccalauréat Scientifique Spécialité Informatique et Sciences du Numérique</fr>
+      </int>
+      <date>09/2018 - 07/2019</date>
+      <lieu>
+        <en>Lycée Nicéphore Nièpce, Chalon-sur-Saône</en>
+        <fr>Lycée Nicéphore Nièpce, Chalon-sur-Saône</fr>
+      </lieu>
+      <competences>
+        <en>Relevant elements: Learning Python and Arduino</en>
+        <fr>Éléments pertinents : Apprentissage de Python et Arduino</fr>
+      </competences>
+      <projets>
+        <projet>
+          <en>Educational game to learn how to read time</en>
+          <fr>Jeu éducatif pour apprendre à lire l'heure</fr>
+        </projet>
+      </projets>
+    </diplome>
+  </formation>
+
+  <projets>
+    <projet>
+      <type>
+        <fr>Académique</fr>
+        <en>Academic</en>
+      </type>
+      <nom>
+        <fr>Jeu éducatif pour apprendre à lire l'heure</fr>
+        <en>Educational game to learn how to tell time</en>
+      </nom>
+      <technos>
+        <t>
+          <fr>Python</fr>
+          <en>Python</en>
+        </t>
+        <t>
+          <fr>Pygame</fr>
+          <en>Pygame</en>
+        </t>
+      </technos>
+      <desc>
+        <fr>
+          <p>
+            Ce projet est un jeu éducatif destiné à aider les utilisateurs à apprendre à lire
+            l'heure. Il propose quatre niveaux de difficulté : heures, heures et minutes, heures,
+            minutes et secondes, ainsi que heures, minutes et secondes sans nombres et sans couleur
+            pour différencier les aiguilles.
+          </p>
+          <p>
+            L'interface utilise des éléments graphiques dessinés avec une machine tracée, incluant
+            un disque pour le fond, un cercle pour le contour, et des traits colorés représentant
+            les aiguilles. L'heure affichée est générée aléatoirement, et les aiguilles sont animées
+            pour tourner avant de s'arrêter à l'heure définie. En fonction du niveau de difficulté,
+            le nombre de champs à remplir varie (1, 2 ou 3 pour heures, minutes, et secondes).
+          </p>
+          <p>
+            Lorsqu'un utilisateur réussit plusieurs fois un même niveau, il est proposé de passer au
+            niveau suivant. Le jeu inclut également une musique de fond optionnelle et un menu
+            permettant de choisir le niveau ou de quitter le jeu.
+          </p>
+          <p>
+            Ce projet a été réalisé en groupe de trois, uniquement en Python, en utilisant la
+            bibliothèque Pygame pour l'interface.
+          </p>
+        </fr>
+        <en>
+          <p>
+            This project is an educational game designed to help users learn how to tell time. It
+            offers four levels of difficulty: hours, hours and minutes, hours, minutes and seconds,
+            and hours, minutes and seconds without numbers and without color to differentiate the
+            hands.
+          </p>
+          <p>
+            The interface uses graphical elements drawn with a machine, including a disk for the
+            background, a circle for the outline, and colored lines representing the hands. The
+            displayed time is randomly generated, and the hands are animated to rotate before
+            stopping at the defined time. Depending on the difficulty level, the number of fields to
+            fill varies (1, 2, or 3 for hours, minutes, and seconds).
+          </p>
+          <p>
+            When a user successfully completes the same level multiple times, they are offered to
+            move to the next level. The game also includes optional background music and a menu to
+            choose the level or exit the game.
+          </p>
+          <p>
+            This project was completed in a group of three, using only Python and the Pygame library
+            for the interface.
+          </p>
+        </en>
+      </desc>
+    </projet>
+
+
+    <projet>
+      <type>
+        <fr>Académique</fr>
+        <en>Academic</en>
+      </type>
+      <nom>
+        <fr>Bataille navale</fr>
+        <en>Battleship Game</en>
+      </nom>
+      <technos>
+        <t>
+          <fr>Java</fr>
+          <en>Java</en>
+        </t>
+        <t>
+          <fr>Swing</fr>
+          <en>Swing</en>
+        </t>
+      </technos>
+      <desc>
+        <fr>
+          <p>
+            Ce projet est un jeu de bataille navale en local, conçu pour permettre à deux joueurs de
+            s'affronter ou à un joueur de jouer contre une intelligence artificielle. Réalisé en
+            Java avec Swing pour l'interface, le jeu inclut une phase de préparation où chaque
+            joueur place ses bateaux sur une grille.
+          </p>
+          <p>
+            Une fois les bateaux placés, la partie commence et les joueurs tirent tour à tour pour
+            tenter de toucher les bateaux adverses. Une case devient rouge lorsqu'un bateau est
+            touché, et bleue si le tir tombe dans l'eau. La partie se termine dès qu'il ne reste
+            plus de bateaux en vie pour l'un des joueurs.
+          </p>
+          <p>
+            Ce projet a été développé en groupe de trois personnes dans le cadre d'un examen de fin
+            de semestre, avec un délai de quatre jours.
+          </p>
+        </fr>
+        <en>
+          <p>
+            This project is a local Battleship game designed for two players to compete or for one
+            player to play against an artificial intelligence. Developed in Java using Swing for the
+            interface, the game includes a setup phase where each player places their ships on a
+            grid.
+          </p>
+          <p>
+            Once the ships are placed, the game begins, and players take turns firing to try to hit
+            the opponent's ships. A cell turns red when a ship is hit, and blue if the shot lands in
+            the water. The game ends when one player's ships are all destroyed.
+          </p>
+          <p>
+            This project was completed by a group of three people as part of an end-of-semester
+            exam, with a four-day time frame.
+          </p>
+        </en>
+      </desc>
+    </projet>
+
+
+    <projet>
+      <type>
+        <fr>Académique</fr>
+        <en>Academic</en>
+      </type>
+      <nom>
+        <fr>Reproduction de Zelda 64</fr>
+        <en>Zelda 64 Reproduction</en>
+      </nom>
+      <technos>
+        <t>
+          <fr>Java</fr>
+          <en>Java</en>
+        </t>
+        <t>
+          <fr>Golden T Game Engine</fr>
+          <en>Golden T Game Engine</en>
+        </t>
+      </technos>
+      <desc>
+        <fr>
+          <p>
+            Ce projet avait pour objectif de reproduire le jeu Zelda 64 en Java, avec un maximum de
+            détails dans le temps imparti pour l'examen. L'interface a été développée avec la
+            bibliothèque Golden T Game Engine, et le projet a été réalisé en binôme sur quatre
+            jours.
+          </p>
+          <p>
+            Le jeu propose neuf cartes générées à partir de tableaux, chaque caractère représentant
+            une texture spécifique. Link peut se déplacer, attaquer, et se protéger à l'aide d'un
+            bouclier. Il est possible de ramasser des objets comme des cœurs pour regagner de la
+            vie, des bombes, des clés, et des morceaux de Triforce. Cependant, nous n'avons pas eu
+            le temps de finaliser l'utilisation des bombes et des clés.
+          </p>
+          <p>
+            Le jeu comprend six types d'ennemis, chacun ayant des comportements spécifiques en
+            termes de vitesse, direction, et type d'attaque (corps-à-corps ou à distance). Plus le
+            joueur s'éloigne de son point de départ, plus les ennemis deviennent puissants et
+            nombreux. La partie se termine lorsque Link récupère les trois Triforces ou lorsque sa
+            vie atteint zéro.
+          </p>
+          <p>
+            Des bruitages accompagnent chaque action comme l'attaque, la récupération d'objets, et
+            la perte de vie. Les animations ont été réalisées en déplaçant et remplaçant des images.
+          </p>
+        </fr>
+        <en>
+          <p>
+            This project aimed to reproduce the game Zelda 64 in Java with as much detail as
+            possible within the exam timeframe. The interface was developed using the Golden T Game
+            Engine library, and the project was completed in a four-day period by a team of two.
+          </p>
+          <p>
+            The game features nine maps generated from arrays, where each character corresponds to a
+            specific texture. Link can move, attack, and defend using a shield. Players can collect
+            items like hearts to regain health, bombs, keys, and Triforce pieces. However, we did
+            not have time to fully implement the use of bombs and keys.
+          </p>
+          <p>
+            There are six types of enemies, each with unique movement patterns, speeds, directions,
+            and attack types (melee or ranged). As players progress further from the starting point,
+            enemies become stronger and more numerous. The game ends when Link collects all three
+            Triforces or when his health is depleted.
+          </p>
+          <p>
+            Sound effects accompany each action, such as attacking, collecting items, and losing
+            health. Animations were created by moving and replacing images.
+          </p>
+        </en>
+      </desc>
+    </projet>
+
+
+    <projet>
+      <type>
+        <fr>Académique</fr>
+        <en>Academic</en>
+      </type>
+      <nom>
+        <fr>Site de recherche de restaurants</fr>
+        <en>Restaurant Search Website</en>
+      </nom>
+      <technos>
+        <t>
+          <fr>PHP</fr>
+          <en>PHP</en>
+        </t>
+        <t>
+          <fr>Laravel</fr>
+          <en>Laravel</en>
+        </t>
+        <t>
+          <fr>Blade</fr>
+          <en>Blade</en>
+        </t>
+        <t>
+          <fr>HTML</fr>
+          <en>HTML</en>
+        </t>
+        <t>
+          <fr>CSS</fr>
+          <en>CSS</en>
+        </t>
+        <t>
+          <fr>SQLite</fr>
+          <en>SQLite</en>
+        </t>
+      </technos>
+      <desc>
+        <fr>
+          <p>
+            Ce projet était mon premier projet web, réalisé en PHP avec le framework Laravel et
+            Blade pour le rendu des vues. Le site propose une interface permettant de rechercher des
+            restaurants et de les filtrer selon des tags ou le type de cuisine.
+          </p>
+          <p>
+            Chaque restaurant dispose de sa propre page où l’on peut consulter sa note, ses horaires
+            d'ouverture, une description, son emplacement, ainsi que les avis des utilisateurs. Les
+            utilisateurs peuvent également laisser des commentaires pour partager leurs expériences.
+          </p>
+          <p>
+            Le site offre une expérience personnalisée en fonction du type d'utilisateur. Les
+            utilisateurs classiques peuvent parcourir les restaurants et ajouter des avis, les
+            propriétaires de restaurants peuvent ajouter et modifier les informations de leurs
+            établissements, et répondre aux avis. L'administrateur, quant à lui, dispose de droits
+            de gestion sur les restaurants et les utilisateurs du site.
+          </p>
+          <p>
+            Ce projet a été développé de manière autonome en deux semaines en dehors des cours pour
+            un examen.
+          </p>
+        </fr>
+        <en>
+          <p>
+            This project was my first web project, developed in PHP using the Laravel framework and
+            Blade for view rendering. The website allows users to search for restaurants and filter
+            them based on tags or cuisine type.
+          </p>
+          <p>
+            Each restaurant has its own page where users can view its rating, opening hours,
+            description, location, and reviews left by other users. Users can also leave comments to
+            share their experiences.
+          </p>
+          <p>
+            The website provides a tailored experience depending on the type of user. Regular users
+            can browse restaurants and leave reviews, restaurant owners can add and edit information
+            about their establishments and respond to reviews, while the administrator has control
+            over managing both restaurants and users on the platform.
+          </p>
+          <p>
+            This project was developed independently over two weeks outside of class for an exam.
+          </p>
+        </en>
+      </desc>
+    </projet>
+
+
+    <projet>
+      <type>
+        <fr>Personnel</fr>
+        <en>Personal</en>
+      </type>
+      <nom>
+        <fr>Organisateur de révisions</fr>
+        <en>Study Planner</en>
+      </nom>
+      <technos>
+        <t>
+          <fr>Java</fr>
+          <en>Java</en>
+        </t>
+        <t>
+          <fr>Kotlin</fr>
+          <en>Kotlin</en>
+        </t>
+        <t>
+          <fr>Android</fr>
+          <en>Android</en>
+        </t>
+        <t>
+          <fr>SQLite</fr>
+          <en>SQLite</en>
+        </t>
+      </technos>
+      <desc>
+        <fr>
+          <p>
+            Ce projet est ma première application Android personnelle, développée en Kotlin. Il
+            s'agit d'une application de révision où l'utilisateur peut entrer les cours qu'il a eus
+            dans la journée. L'application programme alors la prochaine révision en fonction d'un
+            intervalle optimal pour favoriser la rétention de l'information.
+          </p>
+          <p>
+            J'ai également implémenté un système de niveaux et d'expérience. À chaque révision
+            validée, l'utilisateur gagne de l'expérience, ce qui lui permet de monter en niveau. Si
+            une révision est manquée, elle est reprogrammée en tenant compte du retard pour adapter
+            les révisions futures.
+          </p>
+        </fr>
+        <en>
+          <p>
+            This project is my first personal Android application, developed in Kotlin. It is a
+            study planner where users can enter the courses they had during the day. The app then
+            schedules the next review session at an optimal interval to support information
+            retention.
+          </p>
+          <p>
+            I also implemented a leveling and experience system. Each completed review earns the
+            user experience points, which contribute to level progression. If a review is missed, it
+            is rescheduled, adjusting future review intervals based on the delay.
+          </p>
+        </en>
+      </desc>
+    </projet>
+
+    <projet>
+      <type>
+        <fr>Académique</fr>
+        <en>Academic</en>
+      </type>
+      <nom>
+        <fr>Site de troc de services</fr>
+        <en>Service Exchange Website</en>
+      </nom>
+      <technos>
+        <t>
+          <fr>C#</fr>
+          <en>C#</en>
+        </t>
+        <t>
+          <fr>.NET</fr>
+          <en>.NET</en>
+        </t>
+        <t>
+          <fr>SQLServer</fr>
+          <en>SQLServer</en>
+        </t>
+      </technos>
+      <desc>
+        <fr>
+          <p>
+            Ce projet est un site de troc de services réalisé en C# avec le framework .NET. Il
+            permet aux utilisateurs de proposer et de réserver des services en échange de points.
+            Chaque utilisateur reçoit un certain nombre de points à la création de son compte, qu'il
+            peut utiliser pour réserver des services ou gagner en proposant ses propres services.
+          </p>
+          <p>
+            Lorsqu'un utilisateur réserve un service, l'auteur de l'annonce peut accepter ou refuser
+            la demande. Une fois accepté, l'utilisateur propose un créneau de rendez-vous qui doit
+            être validé par l'auteur. Après la réalisation du service, il est possible de laisser un
+            commentaire.
+          </p>
+          <p>
+            Le site offre également la possibilité de parcourir les services disponibles,
+            personnaliser son profil, accéder à son historique de services, faire des réclamations
+            et consulter les avis laissés par les autres utilisateurs. Les administrateurs peuvent
+            gérer les utilisateurs, les annonces de services et les réclamations.
+          </p>
+          <p>
+            Ce projet a été réalisé en binôme sur une durée de deux mois dans le cadre d'un examen
+            de fin de semestre.
+          </p>
+        </fr>
+        <en>
+          <p>
+            This project is a service exchange website developed in C# using the .NET framework. It
+            allows users to offer and book services in exchange for points. Each user receives an
+            initial set of points upon account creation, which can be used to reserve services or
+            earned by offering their own services.
+          </p>
+          <p>
+            When a user books a service, the service provider can accept or decline the request.
+            Once accepted, the user proposes a time slot, which must be confirmed by the provider.
+            After the service is completed, users can leave a comment.
+          </p>
+          <p>
+            The website also allows users to browse available services, customize their profile,
+            access their service history, submit complaints, and view feedback from other users.
+            Administrators can manage users, service listings, and complaints.
+          </p>
+          <p>
+            This project was completed over two months in a team of two for an end-of-semester exam.
+          </p>
+        </en>
+      </desc>
+    </projet>
+
+    <projet>
+      <type>
+        <fr>Académique</fr>
+        <en>Academic</en>
+      </type>
+      <nom>
+        <fr>Réentrainement d'un modèle de classification</fr>
+        <en>Retraining of a Classification Model</en>
+      </nom>
+      <technos>
+        <t>
+          <fr>Python</fr>
+          <en>Python</en>
+        </t>
+        <t>
+          <fr>PyTorch</fr>
+          <en>PyTorch</en>
+        </t>
+        <t>
+          <fr>Hugging Face</fr>
+          <en>Hugging Face</en>
+        </t>
+        <t>
+          <fr>NLP</fr>
+          <en>NLP</en>
+        </t>
+      </technos>
+      <desc>
+        <fr>
+          <p>
+            Le but de ce projet était de réentraîner un modèle de langage pour la classification
+            d'avis en utilisant un modèle préexistant sur Hugging Face. J'ai optimisé ses paramètres
+            afin d'améliorer ses performances dans la tâche de classification des avis.
+          </p>
+          <p>
+            J'ai également ajouté un dictionnaire de valence, associant chaque mot à une connotation
+            positive ou négative (score allant de -1 à 1), que j'utilisais comme vecteur
+            supplémentaire pour enrichir les résultats du modèle. Le modèle a obtenu un taux de
+            réussite de 91% lors de l'évaluation finale.
+          </p>
+          <p>
+            Ce projet a été réalisé seule en une semaine dans le cadre d'un projet académique.
+          </p>
+        </fr>
+        <en>
+          <p>
+            The aim of this project was to retrain a language model for review classification using
+            an existing model from Hugging Face. I optimized its parameters to enhance its
+            performance on the review classification task.
+          </p>
+          <p>
+            I also added a valence dictionary, assigning each word a positive or negative
+            connotation (with a score ranging from -1 to 1), which was used as an additional vector
+            to support the classification model’s results. The model achieved a 91% accuracy rate
+            during the evaluation phase.
+          </p>
+          <p>
+            This project was completed individually over the course of one week as part of an
+            academic project.
+          </p>
+        </en>
+      </desc>
+    </projet>
+
+    <projet>
+      <type>
+        <fr>Académique</fr>
+        <en>Academic</en>
+      </type>
+      <nom>
+        <fr>Jeu de Hidoku</fr>
+        <en>Hidoku Game</en>
+      </nom>
+      <technos>
+        <t>
+          <fr>Python</fr>
+          <en>Python</en>
+        </t>
+        <t>
+          <fr>Recherche Heuristique</fr>
+          <en>Heuristic Search</en>
+        </t>
+        <t>
+          <fr>CSP</fr>
+          <en>CSP</en>
+        </t>
+        <t>
+          <fr>Pygame</fr>
+          <en>Pygame</en>
+        </t>
+      </technos>
+      <desc>
+        <fr>
+          <p>
+            Ce projet consistait à réaliser un jeu de Hidoku, où l'objectif est de remplir une
+            grille en formant une suite de nombres. Le jeu, développé en Python avec une interface
+            graphique utilisant Pygame, proposait deux options : le joueur pouvait résoudre la
+            grille manuellement ou laisser l'algorithme s'en charger.
+          </p>
+          <p>
+            Nous avons implémenté six méthodes de résolution, dont BFS, DFS et A*, permettant ainsi
+            de comparer leurs performances. La grille était générée en utilisant l'algorithme DFS,
+            introduisant des éléments aléatoires puis en effaçant des nombres.
+          </p>
+          <p>
+            L'interface comprenait une grille interactive où l’utilisateur pouvait soit jouer
+            manuellement en cliquant et en entrant les nombres, soit sélectionner un algorithme de
+            résolution. Nous avons réalisé des analyses de performances en évaluant le taux de
+            réussite, le temps de résolution et l'utilisation de la mémoire pour chaque méthode.
+          </p>
+          <p>
+            Ce projet a été réalisé en groupe de trois en un mois dans le cadre d'un examen.
+          </p>
+        </fr>
+        <en>
+          <p>
+            This project involved creating a Hidoku game where the goal is to fill a grid by forming
+            a sequence of numbers. The game was developed in Python with a graphical interface using
+            Pygame, offering two modes: the player could solve the grid manually or let an algorithm
+            solve it.
+          </p>
+          <p>
+            We implemented six solving methods, including BFS, DFS, and A*, allowing us to compare
+            their performances. The grid was generated using the DFS algorithm with randomness and
+            by erasing some numbers.
+          </p>
+          <p>
+            The interface featured an interactive grid where users could either play manually by
+            clicking and entering numbers, or choose a solving algorithm. We conducted performance
+            analyses based on success rate, resolution time, and memory usage for each method.
+          </p>
+          <p>
+            This project was completed in a group of three over the course of one month as part of
+            an exam.
+          </p>
+        </en>
+      </desc>
+    </projet>
+
+    <projet>
+      <type>
+        <fr>Académique</fr>
+        <en>Academic</en>
+      </type>
+      <nom>
+        <fr>Jeu de Dames Multiplateformes</fr>
+        <en>Multiplatform Checkers Game</en>
+      </nom>
+      <technos>
+        <t>
+          <fr>Javascript</fr>
+          <en>Javascript</en>
+        </t>
+        <t>
+          <fr>NodeJS</fr>
+          <en>NodeJS</en>
+        </t>
+        <t>
+          <fr>Cordova</fr>
+          <en>Cordova</en>
+        </t>
+        <t>
+          <fr>JSON</fr>
+          <en>JSON</en>
+        </t>
+      </technos>
+      <desc>
+        <fr>
+          <p>
+            Ce projet est un jeu de dames en ligne multiplateforme, développé en Javascript et
+            NodeJS. Lorsqu'un joueur se connecte, il est placé dans une file d'attente où il peut
+            jouer contre un ordinateur en attendant un adversaire humain.
+          </p>
+          <p>
+            Pendant la partie, le joueur clique sur une pièce pour voir les mouvements possibles en
+            surbrillance. En cas de déconnexion, le joueur peut reprendre la partie en se
+            reconnectant dans les 30 secondes, avec un récapitulatif accéléré des mouvements
+            manqués.
+          </p>
+          <p>
+            Ce projet a été réalisé en groupe de trois en deux mois dans le cadre d'un exercice
+            académique.
+          </p>
+        </fr>
+        <en>
+          <p>
+            This project is a multiplatform online checkers game, developed using Javascript and
+            NodeJS. When a player connects, they are placed in a waiting queue where they can play
+            against a computer while waiting for a human opponent.
+          </p>
+          <p>
+            During the game, the player clicks on a piece to see possible moves highlighted. In case
+            of disconnection, the player can resume the game if they reconnect within 30 seconds,
+            with a fast-forwarded recap of missed moves.
+          </p>
+          <p>
+            This project was completed in a group of three over the course of two months as an
+            academic exercise.
+          </p>
+        </en>
+      </desc>
+    </projet>
+
+
+    <projet>
+      <type>
+        <fr>Stage</fr>
+        <en>Internship</en>
+      </type>
+      <nom>
+        <fr>Jeux d'animation avec une tête robotique</fr>
+        <en>Animation Games with a Robotic Head</en>
+      </nom>
+      <technos>
+        <t>
+          <fr>Kotlin</fr>
+          <en>Kotlin</en>
+        </t>
+        <t>
+          <fr>Android</fr>
+          <en>Android</en>
+        </t>
+      </technos>
+      <desc>
+        <fr>
+          <p>
+            Ce projet, réalisé dans le cadre de mon stage, consistait à concevoir un logiciel de
+            jeux pour la tête robotique Furhat, avec une application Android en Kotlin servant
+            d'interface utilisateur. Le but était de développer des jeux interactifs pour des
+            animations, favorisant l'interaction homme-machine avec Furhat.
+          </p>
+          <p>
+            Pour assurer la connectivité, le robot et l'appareil mobile devaient être sur le même
+            réseau Wi-Fi. Une fois l'IP du robot entrée dans l'application, celle-ci envoyait son
+            adresse IP au robot pour établir la connexion. L'application proposait plusieurs jeux,
+            comme un quiz et un jeu de chaud-froid synchronisé avec les instructions vocales du
+            robot.
+          </p>
+          <p>
+            Au fil des animations, en tenant compte des retours utilisateurs et des besoins
+            spécifiques, j'ai amélioré le logiciel, par exemple en ajoutant un tableau phonétique
+            pour améliorer la reconnaissance des mots, permettant ainsi de prendre en compte toutes
+            les écritures possibles d'un mot.
+          </p>
+        </fr>
+        <en>
+          <p>
+            This project, completed during my internship, involved designing a game software for the
+            Furhat robotic head, paired with an Android application in Kotlin for the user
+            interface. The goal was to develop interactive games for events, enhancing human-machine
+            interaction with Furhat.
+          </p>
+          <p>
+            For connectivity, both the robot and the mobile device needed to be on the same Wi-Fi
+            network. By entering the robot’s IP in the app, the app sent its IP back to establish
+            the connection. The application featured various games, such as a quiz and a hot-cold
+            game synchronized with the robot’s speech.
+          </p>
+          <p>
+            Throughout the events, based on user feedback and specific requirements, I improved the
+            software, for instance by adding a phonetic table to enhance word recognition,
+            accounting for multiple spellings of a word.
+          </p>
+        </en>
+      </desc>
+    </projet>
+
+
+    <projet>
+      <type>
+        <fr>Stage</fr>
+        <en>Internship</en>
+      </type>
+      <nom>
+        <fr>Remplissage de formulaires au cours d'une conversation</fr>
+        <en>Form Filling During a Conversation</en>
+      </nom>
+      <technos>
+        <t>
+          <fr>Kotlin</fr>
+          <en>Kotlin</en>
+        </t>
+        <t>
+          <fr>Javascript</fr>
+          <en>Javascript</en>
+        </t>
+        <t>
+          <fr>NLP</fr>
+          <en>NLP</en>
+        </t>
+        <t>
+          <fr>Traitement d'images</fr>
+          <en>Image processing</en>
+        </t>
+      </technos>
+      <desc>
+        <fr>
+          <p>
+            Ce projet complexe, réalisé seul en un mois et demi durant mon stage, consistait à
+            concevoir un logiciel pour le robot Furhat permettant de remplir des formulaires au
+            cours d'une conversation naturelle, avec option de prise de photos. Le logiciel
+            principal était en Kotlin et l'interface en JavaScript.
+          </p>
+          <p>
+            L'interface permettait de créer des formulaires, de sélectionner le formulaire à remplir
+            et de vérifier les réponses ainsi que la prise de photo. Pour la détection des réponses,
+            le système combinait les capacités de détection des intentions et entités de Furhat avec
+            une vérification via OpenAI.
+          </p>
+          <p>
+            Le logiciel intégrait progressivement de nouvelles intentions et entités pour optimiser
+            la reconnaissance des réponses par Furhat, limitant ainsi les requêtes à OpenAI afin de
+            réduire les délais de réponse. OpenAI était également utilisé pour générer les réponses
+            du robot, permettant d’orienter la conversation vers les champs manquants du formulaire
+            de manière fluide. Enfin, le flux vidéo du robot était utilisé pour capturer une photo
+            d'identité si nécessaire pour le formulaire.
+          </p>
+        </fr>
+        <en>
+          <p>
+            This complex project, completed solo over a month and a half during my internship,
+            involved designing software for the Furhat robot to fill out forms during a natural
+            conversation, with an option for photo capture. The main software was developed in
+            Kotlin, with the interface in JavaScript.
+          </p>
+          <p>
+            The interface allowed users to create forms, select the form to be filled out, and
+            verify responses and photo captures. For response detection, the system combined
+            Furhat's intent and entity recognition capabilities with a verification using OpenAI.
+          </p>
+          <p>
+            The software progressively incorporated new intents and entities to improve Furhat's
+            response recognition, minimizing reliance on OpenAI to reduce response delays. OpenAI
+            was also used to generate the robot's responses, smoothly guiding the conversation
+            toward missing fields in the form. Finally, the robot's video stream was used to capture
+            an ID photo if required by the form.
+          </p>
+        </en>
+      </desc>
+    </projet>
+
+
+  </projets>
+
+
+  <loisirs>
+    <loi>
+      <en>Music</en>
+      <fr>Musique</fr>
+    </loi>
+    <loi>
+      <en>Sewing and Crochet</en>
+      <fr>Couture et Crochet</fr>
+    </loi>
+    <loi>
+      <en>Reading and Writing</en>
+      <fr>Lecture et Ecriture</fr>
+    </loi>
+    <loi>
+      <en>Drawing</en>
+      <fr>Dessin</fr>
+    </loi>
+    <loi>
+      <en>Baking</en>
+      <fr>Patisserie</fr>
+    </loi>
+    <loi>
+      <en>Video games</en>
+      <fr>Jeux vidéos</fr>
+    </loi>
+  </loisirs>
+
+  <propos>
+    <pres>
+      <fr>
+        <paragraph>
+          Jeune diplômée d’un master en informatique appliquée aux sciences sociales, je suis
+          passionnée par l'alliance entre la technologie et les sciences humaines. Mon parcours
+          multidisciplinaire, alliant compétences techniques et expertise en psychologie, me permet
+          de proposer une approche centrée sur l'utilisateur dans le développement de solutions
+          logicielles. Mes expériences en psychologie m'ont permis de développer des compétences en
+          communication et en travail d'équipe, ainsi que des connaissances en psychologie cognitive
+          et en ergonomie, des atouts précieux pour comprendre et répondre aux besoins des
+          utilisateurs.
+          Mon objectif est désormais de continuer à renforcer mes compétences en développement tout
+          en
+          contribuant à des projets innovants et accessibles, où je pourrai appliquer mes
+          connaissances
+          en ergonomie et en interaction homme-machine (IHM).
+        </paragraph>
+      </fr>
+      <en>
+        <paragraph>
+          A recent graduate with a Master's degree in Computer Science applied to Social Sciences,
+          I am passionate about the intersection of technology and the humanities. My
+          multidisciplinary
+          background, combining technical skills and expertise in psychology, allows me to bring a
+          user-centered
+          approach to software development. My experiences in psychology have allowed me to develop
+          skills in communication and teamwork, as well as knowledge in cognitive psychology and
+          ergonomics, which are valuable assets for understanding and addressing user needs. My
+          current goal is
+          to continue
+          strengthening my development skills while contributing to innovative and accessible
+          projects, where
+          I can apply my knowledge in ergonomics and Human-Computer Interaction (HCI).
+        </paragraph>
+      </en>
+    </pres>
+
+    <parcours>
+      <fr>
+        <paragraph>
+          Mon parcours atypique résulte d'une passion pour la technologie et les sciences humaines,
+          que j’ai cultivée dès le lycée en choisissant une filière scientifique avec une spécialité
+          en informatique et sciences du numérique. C’est là que j’ai découvert le code en apprenant
+          Python et Arduino. En parallèle, ma curiosité pour le comportement humain m’a conduite à
+          m’intéresser à la psychologie, au mentalisme, et à l'art-thérapie, une discipline qui
+          combinait mes loisirs créatifs (musique, écriture, dessin) avec mon intérêt pour l'étude
+          de l'esprit humain. C’est cet attrait pour l’interdisciplinarité qui m’a orientée vers une
+          licence de psychologie.
+        </paragraph>
+        <paragraph>
+          Durant ma licence de psychologie, j'ai particulièrement apprécié la psychologie cognitive,
+          la neuropsychologie et l'ergonomie, mais j’ai vite constaté que j’étais davantage attirée
+          par l'aspect théorique de ces disciplines que par leur application pratique, surtout après
+          mon stage en centre hospitalier en troisième année. Bien que la recherche soit un domaine
+          stimulant, je ne me projetais pas dans une carrière académique pour le reste de ma vie.
+          Cette formation a été enrichissante, car elle m'a permis de renforcer mes compétences
+          en communication et en collaboration, ainsi que d'acquérir des connaissances en
+          psychologie et en ergonomie cognitive, qui se sont révélées précieuses pour la suite de
+          mon parcours.
+        </paragraph>
+        <paragraph>
+          J’ai découvert par hasard le master double compétence en informatique et sciences
+          sociales. Ayant gardé un goût prononcé pour la programmation depuis le lycée, j’ai saisi
+          cette opportunité de réorientation qui me permettait de continuer mes études supérieures
+          sans repartir de zéro.
+          La première année de ce master, bien que très intense, m’a permis d’acquérir des bases
+          solides en informatique. J’ai particulièrement apprécié les cours de développement web,
+          d’IHM, et de développement mobile, que j’approfondissais en dehors des cours.
+        </paragraph>
+        <paragraph>
+          En deuxième année, nous avons intégré des cours avec des étudiants d'autres parcours du
+          Master en Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales,
+          avec un programme centré sur la pratique ainsi que sur des domaines spécifiques comme le
+          NLP (traitement du langage naturel), le machine learning et la business intelligence.
+          Cette année-là, la majorité de nos apprentissages se faisaient sous forme de projets de
+          groupe de longue durée, en partenariat avec des étudiants d’autres parcours. Cette
+          dynamique de collaboration a été un levier pour progresser en bénéficiant de l’expérience
+          et des connaissances variées de chacun.
+        </paragraph>
+        <paragraph>
+          Pour mon stage de fin d’études, j’ai rejoint l'Inno'Lab d'Atos, une structure hybride
+          entre recherche et production, où j'ai pu utiliser mes compétences en psychologie dans le
+          domaine de la robotique sociale. J’ai travaillé sur le robot Furhat, participant au
+          développement de logiciels, d’interfaces web et mobiles synchronisées avec le robot.
+          L’objectif de ce stage était d'explorer et d'apporter des innovations en robotique
+          conversationnelle. Plus spécifiquement, je me suis concentrée sur l’optimisation de
+          l'interaction via la tête robotisée Furhat, avec un accent sur la création de
+          démonstrateurs et l’intégration de modèles de langage de grande échelle (LLM). J'ai choisi
+          ce stage en raison de la pluridisciplinarité de l'équipe et de la diversité des
+          technologies que je pouvais utiliser. Ce stage a été une expérience précieuse, me
+          permettant de consolider mes compétences en développement et de me familiariser avec les
+          défis techniques et sociaux de la robotique conversationnelle.
+        </paragraph>
+      </fr>
+      <en>
+        <paragraph>
+          My unconventional background stems from a passion for both technology and the humanities,
+          which I developed in high school by choosing a scientific track with a specialization in
+          computer science and digital sciences. It was there that I discovered coding, learning
+          Python and Arduino. At the same time, my curiosity about human behavior led me to explore
+          psychology, mentalism, and art therapy, a discipline that combined my creative hobbies
+          (music, writing, drawing) with my interest in studying the human mind. This attraction to
+          interdisciplinary studies guided me toward a degree in psychology.
+        </paragraph>
+        <paragraph>
+          During my psychology degree, I particularly enjoyed cognitive psychology, neuropsychology,
+          and ergonomics, but I soon realized I was more drawn to the theoretical side of these
+          disciplines than to their practical applications, especially after my internship in a
+          hospital in my third year. Although research is a stimulating field, I couldn’t envision
+          myself in an academic career for the rest of my life. This training was enriching, as it
+          helped me strengthen my communication and collaboration skills, and acquire knowledge in
+          psychology and cognitive ergonomics, which proved valuable for the next stages of my
+          journey.
+        </paragraph>
+        <paragraph>
+          I discovered the double master's program in computer science and social sciences by
+          chance.
+          Having maintained a strong interest in programming since high school, I seized this
+          reorientation opportunity that allowed me to continue without starting my higher education
+          from scratch. The first year of this master's program, though intense, provided me with
+          solid foundations in computer science. I particularly enjoyed courses in web development,
+          HCI, and mobile development, which I explored further in my spare time.
+        </paragraph>
+        <paragraph>
+          In the second year, we joined courses with students from other pathways in the Master's in
+          Mathematics and Computer Science Applied to Human and Social Sciences, with a curriculum
+          focused on practical work and specific fields like NLP, machine learning, and business
+          intelligence. That year, most of our learning was through long-term group projects, in
+          collaboration with students from other pathways. This collaborative dynamic became a great
+          asset for advancing by drawing on the diverse experience and knowledge of each team
+          member.
+        </paragraph>
+        <paragraph>
+          For my final-year internship, I joined Atos' Inno'Lab, a hybrid structure between research
+          and production, where I was able to apply my psychology skills in the field of social
+          robotics. I worked on the Furhat robot, contributing to software development and creating
+          web and mobile interfaces synchronized with the robot. The goal of this internship was to
+          explore and contribute to innovations in conversational robotics. Specifically, I focused
+          on
+          enhancing interaction through the Furhat robot head, with an emphasis on developing
+          demonstrators and integrating large language models (LLM). I chose this internship due to
+          the interdisciplinary nature of the team and the variety of technologies I could work
+          with.
+          This experience was invaluable, allowing me to consolidate my development skills and
+          become
+          familiar with the technical and social challenges of conversational robotics.
+        </paragraph>
+      </en>
+    </parcours>
+
+    <projets>
+      <fr>
+        <paragraph>
+          Actuellement, je concentre mes efforts sur l'amélioration de mes compétences en
+          développement front-end, en explorant les frameworks JavaScript comme React et Angular.
+          Mon objectif est d'acquérir une maîtrise approfondie de ces outils afin de pouvoir
+          exploiter mes connaissances en psychologie et en ergonomie dans la création d'interfaces
+          intuitives et centrées sur l'utilisateur. À terme, cela me permettra de renforcer mon
+          profil en tant que développeuse full stack.
+        </paragraph>
+        <paragraph>
+          Parallèlement, je développe mes compétences en développement mobile en apprenant React
+          Native et Flutter, ce qui me permet d'élargir mon éventail de compétences au-delà de
+          l'Android natif en Java et Kotlin. Ces nouvelles connaissances m'offrent la possibilité de
+          créer des applications multiplateformes tout en restant centrée sur une expérience
+          utilisateur de qualité, en appliquant les principes d'ergonomie et d'interaction que j'ai
+          acquis au cours de mes études et de mes projets.
+        </paragraph>
+        <paragraph>
+          Mon objectif professionnel est de continuer à progresser dans le développement full stack
+          tout en mettant l'accent sur l'innovation technologique au service de l'humain. Je
+          souhaite évoluer dans des environnements où je pourrai appliquer mes connaissances
+          interdisciplinaires pour créer des solutions logicielles accessibles, adaptées aux besoins
+          des utilisateurs, et capables de résoudre des problématiques complexes de manière
+          créative.
+        </paragraph>
+      </fr>
+      <en>
+        <paragraph>
+          Currently, I am focusing on enhancing my front-end development skills by exploring
+          JavaScript frameworks such as React and Angular. My goal is to gain an in-depth mastery of
+          these tools to better leverage my knowledge in psychology and ergonomics when creating
+          intuitive, user-centered interfaces. Ultimately, this will allow me to strengthen my
+          profile as a full stack developer.
+        </paragraph>
+        <paragraph>
+          In parallel, I am expanding my skills in mobile development by learning React Native and
+          Flutter, which broadens my expertise beyond native Android development with Java and
+          Kotlin. These new skills enable me to create cross-platform applications while maintaining
+          a focus on quality user experiences, applying the principles of ergonomics and interaction
+          design I have acquired throughout my studies and projects.
+        </paragraph>
+        <paragraph>
+          My professional goal is to continue advancing as a full stack developer while emphasizing
+          technological innovation for the benefit of users. I want to grow in environments where I
+          can apply my interdisciplinary knowledge to create accessible software solutions that
+          address real user needs and creatively solve complex challenges.
+        </paragraph>
+      </en>
+    </projets>
+
+    <loisir>
+      <fr>
+        <paragraph>
+          Depuis mon enfance, j'ai toujours eu un goût prononcé pour les loisirs créatifs et l'apprentissage de nouvelles compétences. J'ai commencé la musique dès le CP avec le piano, suivi du saxophone et de la chorale au collège, avant de me tourner vers la guitare pendant mes études supérieures. La musique est pour moi une manière d'évacuer mes émotions et d'exprimer ma créativité. Le dessin occupe également une place importante dans ma vie, me permettant de me détendre et de m'évader.
+        </paragraph>
+        <paragraph>
+          La lecture a été une passion depuis mon plus jeune âge. J'ai dévoré des dizaines de livres chaque semaine durant mon adolescence, ce qui m'a poussée à écrire mes propres histoires que je publie anonymement en ligne. Cette activité d'écriture est un moyen pour moi de partager mes pensées et d'explorer des univers fictifs. Les jeux vidéo font également partie de mes loisirs, avec une préférence pour les jeux narratifs en solo, mais aussi les jeux en ligne auxquels je joue souvent avec d'autres.
+        </paragraph>
+        <paragraph>
+          Plus récemment, pendant le confinement, j'ai découvert la pâtisserie et la couture, deux passions qui occupent une place particulière dans mon quotidien. Après avoir suivi des émissions de pâtisserie, j'ai commencé à préparer des desserts pour ma famille, devenant ainsi leur "chef pâtissier" lors des rassemblements. Concernant la couture, j'ai débuté par des ajustements sur mes vêtements, puis je me suis lancée dans la création de vêtements de A à Z, et je confectionne même des doudous pour les naissances dans ma famille. Ces activités me permettent de libérer ma créativité tout en étant un moyen de partage et d’attention envers mes proches.
+        </paragraph>
+      </fr>
+      <en>
+        <paragraph>
+          Since my childhood, I have always been passionate about creative hobbies and learning new skills. I started music at a young age with the piano in elementary school, followed by saxophone and choir in middle school, before picking up the guitar during my higher education. Music allows me to release emotions and express my creativity. Drawing also plays an important role in my life, offering me relaxation and an escape.
+        </paragraph>
+        <paragraph>
+          Reading has been a passion of mine since I was young. I devoured dozens of books each week during my adolescence, which led me to write my own stories, which I anonymously publish online. Writing allows me to share my thoughts and explore fictional universes. Video games are also part of my hobbies, with a preference for narrative single-player games, but I also enjoy online games with others.
+        </paragraph>
+        <paragraph>
+          More recently, during the lockdown, I discovered baking and sewing, two passions that have become significant in my daily life. After watching baking shows, I began making desserts for my family, becoming their "pastry chef" for gatherings. As for sewing, I started with altering my clothes, and now I create garments from scratch, even making stuffed toys as gifts for newborns in my family. These activities allow me to express my creativity while sharing and showing care for my loved ones.
+        </paragraph>
+      </en>
+    </loisir>
+    </propos>    
+
+
+  <contact>
+    <mail>melina.berthier@outlook.fr</mail>
+    <txt>
+      <fr>Actuellement en recherche active d’emploi, je suis ouverte aux opportunités dans un
+        périmètre de 4 heures de route autour de Chalon-sur-Saône, avec une réelle flexibilité pour
+        déménager si nécessaire dans cette zone. Si des projets ou thématiques m’interpellent
+        particulièrement, je reste aussi ouverte à des opportunités plus éloignées. Pour toute
+        proposition ou demande d’information, n’hésitez pas à me contacter par e-mail.</fr>
+      <en>I am currently seeking job opportunities within a 4-hour travel radius of Chalon-sur-Saône
+        and am open to relocating within this area if needed. I’m also open to considering
+        opportunities further away if the projects or themes particularly resonate with me. For any
+        proposals or inquiries, please feel free to reach out to me via email.</en>
+    </txt>
+  </contact>
+</cv>
